@@ -14,5 +14,6 @@ namespace ecommerce.webui.Controllers
         public IActionResult Register(){
             return View();
         }
+    
     }
 }
