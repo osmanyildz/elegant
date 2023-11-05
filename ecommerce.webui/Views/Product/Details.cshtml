@@ -1,0 +1,102 @@
+@model ProductViewModel
+
+
+<div class="card m-5 container p-0 border-0">
+    <div class="row g-0">
+        <div class="col-md-7 p-0">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                   
+                     @for(int i=0;i<@Model.ImageUrls.Count();i++){
+                            <div class="carousel-item @(i==0 ? "active": "")">
+                                    <img src="~/img/@Model.ImageUrls.ElementAt(@i).ImageUrl" class="d-block w-100" style="width: 500px; height:500px" >
+                            </div>
+                     }
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" ariahidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                @foreach(var item in Model.ImageUrls){
+                    <img src="~/img/@item.ImageUrl" class="img-fluid rounded mx-1" style="width: 150px;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                }
+       
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="card-body">
+                <h3 class="card-title m-3 text-center">@Model.Name</h3>
+                <div class="d-flex justify-content-center container mt-5 d-grid gap-3">
+                    <input type="number" name="quantity" class="form-control" value="1" min="1" max="99" step="1" style="width: 80px;text-align:center;font-weight:600">
+                    <div class="d-grid gap-2 w-100">
+                        <button type="submit" class="btn btn-dark d-block w-100">Sepete Ekle</button>
+                    </div>
+                </div>
+                <div class="container mt-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Beden Seçiniz</option>
+                       @foreach(var item in Model.ProductSizeTypes){
+                        <option value="@item.SizeType.Name">@item.SizeType.Name</option>
+                        @item.SizeType.Name
+                       }
+                    </select>
+                    <div class="my-4">
+                    <span > <h5>Birim Fiyatı: @Model.Price <i class="fa-solid fa-turkish-lira-sign"></i>
+                    </h5> </span>
+                    </div>
+                    <hr class="my-4">
+                </div>
+                <div class="mt-4 container">
+                    <small class="text-muted">Ürün Açıklaması</small>
+                    <p class="card-text ms-3 mt-3">@Model.Description</p>
+
+                    <button class="accordion d-flex justify-content-between m-1">
+                        Sipariş & Teslimat
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="panel mt-3">
+                        <p>Siparişiniz, satın alma işleminiz gerçekleştikten sonra 1-5 gün arasında kargoya verilir. Siparişinizi kargoya teslim edildiğinde, SMS veya e-posta ile bilgilendirilirsiniz. Siparişiniz kargoya teslim edildikten sonra kargonun teslim süresi 1-4 iş gündür.</p>
+                            <p>• Türkiye’nin her yerine standart kargo ücreti 29.99 TL’dir.</p>
+                            <p>• İnternet mağazamızdan yapılan 750 TL ve üzeri siparişler için kargo ücretsizdir.</p>
+                            <p>• Ürünlerde herhangi bir garanti durumu söz konusu değildir.
+                        </p>
+                    </div>
+                    <button class="accordion d-flex justify-content-between m-1">
+                        Ödeme & Değişim
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="panel">
+                        <p>İnternet mağazamızdan yapılan alışverişleri, gönderi tarihinden itibaren 30 gün içinde iade edebilirsiniz. İç giyim alt parçaları iadesi mümkün olmayan ürünlerdir. Bu ürünler sağlık ve hijyen açısından uygun olmamasından dolayı iade ve değişim kapsamına girmemektedir. Makyaj malzemeleri, küpe, takı, tek kullanımlık ürünler, çabuk bozulma tehlikesi olan veya son kullanma tarihi geçme ihtimali olan ürünler ve parfüm gibi ürünler ambalajının açılmış olması halinde iadesi mümkün olmayan ürünlerdir. İade işlemi için; siparişinizle birlikte size yollanan sevk irsaliyesindeki iade formunu doldurarak, ürünlerinizi dilediğiniz MNG Kargo şubesine ücretsiz olarak teslim edebilirsiniz. Ayrıca MNG Kargo “evden ücretsiz alım” hizmetinden yararlanabilirsiniz.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>

@@ -1,0 +1,131 @@
+@model ProductEditModel
+
+<div class="container my-5">
+    <form action="/admin/ProductEdit" method="POST" enctype="multipart/form-data">
+                    <input type="hidden" name="ProductId" value="@Model.ProductId">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Ürün Adı</label>
+                    <input name="Name" id="name" value="@Model.Name" class="form-control">
+                    @* <label asp-for="Name" class="form-label">Ürün Adı</label>
+                    <input asp-for="Name" class="form-control"> *@
+                </div>
+                <div class="mb-3">
+                     <label for="price" class="form-label">Price</label>
+                    <input name="Price" id="price" value="@Model.Price" class="form-control"> 
+                @* <label asp-for="Price" class="form-label">Fiyat</label>
+                    <input asp-for="Price" class="form-control">  *@
+                </div>
+                <div class="mb-3">
+                    <label for="description" class="form-label">Açıklama</label>
+                    <textarea name="Description" id="description" class="form-control">@Model.Description</textarea>
+                     @* <label asp-for="Description" class="form-label">Açıklama</label>
+                    <textarea asp-for="Description" class="form-control">@Model.Description</textarea> *@
+                </div>
+                <div class="mb-3">
+                    <h5>Ürün Resimleri</h5>
+                
+                         <input type="text" hidden name="im1" value="@Model.ImageUrls.ElementAt(0).ImageUrl">
+                        
+                        <input type="text" hidden name="im2" value="@Model.ImageUrls.ElementAt(1).ImageUrl">
+                        <input type="text" hidden name="im3" value="@Model.ImageUrls.ElementAt(2).ImageUrl"> 
+                
+                <div class="d-flex justify-content-center gap-1">
+
+        <img src="~/img/@Model.ImageUrls.ElementAt(0).ImageUrl" style="height:40px;width:90px;background-image: url(/img/@Model.ImageUrls.ElementAt(0).ImageUrl);background-position:center;background-size:cover;background-repeat:no-repeat">
+                    <input type="file" name="file1" class="form-control mb-1" />
+                </div>    
+        <div class="d-flex justify-content-center gap-1">
+            <img src="~/img/@Model.ImageUrls.ElementAt(1).ImageUrl" style="height:40px;width:90px;background-image: url(/img/@Model.ImageUrls.ElementAt(1).ImageUrl);background-position:center;background-size:cover;background-repeat:no-repeat">
+            <input type="file" name="file2" class="form-control mb-1" />
+        </div>
+        <div class="d-flex justify-content-center gap-1">
+        <img src="~/img/@Model.ImageUrls.ElementAt(2).ImageUrl" style="height:40px;width:90px;background-image: url(/img/@Model.ImageUrls.ElementAt(2).ImageUrl);background-position:center;background-size:cover;background-repeat:no-repeat">
+            <input type="file" name="file3" class="form-control mb-1" />
+        </div>
+                </div>
+                 @* <div class="col-sm-10">
+                    <input type="file" hidden>
+                    <img src="~/img/@Model.ImageUrls.ElementAt(0)" width="80"/>
+                    <input type="file" name="file1">
+                </div> *@
+            </div>
+            <div class="col-md-4 ms-5">
+                <h5>Üst Kategori</h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="ParentCategoryId" value="1" id="parentCat" @(Model.ParentCategoryId == 1 ? "checked" : "")>
+                    <label class="form-check-label" for="parentCat">
+                        Üst Giyim
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="ParentCategoryId" value="2" id="parentCat2" @(Model.ParentCategoryId == 2 ? "checked" : "" )>
+                    <label class="form-check-label" for="parentCat2">
+                        Alt Giyim
+                    </label>
+                </div>
+                <hr>
+                <div class="row">
+                <div class="col-md-6">
+                <h5>Kategoriler</h5>
+                @foreach (var item in ViewBag.categories)
+                {
+                    <div class="form-check">
+                        <input name="categoryIds" value="@item.Id" type="checkbox" class="form-check-input"
+                            id="cat_@(item.Id)"
+                            @(item.Id == Model.SelectedCategories.ElementAt(0) 
+                            || item.Id == Model.SelectedCategories.ElementAt(1)
+                             ? "checked" : "")>
+                        <label class="form-check-label" for="cat_@(item.Id)">@item.Name</label>
+                    </div>
+                }
+                
+                </div>
+                
+                <div class="col-md-6">
+                    <h5>Ürün Bedenleri</h5>
+
+               @{var sTypeId = ViewBag.SelectedSizeTypes;}
+               
+@foreach(var item in ViewBag.SizeTypes){
+    <div class="form-check">
+        <input type="checkbox" name="sizeTypeIds" value="@item.Id" class="form-check-input" id="size_@(item.Id)" @(sTypeId.Contains(item.Id) ? "checked" : "")>
+        <label class="form-check-label" for="size_@(item.Id)">
+            @item.Name
+        </label>
+    </div>
+}
+                </div>
+
+                </div>
+
+                <hr>
+                <h5>Cinsiyet</h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="GenderId" value="1" id="genderId" @(Model.GenderId == 1 ? "checked":"")>
+                    <label class="form-check-label" for="genderId">
+                        Erkek
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="GenderId" value="2" id="genderId2" @(Model.GenderId == 2 ? "checked":"")>
+                    <label class="form-check-label" for="genderId2">
+                        Kadın
+                    </label>
+                </div>
+                <hr>
+                @* <div class="form-check">
+                    <input name="IsPopular" type="checkbox" value="1" class="form-check-input" id="popular" @(Model.IsPopular == true ? "checked" : "")>
+                    <label class="form-check-label" for="popular">Popüler</label>
+                </div> *@
+                <div class="form-check">
+                    <input asp-for="IsPopular" type="checkbox" class="form-check-input">
+                    <label class="form-check-label" for="popular">Popüler</label>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Save Product</button>
+
+    </form>
+</div>

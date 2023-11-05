@@ -1,0 +1,30 @@
+@model ProductViewModel
+
+        <div class="container py-4">
+        <div class="card" style="border-radius: 15px;">
+            <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light"
+                data-mdb-ripple-color="light">
+                <img src="~/img/@Model.ImageUrls.First().ImageUrl"
+                style="border-top-left-radius: 15px; border-top-right-radius: 15px; width: 600px; height:300px" class="img-fluid" />
+            </div>
+            <div class="card-body pb-0">
+                <div class="d-flex justify-content-center">
+                <div>
+                    <h2 class="text-dark" style="text-decoration: none;">@Model.Name</h2>
+                </div>
+                </div>
+                 <h5 class="mt-4 mb-3 text-center">
+            @Model.Price <i class="fa-solid fa-turkish-lira-sign"></i>
+                 </h5>  
+            </div>
+            
+            <hr class="my-0" />
+            <div class="card-body p-4">
+                <div class="d-flex justify-content-center align-items-center pb-2 mb-1 ">
+               <a asp-controller="Product" asp-action="Details" asp-route-id=@Model.Id ><button class="btn btn-dark mx-1">Ürün Detayları</button></a> 
+               <a href="/account/login" class="btn btn-outline-dark mx-1">Sepete Ekle</a> 
+                </div>
+            </div>
+            </div>
+    </div>
+

@@ -1,0 +1,74 @@
+@model CategoryEditModel
+
+<div class="container my-5">
+
+    <form action="/admin/CategoryEdit" method="POST">
+    <input hidden name="CategoryId" value="@Model.CategoryId">
+            <h3 class="ms-5">Kategori Ekle</h3>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="card-body p-5">
+
+            <div class="mb-3">
+            <label for="name" class="form-label">Kategori Adı</label>
+            <input name="Name" id="name" value="@Model.Name" class="form-control">
+            </div>
+            <hr class="my-4">
+            <h5 class="mb-2">Üst Kategori</h5>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="ParentCategoryId" value="1" id="parentCat1" @(Model.ParentCategoryId == 1 ? "checked" : "")>
+                <label class="form-check-label" for="parentCat1">
+                    Üst Giyim
+                </label>
+                </div> 
+                <div class="form-check">
+                <input class="form-check-input" type="radio" name="ParentCategoryId" value="2" id="parentCat2" @(Model.ParentCategoryId == 2 ? "checked" : "")>
+                <label class="form-check-label" for="parentCat2">
+                    Alt Giyim
+                </label>
+                </div> 
+        <hr class="my-4">
+            <h5 class="mb-2">Cinsiyet</h5>
+
+          @if(Model.genderIds.Count() == 0){
+            <div class=" form-check">
+                <input name="genderIds" value="1" type="checkbox" class="form-check-input" id="gender1" >
+                <label class="form-check-label" for="gender1"  >Erkek</label>
+            </div>
+            <div class=" form-check">
+                <input name="genderIds" value="2" type="checkbox" class="form-check-input" id="gender2" >
+                <label class="form-check-label" for="gender2" >Kadın</label>
+            </div>
+            }else if(Model.genderIds.Count()==1){
+              <div class=" form-check">
+                <input name="genderIds" value="1" type="checkbox" class="form-check-input" id="gender1" @(Model.genderIds.ElementAt(0) == 1 ? "checked" : "") >
+                <label class="form-check-label" for="gender1"  >Erkek</label>
+            </div>
+            <div class=" form-check">
+                <input name="genderIds" value="2" type="checkbox" class="form-check-input" id="gender2" @(Model.genderIds.ElementAt(0) == 2 ? "checked" : "") >
+                <label class="form-check-label" for="gender2" >Kadın</label>
+            </div>
+            }
+            else{
+                 <div class=" form-check">
+                <input name="genderIds" value="1" type="checkbox" class="form-check-input" id="gender1" @(Model.genderIds.ElementAt(0) == 1 ? "checked" : "") >
+                <label class="form-check-label" for="gender1"  >Erkek</label>
+            </div>
+            <div class=" form-check">
+                <input name="genderIds" value="2" type="checkbox" class="form-check-input" id="gender2" @(Model.genderIds.ElementAt(1) == 2 ? "checked" : "") >
+                <label class="form-check-label" for="gender2" >Kadın</label>
+            </div>
+            }
+                
+        <button type="submit" class="btn btn-dark mt-4 w-100">Kaydet</button>
+       
+            </div>
+        </div>
+
+    </div>
+    </form>
+
+    
+</div>

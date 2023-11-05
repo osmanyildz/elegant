@@ -1,0 +1,477 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/osmanyildiz/.nuget/packages/datatables.net-dt/1.13.6/contentFiles/any/any/wwwroot/css/jquery.dataTables.css",
+      "PackagePath": "staticwebassets/css/jquery.dataTables.css"
+    },
+    {
+      "Id": "/Users/osmanyildiz/.nuget/packages/datatables.net-dt/1.13.6/contentFiles/any/any/wwwroot/css/jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets/css/jquery.dataTables.min.css"
+    },
+    {
+      "Id": "/Users/osmanyildiz/.nuget/packages/datatables.net-dt/1.13.6/contentFiles/any/any/wwwroot/js/dataTables.dataTables.js",
+      "PackagePath": "staticwebassets/js/dataTables.dataTables.js"
+    },
+    {
+      "Id": "/Users/osmanyildiz/.nuget/packages/datatables.net-dt/1.13.6/contentFiles/any/any/wwwroot/js/dataTables.dataTables.min.js",
+      "PackagePath": "staticwebassets/js/dataTables.dataTables.min.js"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/08ee6b0c-cd5c-46aa-a6e6-d906d07c0473.webp",
+      "PackagePath": "staticwebassets/img/08ee6b0c-cd5c-46aa-a6e6-d906d07c0473.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/09696a87-68fb-4e7b-a104-f8ac7ae4623f.webp",
+      "PackagePath": "staticwebassets/img/09696a87-68fb-4e7b-a104-f8ac7ae4623f.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/0a0366f7-459e-46ff-a7b5-6e6288312ca6.webp",
+      "PackagePath": "staticwebassets/img/0a0366f7-459e-46ff-a7b5-6e6288312ca6.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/0b0bf1a8-34b4-46ef-87a9-2a9cd859fc1b.webp",
+      "PackagePath": "staticwebassets/img/0b0bf1a8-34b4-46ef-87a9-2a9cd859fc1b.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/0e85dc40-008e-4065-bfef-50d5c9cd2cbc.webp",
+      "PackagePath": "staticwebassets/img/0e85dc40-008e-4065-bfef-50d5c9cd2cbc.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/11eec639-75c2-47a2-add0-2727c4d505c4.webp",
+      "PackagePath": "staticwebassets/img/11eec639-75c2-47a2-add0-2727c4d505c4.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/13f129ee-9acc-4524-b230-a1833898468b.png",
+      "PackagePath": "staticwebassets/img/13f129ee-9acc-4524-b230-a1833898468b.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/162de37a-ea47-4b95-93aa-b23a0f85542c.png",
+      "PackagePath": "staticwebassets/img/162de37a-ea47-4b95-93aa-b23a0f85542c.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/18b1268d-90b4-4dde-b5f7-3f75a1954306.webp",
+      "PackagePath": "staticwebassets/img/18b1268d-90b4-4dde-b5f7-3f75a1954306.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/1e8c6fc8-b631-4ea3-8056-9843aafb98d5.webp",
+      "PackagePath": "staticwebassets/img/1e8c6fc8-b631-4ea3-8056-9843aafb98d5.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/2065660f-d480-4908-ae1f-5203bdf0a6bc.webp",
+      "PackagePath": "staticwebassets/img/2065660f-d480-4908-ae1f-5203bdf0a6bc.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/2082f20d-b60a-4e33-979d-bdd2cc61e955.webp",
+      "PackagePath": "staticwebassets/img/2082f20d-b60a-4e33-979d-bdd2cc61e955.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/229da870-2aad-403a-bb08-98ffb8e6699d.webp",
+      "PackagePath": "staticwebassets/img/229da870-2aad-403a-bb08-98ffb8e6699d.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/256b48b4-ae58-4185-9e8c-ce8b7a4687bc.webp",
+      "PackagePath": "staticwebassets/img/256b48b4-ae58-4185-9e8c-ce8b7a4687bc.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/2a6f6da5-60f6-48d9-b9e6-0d73108bbf9a.webp",
+      "PackagePath": "staticwebassets/img/2a6f6da5-60f6-48d9-b9e6-0d73108bbf9a.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/2e7636b3-a778-4d09-a07c-80914b5a0b0a.webp",
+      "PackagePath": "staticwebassets/img/2e7636b3-a778-4d09-a07c-80914b5a0b0a.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/3337ee71-0b5d-454a-a71f-9daaa84cce83.webp",
+      "PackagePath": "staticwebassets/img/3337ee71-0b5d-454a-a71f-9daaa84cce83.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/3629d393-e27b-4320-ad43-cecf5366a6ce.webp",
+      "PackagePath": "staticwebassets/img/3629d393-e27b-4320-ad43-cecf5366a6ce.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/3a517bec-094d-435d-9a89-40e599537320.webp",
+      "PackagePath": "staticwebassets/img/3a517bec-094d-435d-9a89-40e599537320.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/3d9e7fd2-20a5-4380-a13f-4f06485fbf12.webp",
+      "PackagePath": "staticwebassets/img/3d9e7fd2-20a5-4380-a13f-4f06485fbf12.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/3f501030-b6ce-4576-b382-b8702e3cd28e.png",
+      "PackagePath": "staticwebassets/img/3f501030-b6ce-4576-b382-b8702e3cd28e.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/42f97dd0-d276-4964-9a70-57d8b92419c3.webp",
+      "PackagePath": "staticwebassets/img/42f97dd0-d276-4964-9a70-57d8b92419c3.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/4cb099de-f22e-448b-b845-098ec1de0fe2.png",
+      "PackagePath": "staticwebassets/img/4cb099de-f22e-448b-b845-098ec1de0fe2.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/4f1e4a7d-9859-49c5-b01c-1f7aea0ce6da.png",
+      "PackagePath": "staticwebassets/img/4f1e4a7d-9859-49c5-b01c-1f7aea0ce6da.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/4f88b5d3-a078-41bb-81ab-6a4b36602b6c.png",
+      "PackagePath": "staticwebassets/img/4f88b5d3-a078-41bb-81ab-6a4b36602b6c.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/5129eb27-b352-4127-91ee-90005231de73.webp",
+      "PackagePath": "staticwebassets/img/5129eb27-b352-4127-91ee-90005231de73.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/52120fe2-3caa-4708-9e2b-f2173be8b6f2.webp",
+      "PackagePath": "staticwebassets/img/52120fe2-3caa-4708-9e2b-f2173be8b6f2.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/549d1707-5477-47a2-b512-c9d22189ef06.jpg",
+      "PackagePath": "staticwebassets/img/549d1707-5477-47a2-b512-c9d22189ef06.jpg"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/572e81b7-b5f7-4bf9-ae95-4bdd7ba13ef4.webp",
+      "PackagePath": "staticwebassets/img/572e81b7-b5f7-4bf9-ae95-4bdd7ba13ef4.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/5806cf05-f464-47c8-9d8c-ecbbb5d01347.webp",
+      "PackagePath": "staticwebassets/img/5806cf05-f464-47c8-9d8c-ecbbb5d01347.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/59371e4b-fe97-4553-bb12-fe3e7ed2f311.png",
+      "PackagePath": "staticwebassets/img/59371e4b-fe97-4553-bb12-fe3e7ed2f311.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/5992f107-dcd1-40c6-a0cb-291fa82c75c1.jpg",
+      "PackagePath": "staticwebassets/img/5992f107-dcd1-40c6-a0cb-291fa82c75c1.jpg"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/59e13694-b0d5-4f0c-8d63-b56942cad8f6.webp",
+      "PackagePath": "staticwebassets/img/59e13694-b0d5-4f0c-8d63-b56942cad8f6.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/5eaeb4f4-c90b-4471-a54d-89f6afd8682d.webp",
+      "PackagePath": "staticwebassets/img/5eaeb4f4-c90b-4471-a54d-89f6afd8682d.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/5f29196b-35f7-40fd-937c-61e3ef0001a4.webp",
+      "PackagePath": "staticwebassets/img/5f29196b-35f7-40fd-937c-61e3ef0001a4.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/6010576e-2b59-4089-96f7-1ea646c14f30.webp",
+      "PackagePath": "staticwebassets/img/6010576e-2b59-4089-96f7-1ea646c14f30.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/6145875a-3b66-4a4e-8aea-3e422c675f3e.webp",
+      "PackagePath": "staticwebassets/img/6145875a-3b66-4a4e-8aea-3e422c675f3e.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/6291a413-8565-46e3-9b7c-a0d90bda2b84.webp",
+      "PackagePath": "staticwebassets/img/6291a413-8565-46e3-9b7c-a0d90bda2b84.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/6685523e-d191-4422-9407-7fd379872b5b.webp",
+      "PackagePath": "staticwebassets/img/6685523e-d191-4422-9407-7fd379872b5b.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/70ee563a-f180-48e8-aee3-6ea25f605a65.webp",
+      "PackagePath": "staticwebassets/img/70ee563a-f180-48e8-aee3-6ea25f605a65.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/74023f9f-8c1f-4ec9-8298-366ff9da6352.jpg",
+      "PackagePath": "staticwebassets/img/74023f9f-8c1f-4ec9-8298-366ff9da6352.jpg"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/746c786e-5787-4a3c-b297-a12aa9185d8b.jpg",
+      "PackagePath": "staticwebassets/img/746c786e-5787-4a3c-b297-a12aa9185d8b.jpg"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/747985d7-3c54-41f1-a9da-bfec978b2532.png",
+      "PackagePath": "staticwebassets/img/747985d7-3c54-41f1-a9da-bfec978b2532.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/7c2efe2f-275c-452c-982a-f3c14c47c400.webp",
+      "PackagePath": "staticwebassets/img/7c2efe2f-275c-452c-982a-f3c14c47c400.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/7f2a6574-a5f2-46b0-b15a-2b3f35073f61.jpg",
+      "PackagePath": "staticwebassets/img/7f2a6574-a5f2-46b0-b15a-2b3f35073f61.jpg"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/817cb19b-5fa5-440e-bc93-89f6ce632fa4.webp",
+      "PackagePath": "staticwebassets/img/817cb19b-5fa5-440e-bc93-89f6ce632fa4.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/82712b0d-c140-4f91-b52e-8362255dd6f0.webp",
+      "PackagePath": "staticwebassets/img/82712b0d-c140-4f91-b52e-8362255dd6f0.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/876c1389-9f81-4d7d-8ac4-2e3a43d5db8f.webp",
+      "PackagePath": "staticwebassets/img/876c1389-9f81-4d7d-8ac4-2e3a43d5db8f.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/8f284bff-4e6a-4ff8-beb5-44824e4a65b4.webp",
+      "PackagePath": "staticwebassets/img/8f284bff-4e6a-4ff8-beb5-44824e4a65b4.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/904b0fbd-4cab-4102-9fb8-7ae0d8a8ecb8.webp",
+      "PackagePath": "staticwebassets/img/904b0fbd-4cab-4102-9fb8-7ae0d8a8ecb8.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/90e80c15-9e5f-4491-a92d-5aabe3f25dd4.jpg",
+      "PackagePath": "staticwebassets/img/90e80c15-9e5f-4491-a92d-5aabe3f25dd4.jpg"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/97e37f40-aa34-4082-ae05-3afd4b394da9.webp",
+      "PackagePath": "staticwebassets/img/97e37f40-aa34-4082-ae05-3afd4b394da9.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/999da16f-e50d-4247-9aaa-0c4790aa25c3.webp",
+      "PackagePath": "staticwebassets/img/999da16f-e50d-4247-9aaa-0c4790aa25c3.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/9fb6a3af-ccb1-45d3-8575-6244a398b8ef.webp",
+      "PackagePath": "staticwebassets/img/9fb6a3af-ccb1-45d3-8575-6244a398b8ef.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/9fe46599-e509-4c0e-853a-5d80550c9e32.webp",
+      "PackagePath": "staticwebassets/img/9fe46599-e509-4c0e-853a-5d80550c9e32.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a1.webp",
+      "PackagePath": "staticwebassets/img/a1.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a14936af-48e9-48cb-95cb-eb45f49a92fa.webp",
+      "PackagePath": "staticwebassets/img/a14936af-48e9-48cb-95cb-eb45f49a92fa.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a16212ab-1a0f-42d1-b290-563e3e8f1ba9.png",
+      "PackagePath": "staticwebassets/img/a16212ab-1a0f-42d1-b290-563e3e8f1ba9.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a2.webp",
+      "PackagePath": "staticwebassets/img/a2.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a3.webp",
+      "PackagePath": "staticwebassets/img/a3.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a4.webp",
+      "PackagePath": "staticwebassets/img/a4.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a5.webp",
+      "PackagePath": "staticwebassets/img/a5.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a5a38a0c-6727-4d83-ae27-ec423af0fd99.png",
+      "PackagePath": "staticwebassets/img/a5a38a0c-6727-4d83-ae27-ec423af0fd99.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a6.webp",
+      "PackagePath": "staticwebassets/img/a6.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a7.webp",
+      "PackagePath": "staticwebassets/img/a7.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a733eb7d-8c95-4e12-ae58-1968af718136.webp",
+      "PackagePath": "staticwebassets/img/a733eb7d-8c95-4e12-ae58-1968af718136.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a9c41a0d-bbcf-47c8-ab5f-bc1fcf835dca.webp",
+      "PackagePath": "staticwebassets/img/a9c41a0d-bbcf-47c8-ab5f-bc1fcf835dca.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/afdbe54e-f017-4758-aeb8-1dc9f87c4e7a.webp",
+      "PackagePath": "staticwebassets/img/afdbe54e-f017-4758-aeb8-1dc9f87c4e7a.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/b18b83ff-5f5a-461e-96c0-5dfbb6e41645.webp",
+      "PackagePath": "staticwebassets/img/b18b83ff-5f5a-461e-96c0-5dfbb6e41645.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/b30dfd61-ee56-47ee-afba-5e4fd170b33f.webp",
+      "PackagePath": "staticwebassets/img/b30dfd61-ee56-47ee-afba-5e4fd170b33f.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/b86c7c55-ad2f-4047-af33-d4650fd61fb7.png",
+      "PackagePath": "staticwebassets/img/b86c7c55-ad2f-4047-af33-d4650fd61fb7.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/ba9898a1-1808-4ca9-a163-10d91817c3c3.webp",
+      "PackagePath": "staticwebassets/img/ba9898a1-1808-4ca9-a163-10d91817c3c3.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/be3ba29a-f196-4332-ac3e-fb2a698fd44f.png",
+      "PackagePath": "staticwebassets/img/be3ba29a-f196-4332-ac3e-fb2a698fd44f.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/bfe0b866-e19d-40ba-ae8c-1c8bb6df2b74.png",
+      "PackagePath": "staticwebassets/img/bfe0b866-e19d-40ba-ae8c-1c8bb6df2b74.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c02809f9-422b-4e85-80c7-c50525827e54.webp",
+      "PackagePath": "staticwebassets/img/c02809f9-422b-4e85-80c7-c50525827e54.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c05bd938-6d66-4afa-aa9b-f7294adc6aef.webp",
+      "PackagePath": "staticwebassets/img/c05bd938-6d66-4afa-aa9b-f7294adc6aef.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c3e8d5ad-ed4a-4d24-8ecf-7d9d0b81ab1c.jpg",
+      "PackagePath": "staticwebassets/img/c3e8d5ad-ed4a-4d24-8ecf-7d9d0b81ab1c.jpg"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c57d5c56-281b-40a2-897b-871ccf1f5bd0.webp",
+      "PackagePath": "staticwebassets/img/c57d5c56-281b-40a2-897b-871ccf1f5bd0.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c80b7951-8e6d-4386-95d7-d1342cd22f5c.webp",
+      "PackagePath": "staticwebassets/img/c80b7951-8e6d-4386-95d7-d1342cd22f5c.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c90f2de0-0234-436a-ab70-c3448b08350c.webp",
+      "PackagePath": "staticwebassets/img/c90f2de0-0234-436a-ab70-c3448b08350c.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c9253e55-9c78-4a13-92bd-966075361189.webp",
+      "PackagePath": "staticwebassets/img/c9253e55-9c78-4a13-92bd-966075361189.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c9469fef-5a41-47cf-8b43-ddb084f25fa0.webp",
+      "PackagePath": "staticwebassets/img/c9469fef-5a41-47cf-8b43-ddb084f25fa0.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/ce37540e-6b4c-4e10-8790-5ebad5027848.webp",
+      "PackagePath": "staticwebassets/img/ce37540e-6b4c-4e10-8790-5ebad5027848.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/cefdb6b5-ece2-4033-ace1-7a24f8741e78.webp",
+      "PackagePath": "staticwebassets/img/cefdb6b5-ece2-4033-ace1-7a24f8741e78.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/cfff520c-933e-423a-90cf-f3e10bda029b.webp",
+      "PackagePath": "staticwebassets/img/cfff520c-933e-423a-90cf-f3e10bda029b.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/d27fa195-41de-487a-abfa-890b11765cb1.webp",
+      "PackagePath": "staticwebassets/img/d27fa195-41de-487a-abfa-890b11765cb1.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/d349dc26-993c-4b47-9014-26ab5b8701fe.webp",
+      "PackagePath": "staticwebassets/img/d349dc26-993c-4b47-9014-26ab5b8701fe.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/d3a38ba0-0668-427f-9ee6-f9a4a8718c73.webp",
+      "PackagePath": "staticwebassets/img/d3a38ba0-0668-427f-9ee6-f9a4a8718c73.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/d598547f-7da4-416c-9f4e-e377ccf0d959.png",
+      "PackagePath": "staticwebassets/img/d598547f-7da4-416c-9f4e-e377ccf0d959.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/d7ac76a2-53f4-4fcc-8313-2236b39af0ef.webp",
+      "PackagePath": "staticwebassets/img/d7ac76a2-53f4-4fcc-8313-2236b39af0ef.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/d92fe355-1ac5-4f9c-98a4-30cc86718f91.webp",
+      "PackagePath": "staticwebassets/img/d92fe355-1ac5-4f9c-98a4-30cc86718f91.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/da428ad4-b6eb-4a10-b778-48c32a974289.png",
+      "PackagePath": "staticwebassets/img/da428ad4-b6eb-4a10-b778-48c32a974289.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/dd4d6766-2195-4dd8-9248-2c10b127bd8e.jpg",
+      "PackagePath": "staticwebassets/img/dd4d6766-2195-4dd8-9248-2c10b127bd8e.jpg"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/dfb4924b-1ea2-4f46-9bfc-1945d5a3b52c.webp",
+      "PackagePath": "staticwebassets/img/dfb4924b-1ea2-4f46-9bfc-1945d5a3b52c.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/e14b089b-faee-4002-a098-8cd1ea32cb65.webp",
+      "PackagePath": "staticwebassets/img/e14b089b-faee-4002-a098-8cd1ea32cb65.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/e3b3a73b-0897-4290-8f8e-3700e8e377d2.webp",
+      "PackagePath": "staticwebassets/img/e3b3a73b-0897-4290-8f8e-3700e8e377d2.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/e3f2a48a-31e7-4a77-98b1-97c5c668b463.webp",
+      "PackagePath": "staticwebassets/img/e3f2a48a-31e7-4a77-98b1-97c5c668b463.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/e7f5efcb-264b-4cab-9fc5-135dc0ef1b40.webp",
+      "PackagePath": "staticwebassets/img/e7f5efcb-264b-4cab-9fc5-135dc0ef1b40.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/ec9af378-15aa-456e-a077-432ca336a6ae.webp",
+      "PackagePath": "staticwebassets/img/ec9af378-15aa-456e-a077-432ca336a6ae.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/eed90e0e-dc7a-44e6-9d96-937abb11a6e8.webp",
+      "PackagePath": "staticwebassets/img/eed90e0e-dc7a-44e6-9d96-937abb11a6e8.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/f3cf8dc7-ad86-49f8-887f-ebe3a6a6743b.webp",
+      "PackagePath": "staticwebassets/img/f3cf8dc7-ad86-49f8-887f-ebe3a6a6743b.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/f47c6542-5da8-4171-bdb1-2c9b688dbef8.jpg",
+      "PackagePath": "staticwebassets/img/f47c6542-5da8-4171-bdb1-2c9b688dbef8.jpg"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/f8ba610c-32f5-47ca-83a2-789d7819741e.png",
+      "PackagePath": "staticwebassets/img/f8ba610c-32f5-47ca-83a2-789d7819741e.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/fbdb34d3-f958-4c61-9c2e-fbabd9671123.webp",
+      "PackagePath": "staticwebassets/img/fbdb34d3-f958-4c61-9c2e-fbabd9671123.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/fd58a8f2-c9ce-4131-8aec-e1affcb4aff8.webp",
+      "PackagePath": "staticwebassets/img/fd58a8f2-c9ce-4131-8aec-e1affcb4aff8.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/fdd1d799-a52a-4101-a117-d8f468f57e96.webp",
+      "PackagePath": "staticwebassets/img/fdd1d799-a52a-4101-a117-d8f468f57e96.webp"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/loginvideo2.mp4",
+      "PackagePath": "staticwebassets/img/loginvideo2.mp4"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/logo.png",
+      "PackagePath": "staticwebassets/img/logo.png"
+    },
+    {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/logo.webp",
+      "PackagePath": "staticwebassets/img/logo.webp"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.ecommerce.webui.props",
+      "PackagePath": "build\\ecommerce.webui.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ecommerce.webui.props",
+      "PackagePath": "buildMultiTargeting\\ecommerce.webui.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.ecommerce.webui.props",
+      "PackagePath": "buildTransitive\\ecommerce.webui.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.ecommerce.webui.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

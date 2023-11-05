@@ -1,0 +1,112 @@
+@model List<ProductViewModel>
+
+<div class="container my-5 p-0">
+
+  <table id="myTable" class="table table-hover align-middle" cellspacing="0" width="100%">
+    <thead>
+      <tr>
+        <th class="th-sm">Fotoğraflar
+        </th>
+        <th class="th-sm">Ürün Adı
+        </th>
+        <th class="th-sm">Fiyat
+        </th>
+        <th class="th-sm">Açıklama
+        </th>
+        <th class="th-sm">Kategoriler
+        </th>
+        <th class="th-sm">Cinsiyet
+        </th>
+        <th class="th-sm">Popülerlik
+        </th>
+        <th class="th-sm">Bedenler
+        </th>
+        <th class="th-sm">Düzenle
+        </th>
+        <th class="th-sm">Sil
+        </th>
+
+      </tr>
+    </thead>
+
+    <tbody>
+      @foreach (var item in Model)
+      {
+        <tr>
+          @* <td class="d-flex justify-content-center align-items-center gap-1">
+
+            @foreach (var im in item.ImageUrls)
+            {
+              if (im.ImageUrl.Count() != 0)
+              {
+                <div class="rounded flex-1">
+
+                  <img src="~/img/@im.ImageUrl" style="height: 60px;" class="img-fluid w-100 rounded">
+                </div>
+              }
+              else
+              {
+                <p>resim yok</p>
+              }
+            }
+          </td> *@
+          <td class="d-flex justify-content-center align-items-center gap-1">
+
+            @foreach (var im in item.ImageUrls)
+            {
+              if (im.ImageUrl.Count() != 0)
+              {
+                <div class="rounded flex-1" style="height:50px;width:100px;background-image: url(/img/@im.ImageUrl);background-position:center;background-size:cover;background-repeat:no-repeat">
+                  @* <img src="~/img/@im.ImageUrl" style="" class="img-fluid w-100 rounded"> *@
+                </div>
+              }
+              else
+              {
+                <p>resim yok</p>
+              }
+            }
+          </td>
+          <td>@item.Name</td>
+          <td>@item.Price</td>
+          <td>@item.Description</td>
+          <td>
+            @foreach (var m in item.Categories)
+            {
+              <span>@(m.Category.Name)</span>
+            }
+          </td>
+          @if (item.GenderId.Equals(1))
+          {
+            <td>Erkek</td>
+          }
+          else
+          {
+            <td>Kadın</td>
+          }
+          @if (@item.IsPopular)
+          {
+            <td>Popüler</td>
+          }
+          else
+          {
+            <td>Popüler Değil</td>
+          }
+          <td>
+            @foreach (var i in item.ProductSizeTypes)
+            {
+              <span>@i.SizeType.Name</span>
+            }
+          </td>
+
+          <td><a href="/admin/productedit/@item.Id" class="btn btn-sm btn-primary d-flex">Düzenle<i
+                class="fa-solid fa-pen-to-square p-1"></i></a></td>
+          <td><a href="/admin/productdelete/@item.Id" class="btn btn-sm btn-danger d-flex">Sil<i
+                class="fa-solid fa-trash p-1 "></i></a></td>
+        </tr>
+      }
+
+
+    </tbody>
+
+  </table>
+</div>

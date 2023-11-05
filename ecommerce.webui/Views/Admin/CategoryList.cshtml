@@ -1,0 +1,54 @@
+@model List<CategoryViewModel>
+
+<div class="container my-5 p-0">
+  <table id="myTable2" class="table table-hover align-middle" cellspacing="0" width="100%">
+  
+ <thead>
+      <tr>
+        <th class="th-sm">Kategori Adı
+        </th>
+         <th class="th-sm">Üst Kategori
+        </th> 
+        <th class="th-sm">Cinsiyet
+        </th> 
+        <th class="th-sm">Düzenle
+        </th>
+        <th class="th-sm">Sil
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+        @foreach(var item in Model){
+            <tr>
+        <td>
+            @item.Name
+        </td>
+         <td>
+      
+            <span>@item.parentCategories.Name</span>
+        
+        
+       </td>
+       <td>
+        @foreach(var i in item.genderCategories){
+            <span>@i.Gender.Name</span>
+        }
+        
+       </td>
+        <td>
+            <a href="/admin/CategoryEdit/@item.CategoryId" class="btn btn-primary">Düzenle<i
+                class="fa-solid fa-pen-to-square p-1"></i></a>
+        </td>
+        <td>
+            <a href="/admin/CategoryDelete/@item.CategoryId" class="btn btn-danger btn-sm">Sil<i
+                class="fa-solid fa-trash p-1 "></i></a>
+        </td>
+            </tr>
+        }
+        
+    </tbody>
+
+
+  </table>
+</div>

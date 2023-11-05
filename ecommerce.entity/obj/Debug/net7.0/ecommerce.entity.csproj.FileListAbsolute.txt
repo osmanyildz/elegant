@@ -1,0 +1,12 @@
+/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/bin/Debug/net7.0/ecommerce.entity.deps.json
+/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/bin/Debug/net7.0/ecommerce.entity.dll
+/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/bin/Debug/net7.0/ecommerce.entity.pdb
+/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/obj/Debug/net7.0/ecommerce.entity.csproj.AssemblyReference.cache
+/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/obj/Debug/net7.0/ecommerce.entity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/obj/Debug/net7.0/ecommerce.entity.AssemblyInfoInputs.cache
+/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/obj/Debug/net7.0/ecommerce.entity.AssemblyInfo.cs
+/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/obj/Debug/net7.0/ecommerce.entity.csproj.CoreCompileInputs.cache
+/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/obj/Debug/net7.0/ecommerce.entity.dll
+/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/obj/Debug/net7.0/refint/ecommerce.entity.dll
+/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/obj/Debug/net7.0/ecommerce.entity.pdb
+/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/obj/Debug/net7.0/ref/ecommerce.entity.dll
