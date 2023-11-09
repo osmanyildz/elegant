@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace ecommerce.webui.Models
 {
-    public class AlertModel
+    public class AlertMessage
     {
         public string Message { get; set; }
-        public string Type { get; set; }
+        public string AlertType { get; set; }
     }
 }

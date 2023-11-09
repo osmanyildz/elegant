@@ -4,28 +4,76 @@ using System.Linq;
 using System.Threading.Tasks;
 using ecommerce.data.Abstract;
 using ecommerce.data.Concrete.EfCore;
+using ecommerce.webui.EmailServices;
+using ecommerce.webui.Identity;
 using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Abstractions;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Configuration;
+
 
 namespace shopapp.webui
 {
     public class Startup
     {
+        private IConfiguration _configuration;
+        public Startup(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
             // services.AddControllers();
+            services.AddDbContext<ApplicationContext>(options=> options.UseSqlite("Data Source = ecommerceDb"));
+            services.AddIdentity<User,IdentityRole>().AddEntityFrameworkStores<ApplicationContext>().AddDefaultTokenProviders(); //IdentityRole hazır sınıfını kullanan bir User sınıfı ekledik. Hazır User'a firstname ve lastname alanı ekleyebilelim diye. 
             services.AddControllersWithViews();
             services.AddScoped<IProductRepository, EfCoreProductRepository>();
             services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>();
             services.AddScoped<ISizeTypeRepository, EfCoreSizeTypeRepository>();
+            services.AddScoped<IEmailSender, SmtpEmailSender>(i=>
+            new SmtpEmailSender(
+                _configuration["EmailSender:Host"],
+                _configuration.GetValue<int>("EmailSender:Port"),
+                _configuration.GetValue<bool>("EmailSender:EnableSSL"),
+                _configuration["EmailSender:UserName"],
+                _configuration["EmailSender:Password"]
+                )
+            );
+
+            services.Configure<IdentityOptions>(options => {
+                // password
+                options.Password.RequireDigit=true; //true ise şifrede sayı olmalı
+                options.Password.RequireLowercase=true; //true ise şifrede küçük harf olmalı
+                options.Password.RequireUppercase=true; //true ise şifrede büyük harf olmalı
+                options.Password.RequiredLength=6; //min 6 karakterlik parola
+                options.Password.RequireNonAlphanumeric=true;
+                
+                options.User.RequireUniqueEmail=true;
+            
+                options.SignIn.RequireConfirmedEmail=true;
+                options.SignIn.RequireConfirmedPhoneNumber=false;
+
+            });
+            services.ConfigureApplicationCookie(options=>{
+                options.LoginPath="/Account/Login"; //Eğer session ile cookie birbirini tanımıyorsa uygulamanın kullanıcıyı yönlendireceği path
+                options.LogoutPath="/account/logout";
+                options.AccessDeniedPath= "/account/accessdenied";
+                options.SlidingExpiration=true;
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+                options.Cookie = new CookieBuilder(){
+                    HttpOnly=true,
+                    Name=".Ecommerce.Security.Cookie"
+                };
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,8 +83,9 @@ namespace shopapp.webui
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseAuthentication();
             app.UseRouting();
+            app.UseAuthorization();
             app.UseStaticFiles();
             app.UseStaticFiles(new StaticFileOptions
             {
@@ -77,6 +126,11 @@ namespace shopapp.webui
                     name:"CategoryCreate",
                     pattern:"/Admin/CategoryCreate",
                     defaults: new {controller="Admin", action="CategoryCreate"}
+                );
+                endpoints.MapControllerRoute(
+                    name: "RoleCreate",
+                    pattern:"/Admin/RoleCreate",
+                    defaults: new {controller="Admin",action="RoleCreate"}
                 );
                  endpoints.MapControllerRoute(
                     name:"CategoryEdit",

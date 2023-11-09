@@ -20,10 +20,30 @@
 </head>
 
 <body>
-    
-    @* @await Html.PartialAsync("_navbar") *@
+    @if(ViewData["message"]!=null){
+        <script type="text/javascript">
+        window.onload=function(){
+            alert("@ViewData["message"]");
+        };
+        </script>
+    }
+
+
     @await Component.InvokeAsync("Navbar")
     <div id="main-body">
+     @if(TempData["message"]!=null)
+            {
+                var message = JsonConvert.DeserializeObject<AlertMessage>(TempData["message"] as String);
+<div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="alert alert-@message.AlertType text-center">
+                            @message.Message
+                        </div>
+                    </div>
+                </div>
+</div>
+            }  
         @RenderBody()
 
     </div>
@@ -81,9 +101,32 @@
                 },
 
             );
-
         });
     </script>
+     <script>
+        $(document).ready(function () {
+            $('#roleTable').dataTable(
+                {  
+                    language: {
+                        url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/tr.json',
+                    }
+                },
+
+            );
+        });
+    </script>
+    @* <script>
+    $(document).ready(function(){
+        $('#roleTable').dataTable(
+            dom: 'Bflrtip',
+              language: {
+                        url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/tr.json',
+                }
+        )
+         
+    });
+    </script> *@
+    
 
 </body>
 

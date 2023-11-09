@@ -14,20 +14,50 @@ using Microsoft.AspNetCore.Http.Connections;
 using Microsoft.AspNetCore.Http.Features;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.SignalR;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using ecommerce.webui.Identity;
 
 
 namespace ecommerce.webui.Controllers
 {
+  [Authorize]
   public class AdminController : Controller
   {
-    IProductRepository _productRepository;
-    ICategoryRepository _categoryRepository;
-    ISizeTypeRepository _sizeTypeRepository;
-    public AdminController(IProductRepository productRepository, ICategoryRepository categoryRepository, ISizeTypeRepository sizeTypeRepository)
+   private IProductRepository _productRepository;
+   private ICategoryRepository _categoryRepository;
+    private ISizeTypeRepository _sizeTypeRepository;
+    private RoleManager<IdentityRole> _roleManager;
+    private UserManager<User> _userManager;
+    public AdminController(IProductRepository productRepository, ICategoryRepository categoryRepository, ISizeTypeRepository sizeTypeRepository, RoleManager<IdentityRole> roleManager,UserManager<User> userManager)
     {
       _productRepository = productRepository;
       _categoryRepository = categoryRepository;
       _sizeTypeRepository = sizeTypeRepository;
+      _roleManager=roleManager;
+      _userManager=userManager;
+    }
+    public IActionResult RoleList(){
+      return View();
+    }
+    [HttpGet]
+    public IActionResult RoleCreate(){
+      return View();
+    }
+    [HttpPost]
+    public async Task<IActionResult> RoleCreate(RoleModel model){
+      if(ModelState.IsValid){
+        var result = await _roleManager.CreateAsync(new IdentityRole(model.Name));
+        if(result.Succeeded){
+          return RedirectToAction("RoleList");
+        }else{
+          foreach (var error in result.Errors)
+          {
+            ModelState.AddModelError("",error.Description);
+          }
+        }
+      }
+      return View();
     }
     public IActionResult ProductEdit()
     {
