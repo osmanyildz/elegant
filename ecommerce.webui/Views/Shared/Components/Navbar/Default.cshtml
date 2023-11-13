@@ -53,11 +53,14 @@
                         <li><a class="dropdown-item" asp-controller="Product" asp-action="List" asp-route-category="alt-giyim" asp-route-genderId="2">Alt Giyim</a></li>
                     </ul>
                 </li>
+                @if(!User.IsInRole("Admin")){
+
                 <li class="nav-item font-navbar">
                     <a asp-controller="Product" asp-action="PopularProducts" class="nav-link">
                         Popüler Ürünler
                     </a>
                 </li>
+                }
                 
               
                 @* <li class="nav-item font-navbar">
@@ -70,7 +73,7 @@
                         Sepetim
                     </a>
                 </li> *@
-
+                @if(User.IsInRole("Admin")){
 
                 <li class="nav-item font-navbar dropdown">
                     <a href="" class="nav-link dropdown-toggle" id="productEditScrollingDropdown" role="button" 
@@ -94,16 +97,24 @@
                     <a href="" class="nav-link dropdown-toggle" id="roleEditScrollingDropdown" role="button" 
                     data-bs-toggle="dropdown" aria-expanded="false">Roller</a>
                 <ul class="dropdown-menu" aria-labelledby="roleEditScrollingDropdown">
-                    <li><a class="dropdown-item" asp-controller="Admin" asp-action="RoleList" >Tüm Roller</a></li>
-                    <li><a class="dropdown-item" asp-controller="Admin" asp-action="RoleCreate">Rol Ekle</a></li>
+                    <li><a class="dropdown-item" href="/admin/RoleList" >Tüm Roller</a></li>
+                    <li><a class="dropdown-item" href="/admin/RoleCreate">Rol Ekle</a></li>
                 </ul>
                 </li>
-             
+
+         
+                    <li class="nav-item font-navbar"><a class="nav-link" href="/admin/UserList" >Kullanıcılar</a></li>
+               
+
+                }
+             @if(User.IsInRole("User")){
+
                  <li class="nav-item font-navbar">
                     <a asp-controller="" asp-action="" class="nav-link">
                         Siparişlerim
                     </a>
                 </li>
+             }
             </ul>
             <ul class="navbar-nav ms-auto me-4">
                 <li class="nav-item">

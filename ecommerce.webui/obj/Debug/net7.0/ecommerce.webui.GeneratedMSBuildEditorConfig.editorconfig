@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9BY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Db25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -64,8 +68,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUm9sZUNyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Admin/RoleEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUm9sZUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Admin/RoleList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUm9sZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Admin/UserEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vVXNlckVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Admin/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vVXNlckxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Home/Index.cshtml]

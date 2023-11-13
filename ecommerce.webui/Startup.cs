@@ -96,6 +96,8 @@ namespace shopapp.webui
 
             app.UseEndpoints(endpoints =>
             {
+             
+
                 endpoints.MapControllerRoute(
                     name: "popular-products",
                     pattern: "/Product/PopularProducts",
@@ -127,11 +129,38 @@ namespace shopapp.webui
                     pattern:"/Admin/CategoryCreate",
                     defaults: new {controller="Admin", action="CategoryCreate"}
                 );
+                   endpoints.MapControllerRoute(
+                    name: "role-list",
+                    pattern: "/admin/RoleList",
+                    defaults: new { controller = "Admin", action = "RoleList" }
+                );
                 endpoints.MapControllerRoute(
-                    name: "RoleCreate",
-                    pattern:"/Admin/RoleCreate",
+                    name: "adminrolecreate",
+                    pattern:"/admin/RoleCreate",
                     defaults: new {controller="Admin",action="RoleCreate"}
                 );
+                
+                endpoints.MapControllerRoute(
+                    name: "adminuseredit",
+                    pattern:"/admin/UserEdit/{id?}",
+                    defaults: new {controller="Admin",action="UserEdit"}
+                );
+                endpoints.MapControllerRoute(
+                    name: "adminuserdelete",
+                    pattern:"/admin/UserDelete/{id}",
+                    defaults: new {controller="Admin",action="UserDelete"}
+                );
+                
+                endpoints.MapControllerRoute(
+                    name:"adminroledelete",
+                    pattern: "/admin/RoleDelete/{id}",
+                    defaults:new {controller="Admin",action="RoleDelete"}
+                );
+                  endpoints.MapControllerRoute(
+                    name: "adminroleedit", 
+                    pattern: "/admin/role/{id?}",
+                    defaults: new {controller="Admin",action="RoleEdit"}
+                );      
                  endpoints.MapControllerRoute(
                     name:"CategoryEdit",
                     pattern:"/Admin/CategoryEdit/{id}",

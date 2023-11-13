@@ -115,6 +115,24 @@
             );
         });
     </script>
+
+      <script>
+        $(document).ready(function () {
+            $('#usersTable').dataTable(
+                {
+                    dom: 'Bflrtip',
+                    buttons: [
+                        'copy', 'excel', 'pdf'
+                    ],
+                    language: {
+                        url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/tr.json',
+                    }
+                },
+
+            );
+        });
+    </script>
+
     @* <script>
     $(document).ready(function(){
         $('#roleTable').dataTable(

@@ -1,0 +1,105 @@
+@model RoleDetails
+
+ <div class="container">
+
+<h1 class="h3 my-3">Rolleri Düzenle</h1>
+<div class="row">
+    <div class="col-md-8">
+<hr>
+
+        <form asp-controller="Admin" asp-action="RoleEdit">
+            <input type="hidden" name="RoleId" value="@Model.Role.Id">
+            <input type="hidden" name="RoleName" value="@Model.Role.Name">
+    
+
+            <h6 class="bg-dark text-white p-1" >@Model.Role.Name Rolüne Ekleyebileceğin Kullanıcılar: </h6>
+          
+
+
+            
+            <table class="table table-bordered table-sm">
+                @if(Model.NonMembers.Count()==0)
+                {
+                    <tr>
+                        <td colspan="2">Bütün kullanıcılar role ait</td>
+                    </tr>
+                }else{
+                    @foreach (var user in Model.NonMembers)
+                    {
+                        <tr>
+                            <td>@user.UserName</td>
+                           <td style="width: 150px;">
+                                <input type="checkbox" name="IdsToAdd" value="@user.Id">
+                            </td>
+                        </tr>
+                    }
+                }
+            </table>
+
+            <hr>
+
+            <h6 class="bg-dark text-white p-1">@Model.Role.Name Rolünden Silebileceğin Kullanıcılar:</h6>
+            <table class="table table-bordered table-sm">
+                @if(Model.Members.Count()==0)
+                {
+                    <tr>
+                        <td colspan="2">Role ait kullanıcı yok.</td>
+                    </tr>
+                }else{
+                    @foreach (var user in Model.Members)
+                    {
+                        <tr>
+                            <td>@user.UserName</td>
+                            <td style="width: 150px;">
+                                <input type="checkbox" name="IdsToDelete" value="@user.Id">
+                            </td>
+                        </tr>
+                    }
+                }
+            </table>
+
+            <button type="submit" class="btn btn-primary">Kaydet</button>
+
+
+
+        </form>
+
+    </div>
+
+</div>
+</div> 
+
+
+
+
+
+
+
+
+
+
+@* 
+<div class="container my-5 p-0">
+  <table id="myTable2" class="table table-hover align-middle" cellspacing="0" width="100%">
+  
+ <thead>
+      <tr>
+        <th class="th-sm">Kategori Adı
+        </th>
+        <th class="th-sm">Düzenle
+        </th>
+        <th class="th-sm">Sil
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+        
+        
+     
+        
+    </tbody>
+
+
+  </table>
+</div> *@

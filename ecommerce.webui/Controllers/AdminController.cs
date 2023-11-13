@@ -17,11 +17,12 @@ using Microsoft.AspNetCore.SignalR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using ecommerce.webui.Identity;
+using Microsoft.AspNetCore.SignalR.Protocol;
 
 
 namespace ecommerce.webui.Controllers
 {
-  [Authorize]
+  [Authorize(Roles = "Admin")]
   public class AdminController : Controller
   {
    private IProductRepository _productRepository;
@@ -37,8 +38,133 @@ namespace ecommerce.webui.Controllers
       _roleManager=roleManager;
       _userManager=userManager;
     }
+
+    public async Task<IActionResult> UserDelete(string id){
+      var user = await _userManager.FindByIdAsync(id);
+      if(user!=null){
+      await _userManager.DeleteAsync(user);
+      }
+      return RedirectToAction("UserList");
+    }  
+    [HttpGet]
+    public async Task<IActionResult> UserEdit(string id){
+      var user = await _userManager.FindByIdAsync(id);
+      if(user!=null){
+        var selectedRoles = await _userManager.GetRolesAsync(user);
+        var roles = _roleManager.Roles.Select(i=>i.Name);
+        ViewBag.AllRoles = roles;
+        return View(new UserDetailModel(){
+          UserId = user.Id,
+          FirstName = user.FirstName,
+          LastName=user.LastName,
+          Email=user.Email,
+          EmailConfirmed=user.EmailConfirmed,
+          SelectedRoles=selectedRoles
+        });
+      }
+      return RedirectToAction("UserList");
+    }
+    [HttpPost]
+    public async Task<IActionResult> UserEdit(UserDetailModel model, string[]? SelectedRoles)
+    {
+     
+      if(ModelState.IsValid){
+      var user = await _userManager.FindByIdAsync(model.UserId);
+      
+      if(user!=null){
+        user.FirstName=model.FirstName;
+        user.LastName= model.LastName;
+        user.Email=model.Email;
+        user.EmailConfirmed=model.EmailConfirmed;
+
+        var result = await _userManager.UpdateAsync(user);
+
+        if(result.Succeeded){
+          var userRoles = await _userManager.GetRolesAsync(user);
+          SelectedRoles = SelectedRoles ?? new string[]{};
+          await _userManager.AddToRolesAsync(user,SelectedRoles.Except(userRoles).ToArray<string>());
+          await _userManager.RemoveFromRolesAsync(user,userRoles.Except(SelectedRoles).ToArray<string>());
+          return Redirect("/admin/userlist");
+        }
+      }
+      return Redirect("/admin/userlist");
+      }
+    var roles = _roleManager.Roles.Select(i=>i.Name);
+        ViewBag.AllRoles = roles;
+      return View(model);
+    }
+    public IActionResult UserList(){
+      
+      return View(_userManager.Users);
+    }
+
+    public async Task<IActionResult> RoleDelete(string roleId){
+      if(roleId!=null){
+        var role = await _roleManager.FindByIdAsync(roleId);
+        if(role!=null){
+        var result = await _roleManager.DeleteAsync(role);
+        }
+      }
+      return RedirectToAction("RoleList");
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> RoleEdit(string id){
+      System.Console.WriteLine(id+"----***********---------*******-----");
+        var role = await _roleManager.FindByIdAsync(id);
+        
+            var members = new List<User>();
+            var nonmembers = new List<User>();
+
+            foreach (var user in _userManager.Users.ToList())
+            {
+                var list = await _userManager.IsInRoleAsync(user,role.Name)
+                                ?members:nonmembers;
+                              
+                list.Add(user);
+            }
+            var model = new RoleDetails()
+            {
+                Role = role,
+                Members = members,
+                NonMembers = nonmembers
+            };
+            return View(model);
+    }
+    [HttpPost]
+    public async Task<IActionResult> RoleEdit(RoleEditModel model){
+      
+        foreach (var id in model.IdsToAdd ?? new string[]{})
+        {
+          var auser = await _userManager.FindByIdAsync(id);
+          if(auser!=null){
+          var result = await _userManager.AddToRoleAsync(auser,model.RoleName);
+          if(!result.Succeeded){
+              foreach (var item in result.Errors)
+              {
+                ModelState.AddModelError("",item.Description);
+              }
+          }
+          }
+        }
+         foreach (var userId in model.IdsToDelete ?? new string[]{})
+        {
+          var user = await _userManager.FindByIdAsync(userId);
+          if(user!=null){
+          var result = await _userManager.RemoveFromRoleAsync(user,model.RoleName);
+          if(!result.Succeeded){
+              foreach (var item in result.Errors)
+              {
+                ModelState.AddModelError("",item.Description);
+              }
+          }
+          }
+        }
+      
+      return Redirect("/admin/role/"+model.RoleId);
+    }
     public IActionResult RoleList(){
-      return View();
+      return View(_roleManager.Roles);
     }
     [HttpGet]
     public IActionResult RoleCreate(){

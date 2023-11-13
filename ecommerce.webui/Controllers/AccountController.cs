@@ -23,6 +23,9 @@ namespace ecommerce.webui.Controllers
             _signInManager = signInManager;
             _emailSender = emailSender;
         }
+        public IActionResult AccessDenied(){
+            return View();
+        }
         [HttpGet]
         public IActionResult Login(string ReturnUrl = null)
         {
@@ -84,7 +87,7 @@ namespace ecommerce.webui.Controllers
             {
                 FirstName = model.FirstName,
                 LastName = model.LastName,
-                UserName = model.FirstName,
+                UserName = model.FirstName +" "+ model.LastName,
                 Email = model.Email,
                 //Password'u user manager aracılığıyla kullanacağız
             };

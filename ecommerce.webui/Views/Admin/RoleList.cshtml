@@ -1,50 +1,47 @@
 @model IEnumerable<IdentityRole>
 
+@if(Model.Count()>0){
+
 <div class="container my-5">
 
     <div class="row">
 
-        <div class="col-md-7">
+        <div class="col-md-5">
   <table id="roleTable" class="table table-hover align-middle p-5" cellspacing="0" width="100%">
     <thead>
       <tr>
+        
         <th class="th-sm">Rol Adı
         </th>
-        <th class="th-sm">Düzenle
+        
+        <th class="th-sm">Kullanıcıları Düzenle
         </th>
         <th class="th-sm">Sil
         </th>
+
       </tr>
     </thead>
     <tbody>
     
+
+        
+            @foreach(var item in Model){
         <tr>
-
-          @if(Model.Count()>0){
-            
-          <td>
-          Admin
+          <td >
+          @item.Name
           </td>
-           <td>
-          <a href="" class="btn btn-primary btn-sm">Düzenle 
+           <td >
+           <a href="/admin/role/@item.Id" class="btn btn-primary btn-sm mr-2">Düzenle</a>
           </td>
-           <td>
-          <a href="" class="btn btn-danger btn-sm">Sil 
+           <td >
+            <form action="/admin/RoleDelete/@item.Id" method="POST">
+            <input type="hidden" name="RoleId" value="@item.Id">
+          <button type="submit" class="btn btn-danger btn-sm">Sil 
+            </form>
           </td>
-          }else{
-            <div class="alert alert-warning">
-            <h3>Rol Bulunmamaktadır.</h3>
-             </div>
-          }
+          </tr>
+            }
           
-         
-          
-
-          @* <td><a href="/admin/productedit/@item.Id" class="btn btn-sm btn-primary d-flex">Düzenle<i
-                class="fa-solid fa-pen-to-square p-1"></i></a></td>
-          <td><a href="/admin/productdelete/@item.Id" class="btn btn-sm btn-danger d-flex">Sil<i
-                class="fa-solid fa-trash p-1 "></i></a></td>
-        </tr> *@
       
 
 
@@ -58,3 +55,11 @@
 
 
 </div>
+    }else{
+      <div class="container my-5 ">
+
+            <div class="alert alert-warning text-center">
+            <h3>Rol Bulunmamaktadır.</h3>
+             </div>
+      </div>
+          }
