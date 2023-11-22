@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ecommerce.data.Abstract;
 using ecommerce.webui.EmailServices;
 using ecommerce.webui.Identity;
 using ecommerce.webui.Models;
@@ -14,11 +15,13 @@ namespace ecommerce.webui.Controllers
 {
     public class AccountController : Controller
     {
+        private ICartRepository _cartRepository;
         private UserManager<User> _userManager; //User olaylarını 
         private SignInManager<User> _signInManager; // cookie olaylarını yönetecek
         private IEmailSender _emailSender;
-        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager, IEmailSender emailSender)
+        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager, IEmailSender emailSender, ICartRepository cartRepository) 
         {
+            _cartRepository=cartRepository;
             _userManager = userManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
@@ -87,11 +90,13 @@ namespace ecommerce.webui.Controllers
             {
                 FirstName = model.FirstName,
                 LastName = model.LastName,
-                UserName = model.FirstName +" "+ model.LastName,
+                UserName = model.FirstName +""+ model.LastName,
                 Email = model.Email,
                 //Password'u user manager aracılığıyla kullanacağız
             };
             var result = await _userManager.CreateAsync(user, model.Password);
+            System.Console.WriteLine("******************** Buraya Geldi *********************************");
+           
             if (result.Succeeded)
             {
                 //generate token bilgisi oluşturacağız kullanıcı hesabı onaylanması için
@@ -106,8 +111,12 @@ namespace ecommerce.webui.Controllers
 
                 //email gönderme
                 await _emailSender.SendEmailAsync(model.Email, "Hesabınızı onaylayınız", $"Lütfen email hesabınızı onaylamak için <a href='http://localhost:5220{url}'>tıklayınız</a>");
-                // await _emailSender.SendEmailAsync(model.Email,"Hesabınızı onaylayınız",$"Lütfen email hesabınızı onaylamak için linke <a href='http://localhost:5003{url}'>tıklayınız</a>");
+             
                 return RedirectToAction("Login", "Account");
+            }
+             foreach (var item in result.Errors)
+            {
+                System.Console.WriteLine(item.Description);
             }
             ModelState.AddModelError("", "Bilinmeyen bir hata oldu, lütfen tekrar deneyiniz.");
             return View(model);
@@ -128,6 +137,7 @@ namespace ecommerce.webui.Controllers
                 var result = await _userManager.ConfirmEmailAsync(user, token);
                 if (result.Succeeded)
                 {
+                    _cartRepository.CreateFirstCart(userId);
                     CreateMessage("Hesabınız onaylanmıştır", "success");
                     return View();
                 }

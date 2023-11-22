@@ -39,6 +39,8 @@ namespace shopapp.webui
             services.AddScoped<IProductRepository, EfCoreProductRepository>();
             services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>();
             services.AddScoped<ISizeTypeRepository, EfCoreSizeTypeRepository>();
+            services.AddScoped<ICartRepository, EfCoreCartRepository>();
+
             services.AddScoped<IEmailSender, SmtpEmailSender>(i=>
             new SmtpEmailSender(
                 _configuration["EmailSender:Host"],
@@ -51,11 +53,11 @@ namespace shopapp.webui
 
             services.Configure<IdentityOptions>(options => {
                 // password
-                options.Password.RequireDigit=true; //true ise şifrede sayı olmalı
-                options.Password.RequireLowercase=true; //true ise şifrede küçük harf olmalı
-                options.Password.RequireUppercase=true; //true ise şifrede büyük harf olmalı
-                options.Password.RequiredLength=6; //min 6 karakterlik parola
-                options.Password.RequireNonAlphanumeric=true;
+                // options.Password.RequireDigit=true; //true ise şifrede sayı olmalı
+                // options.Password.RequireLowercase=true; //true ise şifrede küçük harf olmalı
+                // options.Password.RequireUppercase=true; //true ise şifrede büyük harf olmalı
+                // options.Password.RequiredLength=6; //min 6 karakterlik parola
+                // options.Password.RequireNonAlphanumeric=true;
                 
                 options.User.RequireUniqueEmail=true;
             
@@ -135,11 +137,43 @@ namespace shopapp.webui
                     defaults: new { controller = "Admin", action = "RoleList" }
                 );
                 endpoints.MapControllerRoute(
+                    name: "cart-index",
+                    pattern: "/cart/Index",
+                    defaults: new { controller = "Cart", action = "Index" }
+                );
+
+                endpoints.MapControllerRoute(
+                    name: "addToCart",
+                    pattern: "/cart/addtoCart",
+                    defaults: new { controller = "Cart", action = "AddToCart" }
+                );
+                endpoints.MapControllerRoute(
+                    name: "addOneToCart",
+                    pattern: "/cart/AddOne",
+                    defaults: new { controller = "Cart", action = "AddOne" }
+                );
+                  endpoints.MapControllerRoute(
+                    name: "removeOneToCart",
+                    pattern: "/cart/RemoveOne",
+                    defaults: new { controller = "Cart", action = "RemoveOne" }
+                );
+                  endpoints.MapControllerRoute(
+                    name: "payPage",
+                    pattern: "/cart/Checkout",
+                    defaults: new { controller = "Cart", action = "Checkout" }
+                );
+                endpoints.MapControllerRoute(
+                    name: "cart-delete-item",
+                    pattern: "/cart/DeleteCartItem",
+                    defaults: new { controller = "Cart", action = "DeleteCartItem" }
+                );
+                endpoints.MapControllerRoute(
                     name: "adminrolecreate",
                     pattern:"/admin/RoleCreate",
                     defaults: new {controller="Admin",action="RoleCreate"}
                 );
                 
+              
                 endpoints.MapControllerRoute(
                     name: "adminuseredit",
                     pattern:"/admin/UserEdit/{id?}",

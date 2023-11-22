@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1dhu2bjfqr6v1fj9LtdVmE619S6lm6DSJlZ5gc1VltopvInuEZmkmbwT2OEoGXOLOwwlNkJ+YEXBeFZsxmNZFA==",
+  "dgSpecHash": "GLEVRFInZxHcWhRNxTYBBCSCL+u17aUalsGmUC27Tr2NNmwJOtPgpXrrN07Af4bsQAot7MaV+1zZzECyKfxfEA==",
   "success": true,
   "projectFilePath": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/ecommerce.webui.csproj",
   "expectedPackageFiles": [
     "/Users/osmanyildiz/.nuget/packages/datatables.net/1.12.1/datatables.net.1.12.1.nupkg.sha512",
     "/Users/osmanyildiz/.nuget/packages/datatables.net-dt/1.13.6/datatables.net-dt.1.13.6.nupkg.sha512",
     "/Users/osmanyildiz/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/osmanyildiz/.nuget/packages/iyzipay/2.1.37/iyzipay.2.1.37.nupkg.sha512",
     "/Users/osmanyildiz/.nuget/packages/jquery/3.7.1/jquery.3.7.1.nupkg.sha512",
     "/Users/osmanyildiz/.nuget/packages/microsoft.aspnetcore.cryptography.internal/7.0.13/microsoft.aspnetcore.cryptography.internal.7.0.13.nupkg.sha512",
     "/Users/osmanyildiz/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/7.0.13/microsoft.aspnetcore.cryptography.keyderivation.7.0.13.nupkg.sha512",

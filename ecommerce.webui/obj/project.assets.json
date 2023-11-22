@@ -56,6 +56,18 @@
           }
         }
       },
+      "Iyzipay/2.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Iyzipay.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Iyzipay.dll": {}
+        }
+      },
       "jQuery/3.7.1": {
         "type": "package"
       },
@@ -768,6 +780,20 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Iyzipay/2.1.37": {
+      "sha512": "GFY4GJcNr+gn6Re8ZMSmCD3PGqo9qeqa0KMhpToDvL84wCIog4oKrhUC4lTzdeOs6u9YukxiGlk62O7r8eO9jA==",
+      "type": "package",
+      "path": "iyzipay/2.1.37",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "iyzipay.2.1.37.nupkg.sha512",
+        "iyzipay.nuspec",
+        "lib/net45/Iyzipay.dll",
+        "lib/netstandard1.3/Iyzipay.dll",
+        "lib/netstandard2.0/Iyzipay.dll"
       ]
     },
     "jQuery/3.7.1": {
@@ -1612,6 +1638,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Iyzipay >= 2.1.37",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.12",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.12",
@@ -1663,6 +1690,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Iyzipay": {
+            "target": "Package",
+            "version": "[2.1.37, )"
+          },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.13, )"

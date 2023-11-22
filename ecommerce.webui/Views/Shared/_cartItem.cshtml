@@ -1,0 +1,62 @@
+@model CartItemModel
+   
+        <div class="row border border-b pb-3 pt-4">
+                <div class="col-lg-3 col-md-12 mb-lg-0">
+                  <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
+                    <img src="~/img/@Model.ImageUrl"
+                      class="w-100" />
+                    @* <a href="#!"> *@
+                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                    </a>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-5 col-md-6  mb-lg-0">
+                  <!-- Data -->
+                  <p><strong>@Model.Name</strong></p>
+                  
+                  <p>Beden: @Model.SizeType</p>
+                  <form action="/cart/DeleteCartItem" method="POST">
+                  <input type="hidden" name="cartItemId" value="@Model.CartItemId">
+                  <button type="submit" class="btn btn-danger btn-sm me-1 mb-2">
+                    <i class="fas fa-trash"></i>
+                  </button>
+                  </form>
+                </div>
+   
+
+                <div class="col-lg-4 col-md-12 ">
+                
+                  <div class="d-flex justify-content-end mb-4" style="max-width: 300px">
+                     <form action="/cart/RemoveOne" method="POST">
+               <input type="hidden" name="cartItemId" value="@Model.CartItemId">
+                    <button type="submit" class="btn btn-dark me-1 btn-sm" style="height: 40px;"
+                      onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                      <i class="fas fa-minus "></i>
+                    </button>
+                 </form>
+
+                    <div class="form-outline">
+                      <input id="form1" min="1" name="quantity" value="@Model.Quantity" type="number" class="form-control text-center" onkeydown="return false" style="width: 80px;"/>
+                      <label class="form-label" for="form1">Adet</label>
+                    </div>
+                  <form action="/cart/AddOne" method="POST">
+                  <input type="hidden" name="cartItemId" value="@Model.CartItemId">
+                    <button type="submit" class="btn btn-dark btn-sm ms-2"
+                    style="height: 40px;"
+                      onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                      <i class="fas fa-plus"></i>
+                    </button>
+                  </form>
+                  </div>
+                  
+                  <p class=" text-md-center me-0">
+                    <strong>Birim Fiyat: @Model.Price<i class="fa-solid fa-turkish-lira-sign"></i></strong>
+                  </p>
+
+                </div>
+
+              </div>
+
+

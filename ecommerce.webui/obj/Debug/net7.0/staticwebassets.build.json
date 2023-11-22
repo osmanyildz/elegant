@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bbu8wzC23HU2F7MOUr+wUmTfJoDcRCuI8IoDoBHrEJ4=",
+  "Hash": "fjtP1lsGVbn7Ly6I4YyWLcpjL7AnjDutjGoNjmjcTYI=",
   "Source": "ecommerce.webui",
   "BasePath": "_content/ecommerce.webui",
   "Mode": "Default",
@@ -1800,6 +1800,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/eed90e0e-dc7a-44e6-9d96-937abb11a6e8.webp"
+    },
+    {
+      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/empty-cart.png",
+      "SourceId": "ecommerce.webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "BasePath": "_content/ecommerce.webui",
+      "RelativePath": "img/empty-cart.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/empty-cart.png"
     },
     {
       "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/f3cf8dc7-ad86-49f8-887f-ebe3a6a6743b.webp",

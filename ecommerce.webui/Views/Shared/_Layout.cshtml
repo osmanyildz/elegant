@@ -49,6 +49,25 @@
     </div>
     @await Html.PartialAsync("_footer")
 
+
+
+
+
+    <script>
+        function increment() {
+            var numberInput = document.getElementById('numberInput');
+            numberInput.value = parseInt(numberInput.value) + 1;
+        }
+
+        function decrement() {
+            var numberInput = document.getElementById('numberInput');
+            var newValue = parseInt(numberInput.value) - 1;
+            numberInput.value = newValue >= 1 ? newValue : 1;
+        }
+    </script>
+
+
+
     </script>
     <script src="/modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

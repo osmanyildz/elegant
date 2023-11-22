@@ -84,6 +84,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vVXNlckxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Cart/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9DaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -112,6 +120,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19jYXJvdXNlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Shared/_cartItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19jYXJ0SXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Shared/_emptyCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19lbXB0eUNhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Shared/_footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19mb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -122,10 +138,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Shared/_popular-products.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19wb3B1bGFyLXByb2R1Y3RzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Shared/_product-details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19wcm9kdWN0LWRldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Shared/_product.cshtml]

@@ -421,6 +421,10 @@
       "PackagePath": "staticwebassets/img/eed90e0e-dc7a-44e6-9d96-937abb11a6e8.webp"
     },
     {
+      "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/empty-cart.png",
+      "PackagePath": "staticwebassets/img/empty-cart.png"
+    },
+    {
       "Id": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/f3cf8dc7-ad86-49f8-887f-ebe3a6a6743b.webp",
       "PackagePath": "staticwebassets/img/f3cf8dc7-ad86-49f8-887f-ebe3a6a6743b.webp"
     },

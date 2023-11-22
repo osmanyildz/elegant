@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "ecommerce.webui/1.0.0": {
         "dependencies": {
+          "Iyzipay": "2.1.37",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.Design": "7.0.12",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.12",
@@ -35,6 +36,17 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Iyzipay/2.1.37": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Iyzipay.dll": {
+            "assemblyVersion": "2.1.37.0",
+            "fileVersion": "2.1.37.0"
           }
         }
       },
@@ -464,6 +476,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Iyzipay/2.1.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GFY4GJcNr+gn6Re8ZMSmCD3PGqo9qeqa0KMhpToDvL84wCIog4oKrhUC4lTzdeOs6u9YukxiGlk62O7r8eO9jA==",
+      "path": "iyzipay/2.1.37",
+      "hashPath": "iyzipay.2.1.37.nupkg.sha512"
     },
     "jQuery/3.7.1": {
       "type": "package",

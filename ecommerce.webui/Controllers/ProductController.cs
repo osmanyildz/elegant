@@ -21,7 +21,6 @@ namespace ecommerce.webui.Controllers
             _productRepository = productRepository;
         }
         public IActionResult List(string category,string genderId){
-            
           
             var products = _productRepository.GetProductByGenderCategory(category,genderId);
             var pvModel = new List<ProductViewModel>();

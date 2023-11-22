@@ -32,14 +32,21 @@
         <div class="col-md-5">
             <div class="card-body">
                 <h3 class="card-title m-3 text-center">@Model.Name</h3>
-                <div class="d-flex justify-content-center container mt-5 d-grid gap-3">
-                    <input type="number" name="quantity" class="form-control" value="1" min="1" max="99" step="1" style="width: 80px;text-align:center;font-weight:600">
+                    <form action="/cart/addtocart" method="POST">
+                <div class="d-flex justify-content-center container mt-5 d-grid gap-1">
+                    
+                    <div onclick="decrement()" class="btn btn-danger btn-sm m-0">-</div>
+                    <input type="hidden" name="productId" value="@Model.Id">
+                    <input type="number" id="numberInput" name="quantity" value="1" min="1" onkeydown="return false" style="width: 50px;">
+                     <div onclick="increment()" class="btn btn-primary btn-sm">+</div>
+                    
                     <div class="d-grid gap-2 w-100">
                         <button type="submit" class="btn btn-dark d-block w-100">Sepete Ekle</button>
                     </div>
                 </div>
+
                 <div class="container mt-3">
-                    <select class="form-select" aria-label="Default select example">
+                    <select name="sizeType" class="form-select" aria-label="Default select example">
                         <option selected>Beden Seçiniz</option>
                        @foreach(var item in Model.ProductSizeTypes){
                         <option value="@item.SizeType.Name">@item.SizeType.Name</option>
@@ -52,6 +59,8 @@
                     </div>
                     <hr class="my-4">
                 </div>
+                    </form>
+
                 <div class="mt-4 container">
                     <small class="text-muted">Ürün Açıklaması</small>
                     <p class="card-text ms-3 mt-3">@Model.Description</p>

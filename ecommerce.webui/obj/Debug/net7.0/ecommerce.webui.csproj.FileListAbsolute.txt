@@ -77,3 +77,4 @@
 /Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
 /Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
 /Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/bin/Debug/net7.0/Iyzipay.dll
