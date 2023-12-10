@@ -80,6 +80,7 @@
                 <ul class="dropdown-menu" aria-labelledby="categoryEditScrollingDropdown">
                     <li><a class="dropdown-item" asp-controller="Admin" asp-action="CategoryList" >Tüm Kategoriler</a></li>
                     <li><a class="dropdown-item" asp-controller="Admin" asp-action="CategoryCreate">Kategori Ekle</a></li>
+                    <li><a class="dropdown-item" asp-controller="Admin" asp-action="SubCategoryCreate">Alt Kategori Ekle</a></li>
                 </ul>
                 </li>
                 
@@ -89,26 +90,26 @@
                 <ul class="dropdown-menu" aria-labelledby="roleEditScrollingDropdown">
                     <li><a class="dropdown-item" href="/admin/RoleList" >Tüm Roller</a></li>
                     <li><a class="dropdown-item" href="/admin/RoleCreate">Rol Ekle</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                    <li ><a class="dropdown-item" href="/admin/UserList" >Kullanıcılar</a></li>
                 </ul>
                 </li>
 
-         
-                    <li class="nav-item font-navbar"><a class="nav-link" href="/admin/UserList" >Kullanıcılar</a></li>
-               
 
                 }
              @if(User.IsInRole("User")){
 
                  <li class="nav-item font-navbar">
-                    <a asp-controller="" asp-action="" class="nav-link">
+                    <a asp-controller="Cart" asp-action="OrderList" class="nav-link">
                         Siparişlerim
                     </a>
                 </li>
+                
              }
             </ul>
             <ul class="navbar-nav ms-auto me-4">
                 <li class="nav-item">
-                    <form action="shop/search" class="" autocomplete="off">
+                    <form action="/product/search" autocomplete="off">
                         <div class="form-group d-flex">
                             <input name="q" type="text" class="form-control" placeholder="Ürün Ara"
                                 style="width: 300px;">
@@ -122,12 +123,14 @@
             <ul class="navbar-nav ml-auto">
 
         @if(User.Identity.IsAuthenticated){
+            if(User.IsInRole("User")){
 
-                  <li class="nav-item font-navbar">
+                <li class="nav-item font-navbar">
                     <a asp-controller="Cart" asp-action="Index" class="nav-link">
                         <i class="fa-solid fa-cart-shopping"></i> Sepetim 
                     </a>
                 </li>
+            }
                 <li class="nav-item">
                     <a href="/account/logout" class="nav-link">
                         <span>

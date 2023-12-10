@@ -9,11 +9,10 @@
                             @foreach(var item in @Model.ImageUrls){
                                 @if(@a==0){
                              <img src="~/img/@item.ImageUrl"
-                                class="w-100" style="width: 400px; height:200px" />
+                                class="w-100" style="width: 600px; height:350px" />
                                 a++;
                                 }
                             }
-                           
 
                         </div>
                         <div class="py-2">
@@ -33,16 +32,16 @@
                                 </div> *@
                             </a>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body" >
                                 <h5 class="card-title mb-3">@Model.Name</h5>
-                            <p>
+                            @* <p>
                                 @{int index = Model.Description.IndexOf(".");}
                                 @if(index!=-1){
-                                @Model.Description.Substring(0,index)
+                                    <span>@Model.Description.Substring(0,70)... </span>
                                 }else{
                                     @Model.Description
                                 }
-                            </p>
+                            </p> *@
                             <h6 class="mb-3">@Model.Price <i class="fa-solid fa-turkish-lira-sign"></i></h6>
                         </div>
                         </a>

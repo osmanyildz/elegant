@@ -14,5 +14,6 @@ namespace ecommerce.entity
         public List<GenderCategory> GenderCategories{ get; set; }
         public ParentCategory ParentCategory { get; set; }      
         public int ParentCategoryId{ get; set; }
+        public List<SubCategory> SubCategories { get; set; }
     }
 }

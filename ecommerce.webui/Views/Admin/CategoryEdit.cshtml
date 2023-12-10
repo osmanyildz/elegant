@@ -4,7 +4,7 @@
 
     <form action="/admin/CategoryEdit" method="POST">
     <input hidden name="CategoryId" value="@Model.CategoryId">
-            <h3 class="ms-5">Kategori Ekle</h3>
+            <h3 class="ms-5">@Model.Name Kategorisini Düzenle</h3>
 
     <div class="row">
 
@@ -13,7 +13,7 @@
 
             <div class="mb-3">
             <label for="name" class="form-label">Kategori Adı</label>
-            <input name="Name" id="name" value="@Model.Name" class="form-control">
+            <input name="Name" id="name" value="@Model.Name" class="form-control" minlength="1" required>
             </div>
             <hr class="my-4">
             <h5 class="mb-2">Üst Kategori</h5>

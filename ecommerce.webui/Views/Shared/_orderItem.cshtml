@@ -1,0 +1,37 @@
+@model OrderItemModel
+
+ <div class="row border border-b pb-3 pt-4 mb-3">
+                <div class="col-lg-3 col-md-12 mb-lg-0">
+                  @* <div class="rounded" style="width: 150px; height:100px">
+                   
+                    
+                  </div> *@
+                   <img src="~/img/@Model.ImageUrl"
+                      class="w-100 d-block rounded" style="width: 100px; height:140px" /> 
+                </div>
+                <div class="col-lg-5 col-md-6  mb-lg-0">
+                  <!-- Data -->
+                  <p> <span class="text-muted">Ürün Adı: </span><strong>@Model.Name.ToString().ToUpper()</strong></p>
+                  <p><span class="text-muted">Birim Fiyatı:</span> <strong>@Model.Price</strong> </p>
+            <p> <span class="text-muted">Adet: </span><strong>@Model.Quantity</strong></p>
+            <p> <span class="text-muted">Sipariş Durumu: </span><strong>@ViewBag.OrderStates[Model.orderState]</strong></p>
+                </div>
+   
+
+                <div class="col-lg-4 col-md-12 ">
+                
+                  <p class=" text-md-center me-0">
+                    @if(Model.Price*Model.Quantity >750){
+
+                    <span class="text-muted ms-1">Sipariş Tutarı:</span> <strong>@(Model.Price * Model.Quantity)</strong> <i class="fa-solid fa-turkish-lira-sign"></i>
+                       <p> <span class="text-muted ms-5">Sipariş Tarihi: @Model.OrderDate</span></p>
+                    
+                    }else{
+                        <span class="text-muted">Sipariş Tutarı:</span> <strong> @((Model.Price * Model.Quantity)+29.99)</strong><i class="fa-solid fa-turkish-lira-sign"></i>
+                           <p> <span class="text-muted">Sipariş Tarihi: @Model.OrderDate</span></p>
+                    }
+                  </p>
+
+                </div>
+
+              </div>

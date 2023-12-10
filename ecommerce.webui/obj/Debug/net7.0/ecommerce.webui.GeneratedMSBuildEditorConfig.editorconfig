@@ -52,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ2F0ZWdvcnlMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Admin/OrderList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vT3JkZXJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Admin/ProductCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUHJvZHVjdENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,6 +80,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUm9sZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Admin/SubCategoryCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vU3ViQ2F0ZWdvcnlDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Admin/UserEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vVXNlckVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -92,6 +100,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Cart/OrderList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FydC9PcmRlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -106,6 +118,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Product/PopularProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9Qb3B1bGFyUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Product/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9TZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Shared/Components/Navbar/Default.cshtml]
@@ -134,6 +150,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Shared/_orderItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19vcmRlckl0ZW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/Views/Shared/_popular-products.cshtml]

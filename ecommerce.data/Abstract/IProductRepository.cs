@@ -14,5 +14,6 @@ namespace ecommerce.data.Abstract
         List<Product> GetAllProductsWithImage();
         void ProductCreate(Product product, int[] categoryIds, List<SizeType> sizeTypes);
         void ProductUpdate(Product product, int[] categoryIds, int[] sizeTypeIds); //, List<SizeType> sizeTypes
+        List<Product> SearchList(string q);
     }
 }

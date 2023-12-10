@@ -92,31 +92,39 @@
     </form>
 </div> *@
 
-
 <div class="container my-5">
+
+<h4>Ürün Ekle</h4>
+<hr class="mb-5">
     <form action="/admin/ProductCreate" method="POST" enctype="multipart/form-data">
+
+
     <div class="row">
         <div class="col-md-6">
             <div class="mb-3">
-            <label for="name" class="form-label">Ürün Adı</label>
-            <input name="Name" id="name" class="form-control">
+            <label for="Name" class="form-label">Ürün Adı</label>
+            <input type="text" name="Name" id="Name" class="form-control" minlength="33" maxlength="45" required>
+
             </div>
             <div class="mb-3">
             <label for="price" class="form-label">Price</label>
-            <input name="Price" id="price" class="form-control">
+            <input type="number" name="Price" id="price" class="form-control" min="10" max="100000" required>
             </div>
             <div class="mb-3">
-            <label for="description" class="form-label">Açıklama</label>
-            <textarea name="Description" id="description" class="form-control"></textarea>
+            <label for="description" class="form-label" >Açıklama</label>
+            <textarea name="Description" id="description" class="form-control" minlength="25" maxlength="1000" required></textarea>
             </div>
         <div class="mb-3"> 
             <h5>Ürün Resimleri</h5>
-    <input type="file" name="file1" class="form-control mb-1" />
-    <input type="file" name="file2" class="form-control mb-1" />
-    <input type="file" name="file3" class="form-control mb-1" />
+    <input type="file" name="file1" class="form-control mb-1" required/>
+    <input type="file" name="file2" class="form-control mb-1" required />
+    <input type="file" name="file3" class="form-control mb-1" required/>
+    
         </div>   
-      
+        <button type="submit" class="btn btn-dark mt-5">Ürünü Ekle</button>
+
     </div>
+    
         <div class="col-md-4 ms-5">
           
             
@@ -162,7 +170,7 @@
                 </div>
         </div>
     </div>
-        <button type="submit" class="btn btn-primary">Save Product</button>
 
     </form>
 </div>
+

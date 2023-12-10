@@ -15,6 +15,7 @@ namespace ecommerce.data.Concrete.EfCore
         public DbSet<CartItem> CartItems { get; set; }
         public DbSet<Gender> Genders { get; set; }
         public DbSet<Image> Images { get; set; }
+        public DbSet<SubCategory> SubCategories { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<ParentCategory> ParentCategories { get; set; }

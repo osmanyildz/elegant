@@ -1,0 +1,47 @@
+@model SubCategoryModel
+
+<div class="container my-5">
+
+    <form action="/admin/SubCategoryCreate" method="POST">
+
+
+    <div class="row">
+            <h4 class="mb-5">Alt Kategori Ekle</h4>
+        <div class="col-md-4">
+            <div class="card-body p-1">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Alt Kategori Adı</label>
+            <input asp-for="Name" class="form-control">
+            </div>
+
+                <h5 class="mt-4 mb-3">Üst Kategoriler</h5>
+                @* <input class="form-check-input" type="radio" name="GenderId" value="1" id="genderId">
+                <label class="form-check-label" for="genderId">
+                Kargo
+                </label> *@
+                @{
+                    var i=0;
+                }
+                @foreach(var item in Model.Categories){
+            @* <div class="form-check">
+                <input class="form-check-input" type="radio" name="ParentCategoryId" value="@item.Id" id="@(i++)">
+                <label class="form-check-label"  for="">
+                    @item.Name
+                </label> 
+                </div> *@
+                <div class="form-check">
+                <input name="categoryId" value="@item.Id" type="radio" class="form-check-input" id="cat_@(item.Id)"  >
+                <label class="form-check-label" for="cat_@(item.Id)">@item.Name</label>
+                </div>
+                }
+             
+        <button type="submit" class="btn btn-dark mt-4 w-100">Kaydet</button>
+       
+            </div>
+        </div>
+
+    </div>
+    </form>
+
+    
+</div>

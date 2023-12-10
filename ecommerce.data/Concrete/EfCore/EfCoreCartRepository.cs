@@ -16,13 +16,7 @@ namespace ecommerce.data.Concrete.EfCore
         {
             var cart = GetCartByUserId(userId);
             if(cart!=null){
-                // System.Console.WriteLine("Burada1");
-                // System.Console.WriteLine(userId);
-                // System.Console.WriteLine(productId);
-                // System.Console.WriteLine(quantity);
-                // System.Console.WriteLine(sizeType);
-
-                var index = cart.CartItems.FindIndex(i=>i.ProductId==productId);
+                var index = cart.CartItems.FindIndex(i=>i.ProductId==productId && i.SizeType==sizeType);
                 if(index<0){
 
                     cart.CartItems.Add(new CartItem(){
@@ -116,6 +110,16 @@ namespace ecommerce.data.Concrete.EfCore
                 .ThenInclude(p=>p.Product)
                 .FirstOrDefault(k=>k.UserId==id);
                 
+            }
+        }
+
+        public void ClearCart(int cartId)
+        {
+            using (var context = new ECommerceContext())
+            {
+               var cartItems = context.CartItems.Where(p=>p.CartId==cartId).ToList();
+                context.CartItems.RemoveRange(cartItems);
+                context.SaveChanges();
             }
         }
     }

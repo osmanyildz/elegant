@@ -70,6 +70,24 @@ namespace ecommerce.data.Concrete.EfCore
                 return categoryList;
             }
         }
+
+        public void CreateSubCategory(SubCategory subCategory)
+        {
+            using (var context = new ECommerceContext())
+            {
+                context.SubCategories.Add(subCategory);
+                context.SaveChanges();
+            }
+        }
+
+        public List<SubCategory> GetAllSubCategories()
+        {
+            using (var context = new ECommerceContext())
+            {
+                var subCategoryList = context.SubCategories.Include(s=>s.Category).ThenInclude(c=>c.GenderCategories).ToList();
+                return subCategoryList;
+            }
+        }
     }
 }
 

@@ -16,6 +16,7 @@
         href="https://cdn.datatables.net/v/bs5/jszip-3.10.1/dt-1.13.6/b-2.4.2/b-html5-2.4.2/b-print-2.4.2/sp-2.2.0/datatables.min.css"
         rel="stylesheet">
     <title>Elegant</title>
+    <script></script>
 
 </head>
 
@@ -31,7 +32,7 @@
 
     @await Component.InvokeAsync("Navbar")
     <div id="main-body">
-     @if(TempData["message"]!=null)
+     @* @if(TempData["message"]!=null)
             {
                 var message = JsonConvert.DeserializeObject<AlertMessage>(TempData["message"] as String);
 <div class="container mt-5">
@@ -43,17 +44,14 @@
                     </div>
                 </div>
 </div>
-            }  
+            }   *@
         @RenderBody()
 
     </div>
     @await Html.PartialAsync("_footer")
 
 
-
-
-
-    <script>
+ <script>
         function increment() {
             var numberInput = document.getElementById('numberInput');
             numberInput.value = parseInt(numberInput.value) + 1;
@@ -64,11 +62,12 @@
             var newValue = parseInt(numberInput.value) - 1;
             numberInput.value = newValue >= 1 ? newValue : 1;
         }
-    </script>
+        </script>
 
 
-
-    </script>
+   
+    <script src="~/js/script.js"></script>
+    
     <script src="/modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/modules/popperjs/dist/js/bootstrap.bundle.min.js"></script>
@@ -151,6 +150,22 @@
             );
         });
     </script>
+       <script>
+        $(document).ready(function () {
+            $('#ordersTable').dataTable(
+                {
+                    dom: 'Bflrtip',
+                    buttons: [
+                        'copy', 'excel', 'pdf'
+                    ],
+                    language: {
+                        url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/tr.json',
+                    }
+                },
+
+            );
+        });
+    </script>
 
     @* <script>
     $(document).ready(function(){
@@ -163,7 +178,6 @@
          
     });
     </script> *@
-    
 
 </body>
 

@@ -1,25 +1,27 @@
 @model ProductEditModel
 
 <div class="container my-5">
+    <h4>Ürün Güncelle</h4>
+<hr class="mb-5">
     <form action="/admin/ProductEdit" method="POST" enctype="multipart/form-data">
                     <input type="hidden" name="ProductId" value="@Model.ProductId">
         <div class="row">
             <div class="col-md-6">
                 <div class="mb-3">
                     <label for="name" class="form-label">Ürün Adı</label>
-                    <input name="Name" id="name" value="@Model.Name" class="form-control">
+                    <input type="text" name="Name" id="name" value="@Model.Name" class="form-control" minlength="33" maxlength="45" required>
                     @* <label asp-for="Name" class="form-label">Ürün Adı</label>
                     <input asp-for="Name" class="form-control"> *@
                 </div>
                 <div class="mb-3">
                      <label for="price" class="form-label">Price</label>
-                    <input name="Price" id="price" value="@Model.Price" class="form-control"> 
+                    <input name="Price" id="price" value="@Model.Price" type="number" class="form-control" min="10" max="100000" required> 
                 @* <label asp-for="Price" class="form-label">Fiyat</label>
                     <input asp-for="Price" class="form-control">  *@
                 </div>
                 <div class="mb-3">
                     <label for="description" class="form-label">Açıklama</label>
-                    <textarea name="Description" id="description" class="form-control">@Model.Description</textarea>
+                    <textarea name="Description" id="description" class="form-control" minlength="25" maxlength="1000" required>@Model.Description</textarea>
                      @* <label asp-for="Description" class="form-label">Açıklama</label>
                     <textarea asp-for="Description" class="form-control">@Model.Description</textarea> *@
                 </div>
@@ -50,6 +52,8 @@
                     <img src="~/img/@Model.ImageUrls.ElementAt(0)" width="80"/>
                     <input type="file" name="file1">
                 </div> *@
+        <button type="submit" class="btn btn-dark mt-5">Ürünü Güncelle</button>
+                
             </div>
             <div class="col-md-4 ms-5">
                 <h5>Üst Kategori</h5>
@@ -125,7 +129,6 @@
                 </div>
             </div>
         </div>
-        <button type="submit" class="btn btn-primary">Save Product</button>
 
     </form>
 </div>

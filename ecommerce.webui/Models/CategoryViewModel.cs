@@ -12,6 +12,7 @@ namespace ecommerce.webui.Models
         public string Name { get; set; }
         public ParentCategory parentCategories { get; set; }
         public List<GenderCategory> genderCategories { get; set; }
+        public SubCategoryViewModel SubCategories { get; set; }
         
     }
 }

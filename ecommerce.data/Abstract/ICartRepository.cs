@@ -15,5 +15,6 @@ namespace ecommerce.data.Abstract
         CartItem GetCartItemById(int cartItemId);
         void RemoveOne(int cartItemId);
         Cart GetByUserId(string id);
+        void ClearCart(int cartId);
     }
 }

@@ -326,6 +326,26 @@ namespace ecommerce.data.Migrations
                     b.ToTable("SizeTypes");
                 });
 
+            modelBuilder.Entity("ecommerce.entity.SubCategory", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("subCategoryName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("SubCategories");
+                });
+
             modelBuilder.Entity("ecommerce.entity.CartItem", b =>
                 {
                     b.HasOne("ecommerce.entity.Cart", "Cart")
@@ -473,6 +493,17 @@ namespace ecommerce.data.Migrations
                     b.Navigation("ParentCategory");
                 });
 
+            modelBuilder.Entity("ecommerce.entity.SubCategory", b =>
+                {
+                    b.HasOne("ecommerce.entity.Category", "Category")
+                        .WithMany("SubCategories")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
             modelBuilder.Entity("ecommerce.entity.Cart", b =>
                 {
                     b.Navigation("CartItems");
@@ -483,6 +514,8 @@ namespace ecommerce.data.Migrations
                     b.Navigation("GenderCategories");
 
                     b.Navigation("ProductCategories");
+
+                    b.Navigation("SubCategories");
                 });
 
             modelBuilder.Entity("ecommerce.entity.Gender", b =>

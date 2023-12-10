@@ -1,9 +1,11 @@
 @model ProductViewModel
 
 
-<div class="card m-5 container p-0 border-0">
+<div class="card my-4 container p-0 border-0">
     <div class="row g-0">
-        <div class="col-md-7 p-0">
+        <div class="col-md-1"></div>
+
+        <div class="col-md-4 p-0">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                    
@@ -24,12 +26,13 @@
             </div>
             <div class="d-flex justify-content-center mt-3">
                 @foreach(var item in Model.ImageUrls){
-                    <img src="~/img/@item.ImageUrl" class="img-fluid rounded mx-1" style="width: 150px;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <img src="~/img/@item.ImageUrl" class="img-fluid rounded mx-1" style="width: 220px; height:150px;" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                 }
        
             </div>
         </div>
-        <div class="col-md-5">
+
+        <div class="col-md-6">
             <div class="card-body">
                 <h3 class="card-title m-3 text-center">@Model.Name</h3>
                     <form action="/cart/addtocart" method="POST">
@@ -38,7 +41,7 @@
                     <div onclick="decrement()" class="btn btn-danger btn-sm m-0">-</div>
                     <input type="hidden" name="productId" value="@Model.Id">
                     <input type="number" id="numberInput" name="quantity" value="1" min="1" onkeydown="return false" style="width: 50px;">
-                     <div onclick="increment()" class="btn btn-primary btn-sm">+</div>
+                     <div onclick="increment()" class="btn btn-dark btn-sm">+</div>
                     
                     <div class="d-grid gap-2 w-100">
                         <button type="submit" class="btn btn-dark d-block w-100">Sepete Ekle</button>
@@ -46,15 +49,22 @@
                 </div>
 
                 <div class="container mt-3">
-                    <select name="sizeType" class="form-select" aria-label="Default select example">
-                        <option selected>Beden Seçiniz</option>
+                        <span class="text-muted">Beden</span>
+                    <select required name="sizeType" class="form-select" aria-label="Default select example">
+                        @* <option selected >Beden Seçiniz</option> *@
+                        <option selected></option>
                        @foreach(var item in Model.ProductSizeTypes){
-                        <option value="@item.SizeType.Name">@item.SizeType.Name</option>
+                        <option  value="@item.SizeType.Name">@item.SizeType.Name</option>
                         @item.SizeType.Name
                        }
                     </select>
                     <div class="my-4">
-                    <span > <h5>Birim Fiyatı: @Model.Price <i class="fa-solid fa-turkish-lira-sign"></i>
+                       
+
+                    <span > <h5>Birim Fiyatı: 
+                        @(Model.Price)
+                   
+                     <i class="fa-solid fa-turkish-lira-sign"></i>
                     </h5> </span>
                     </div>
                     <hr class="my-4">
@@ -88,6 +98,7 @@
 
         </div>
 
+
     </div>
 </div>
 
@@ -109,3 +120,5 @@
         });
     }
 </script>
+
+

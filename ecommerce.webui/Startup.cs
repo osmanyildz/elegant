@@ -40,6 +40,7 @@ namespace shopapp.webui
             services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>();
             services.AddScoped<ISizeTypeRepository, EfCoreSizeTypeRepository>();
             services.AddScoped<ICartRepository, EfCoreCartRepository>();
+            services.AddScoped<IOrderRepository,EfCoreOrderRepository>();
 
             services.AddScoped<IEmailSender, SmtpEmailSender>(i=>
             new SmtpEmailSender(
@@ -141,7 +142,11 @@ namespace shopapp.webui
                     pattern: "/cart/Index",
                     defaults: new { controller = "Cart", action = "Index" }
                 );
-
+                endpoints.MapControllerRoute(
+                    name: "subCategoryCreate",
+                    pattern: "/Admin/SubCategoryCreate",
+                    defaults: new { controller = "Admin", action = "SubCategoryCreate" }
+                );
                 endpoints.MapControllerRoute(
                     name: "addToCart",
                     pattern: "/cart/addtoCart",
@@ -162,10 +167,25 @@ namespace shopapp.webui
                     pattern: "/cart/Checkout",
                     defaults: new { controller = "Cart", action = "Checkout" }
                 );
+                  endpoints.MapControllerRoute(
+                    name: "AdminOrderList",
+                    pattern: "/admin/OrderList",
+                    defaults: new { controller = "Admin", action = "OrderList" }
+                );
+                   endpoints.MapControllerRoute(
+                    name: "orderList",
+                    pattern: "/cart/OrderList",
+                    defaults: new { controller = "Cart", action = "OrderList" }
+                );
                 endpoints.MapControllerRoute(
                     name: "cart-delete-item",
                     pattern: "/cart/DeleteCartItem",
                     defaults: new { controller = "Cart", action = "DeleteCartItem" }
+                );
+                 endpoints.MapControllerRoute(
+                    name: "product-search",
+                    pattern: "/product/search",
+                    defaults: new { controller = "Product", action = "Search" }
                 );
                 endpoints.MapControllerRoute(
                     name: "adminrolecreate",

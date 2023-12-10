@@ -161,6 +161,16 @@ namespace ecommerce.data.Concrete.EfCore
                 context.SaveChanges();
             }
         }
+
+        public List<Product> SearchList(string q)
+        {
+            using (var context = new ECommerceContext())
+            {
+                var products = context.Products.AsQueryable();
+                products = products.Where(p=>p.Name.Contains(q)||p.Description.Contains(q)).Include(i=>i.ImageUrls).Include(a=>a.ProductCategories).ThenInclude(o=>o.Category).Include(s=>s.ProductSizeTypes).ThenInclude(l=>l.SizeType);
+                return products.ToList();
+            }
+        }
     }
     }
 

@@ -13,5 +13,7 @@ namespace ecommerce.data.Abstract
         Category GetCategoryById(int id);
         void UpdateCategory(Category category);
         List<Category> GetCategoriesByGenderId(int id);
+        void CreateSubCategory(SubCategory subCategory); 
+        List<SubCategory> GetAllSubCategories();
     }
 }

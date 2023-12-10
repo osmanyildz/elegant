@@ -24,11 +24,9 @@
         <td>
             @item.Name
         </td>
+            
          <td>
-      
             <span>@item.parentCategories.Name</span>
-        
-        
        </td>
        <td>
         @foreach(var i in item.genderCategories){
@@ -44,8 +42,12 @@
             <a href="/admin/CategoryDelete/@item.CategoryId" class="btn btn-danger btn-sm">Sil<i
                 class="fa-solid fa-trash p-1 "></i></a>
         </td>
+            
+
             </tr>
-        }
+            }
+    
+        
         
     </tbody>
 

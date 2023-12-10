@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using ecommerce.data.Abstract;
 using ecommerce.entity;
 using ecommerce.webui.Models;
+using Microsoft.AspNetCore.Http.Connections;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Query.Internal;
@@ -19,6 +20,55 @@ namespace ecommerce.webui.Controllers
         public ProductController(IProductRepository productRepository)
         {
             _productRepository = productRepository;
+        }
+        public IActionResult Search(string q){
+            var products = _productRepository.SearchList(q);
+            var productModel = new List<ProductViewModel>();
+           
+            foreach (var item in products)
+            {
+            var imgUrls = new List<Image>();
+                var productCat = new List<ProductCategory>();
+            var sizes = new List<ProductSizeType>();
+                foreach (var img in item.ImageUrls)
+                {
+                    var url = new Image(){
+                        ImageUrl=img.ImageUrl,
+                        Id = img.Id,
+                        ProductId=img.ProductId
+                    };
+                    imgUrls.Add(url);
+                } 
+                foreach (var i in item.ProductCategories)
+                {
+                    var pCat = new ProductCategory(){
+                        Category=i.Category
+                    };
+                    productCat.Add(pCat);
+                }
+                foreach (var it in item.ProductSizeTypes)
+                {
+                    var size = new ProductSizeType(){
+                        SizeType=it.SizeType
+                    };
+                    sizes.Add(size);
+                }
+                 var viewModel = new ProductViewModel(){
+                    Id = item.Id,
+                    Name = item.Name,
+                    Description = item.Description,
+                    Price=item.Price,
+                    IsPopular = item.IsPopular,
+                    Url = item.Url,
+                    GenderId=item.GenderId,
+                    ParentCategoryId=item.ParentCategoryId,
+                    ProductSizeTypes=sizes,
+                    Categories=productCat,
+                    ImageUrls=imgUrls
+                };
+                productModel.Add(viewModel);
+            }
+            return View(productModel);
         }
         public IActionResult List(string category,string genderId){
           

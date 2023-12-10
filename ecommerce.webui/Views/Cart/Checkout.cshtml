@@ -48,7 +48,7 @@
                     <div class="col-md-5">
                     <label asp-for="@Model.CardNumber">Kart Numarası</label>
                     <input asp-for="@Model.CardNumber" class="form-control">
-                </div>              
+                </div>
             </div>
              <div class="row mb-3">
                 <div class="col-md-2">
@@ -58,11 +58,11 @@
                     <div class="col-md-2">
                     <label asp-for="@Model.ExpirationYear">Yıl</label>
                     <input asp-for="@Model.ExpirationYear" class="form-control">
-                </div>  
+                </div>
                   <div class="col-md-2">
                     <label asp-for="@Model.Cvc">CVC</label>
                     <input asp-for="@Model.Cvc" class="form-control">
-                </div>             
+                </div>
             </div>
             <button type="submit" class="btn btn-dark mt-3">Ödeme Yap</button>
         </form>
@@ -82,14 +82,14 @@
                     </div>
                     <span class="text-muted">@item.Price</span>
                 </li>
-            }          
-              
+            }
+
             <li class="list-group-item d-flex justify-content-between">
                 <span>Toplam (Kargo Dahil)</span>
                 <strong>@Model.CartModel.TotalPrice()</strong>
             </li>
         </ul>
-       
+
     </div>
 </div> *@
 
@@ -98,7 +98,7 @@
 <hr >
 <div class="row my-4">
     <div class="col-md-7">
-        
+
         <form method="POST" asp-controller="Cart" asp-action="Checkout">
             <input type="hidden" name="cartId" value="@Model.CartModel.Id">
             <div class="row mb-3">
@@ -131,7 +131,7 @@
                 <textarea  asp-for="@Model.Address" class="form-control"></textarea>
             </div>
             </div>
-            
+
              <h4 class="mb-3 my-4">Kart Bilgileri</h4>
             <hr class="mb-3">
             <div class="row mb-3">
@@ -142,7 +142,7 @@
                     <div class="col-md-6">
                     <label asp-for="@Model.CardNumber">Kart Numarası</label>
                     <input asp-for="@Model.CardNumber" class="form-control">
-                </div>              
+                </div>
             </div>
              <div class="row mb-3">
                 <div class="col-md-4">
@@ -152,11 +152,11 @@
                     <div class="col-md-4">
                     <label asp-for="@Model.ExpirationYear">Yıl</label>
                     <input asp-for="@Model.ExpirationYear" class="form-control">
-                </div>  
+                </div>
                   <div class="col-md-4">
                     <label asp-for="@Model.Cvc">CVC</label>
                     <input asp-for="@Model.Cvc" class="form-control">
-                </div>             
+                </div>
             </div>
             <button type="submit" class="btn btn-dark btn-lg">Satın Al</button>
         </form>
@@ -172,18 +172,36 @@
             {
                 <li class="list-group-item d-flex justify-content-between">
                     <div>
-                        <h6>@item.Name</h6>
+                        <h6>@item.Quantity adet @item.Name.Substring(0,20)..</h6>
                     </div>
-                    <span class="text-muted">@item.Price.ToString()</span>
+                    <span class="text">@(item.Price * item.Quantity)<i class="fa-solid fa-turkish-lira-sign"></i></span>
                 </li>
-            }          
-              
+            }
+                  <li class="list-group-item d-flex justify-content-between">
+                    <div>
+                        <h6>Kargo Ücreti</h6>
+                    </div>
+                    @if(Model.CartModel.TotalPrice() < 750 ){
+                        if(Model.CartModel.TotalPrice()==0){
+                    <span class="text">0<i class="fa-solid fa-turkish-lira-sign"></i></span>
+                        }else{
+                    <span class="text">29,99<i class="fa-solid fa-turkish-lira-sign"></i></span>
+                        }
+                    }else{
+                    <del class="text-danger">29,99<i class="fa-solid fa-turkish-lira-sign"></i></del>
+                    }
+                </li>
+
             <li class="list-group-item d-flex justify-content-between">
                 <span>Toplam (Kargo Dahil)</span>
-                <strong>@Model.CartModel.TotalPrice().ToString()</strong>
+                    @if(Model.CartModel.TotalPrice() < 750 && Model.CartModel.TotalPrice()!=0){
+                <strong>@(Model.CartModel.TotalPrice() + 29.99)<i class="fa-solid fa-turkish-lira-sign"></i></strong>
+                }else{
+                <strong>@Model.CartModel.TotalPrice().ToString()<i class="fa-solid fa-turkish-lira-sign"></i></strong>
+                }
             </li>
         </ul>
-       
+
     </div>
 </div>
 </div>

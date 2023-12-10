@@ -8,6 +8,8 @@ namespace ecommerce.data.Abstract
 {
     public interface IOrderRepository:IRepository<Order>
     {
-        
+        void AddOrder(Order entity);
+        List<Order> GetOrdersByUserId(string userId);
+
     }
 }

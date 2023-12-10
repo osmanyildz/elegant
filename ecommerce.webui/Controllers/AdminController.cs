@@ -25,41 +25,46 @@ namespace ecommerce.webui.Controllers
   [Authorize(Roles = "Admin")]
   public class AdminController : Controller
   {
-   private IProductRepository _productRepository;
-   private ICategoryRepository _categoryRepository;
+    private IProductRepository _productRepository;
+    private ICategoryRepository _categoryRepository;
     private ISizeTypeRepository _sizeTypeRepository;
     private RoleManager<IdentityRole> _roleManager;
     private UserManager<User> _userManager;
-    public AdminController(IProductRepository productRepository, ICategoryRepository categoryRepository, ISizeTypeRepository sizeTypeRepository, RoleManager<IdentityRole> roleManager,UserManager<User> userManager)
+    public AdminController(IProductRepository productRepository, ICategoryRepository categoryRepository, ISizeTypeRepository sizeTypeRepository, RoleManager<IdentityRole> roleManager, UserManager<User> userManager)
     {
       _productRepository = productRepository;
       _categoryRepository = categoryRepository;
       _sizeTypeRepository = sizeTypeRepository;
-      _roleManager=roleManager;
-      _userManager=userManager;
+      _roleManager = roleManager;
+      _userManager = userManager;
     }
 
-    public async Task<IActionResult> UserDelete(string id){
+    public async Task<IActionResult> UserDelete(string id)
+    {
       var user = await _userManager.FindByIdAsync(id);
-      if(user!=null){
-      await _userManager.DeleteAsync(user);
+      if (user != null)
+      {
+        await _userManager.DeleteAsync(user);
       }
       return RedirectToAction("UserList");
-    }  
+    }
     [HttpGet]
-    public async Task<IActionResult> UserEdit(string id){
+    public async Task<IActionResult> UserEdit(string id)
+    {
       var user = await _userManager.FindByIdAsync(id);
-      if(user!=null){
+      if (user != null)
+      {
         var selectedRoles = await _userManager.GetRolesAsync(user);
-        var roles = _roleManager.Roles.Select(i=>i.Name);
+        var roles = _roleManager.Roles.Select(i => i.Name);
         ViewBag.AllRoles = roles;
-        return View(new UserDetailModel(){
+        return View(new UserDetailModel()
+        {
           UserId = user.Id,
           FirstName = user.FirstName,
-          LastName=user.LastName,
-          Email=user.Email,
-          EmailConfirmed=user.EmailConfirmed,
-          SelectedRoles=selectedRoles
+          LastName = user.LastName,
+          Email = user.Email,
+          EmailConfirmed = user.EmailConfirmed,
+          SelectedRoles = selectedRoles
         });
       }
       return RedirectToAction("UserList");
@@ -67,119 +72,139 @@ namespace ecommerce.webui.Controllers
     [HttpPost]
     public async Task<IActionResult> UserEdit(UserDetailModel model, string[]? SelectedRoles)
     {
-     
-      if(ModelState.IsValid){
-      var user = await _userManager.FindByIdAsync(model.UserId);
-      
-      if(user!=null){
-        user.FirstName=model.FirstName;
-        user.LastName= model.LastName;
-        user.Email=model.Email;
-        user.EmailConfirmed=model.EmailConfirmed;
 
-        var result = await _userManager.UpdateAsync(user);
+      if (ModelState.IsValid)
+      {
+        var user = await _userManager.FindByIdAsync(model.UserId);
 
-        if(result.Succeeded){
-          var userRoles = await _userManager.GetRolesAsync(user);
-          SelectedRoles = SelectedRoles ?? new string[]{};
-          await _userManager.AddToRolesAsync(user,SelectedRoles.Except(userRoles).ToArray<string>());
-          await _userManager.RemoveFromRolesAsync(user,userRoles.Except(SelectedRoles).ToArray<string>());
-          return Redirect("/admin/userlist");
+        if (user != null)
+        {
+          user.FirstName = model.FirstName;
+          user.LastName = model.LastName;
+          user.Email = model.Email;
+          user.EmailConfirmed = model.EmailConfirmed;
+
+          var result = await _userManager.UpdateAsync(user);
+
+          if (result.Succeeded)
+          {
+            var userRoles = await _userManager.GetRolesAsync(user);
+            SelectedRoles = SelectedRoles ?? new string[] { };
+            await _userManager.AddToRolesAsync(user, SelectedRoles.Except(userRoles).ToArray<string>());
+            await _userManager.RemoveFromRolesAsync(user, userRoles.Except(SelectedRoles).ToArray<string>());
+            return Redirect("/admin/userlist");
+          }
         }
+        return Redirect("/admin/userlist");
       }
-      return Redirect("/admin/userlist");
-      }
-    var roles = _roleManager.Roles.Select(i=>i.Name);
-        ViewBag.AllRoles = roles;
+      var roles = _roleManager.Roles.Select(i => i.Name);
+      ViewBag.AllRoles = roles;
       return View(model);
     }
-    public IActionResult UserList(){
-      
+    public IActionResult UserList()
+    {
+
       return View(_userManager.Users);
     }
 
-    public async Task<IActionResult> RoleDelete(string roleId){
-      if(roleId!=null){
+    public async Task<IActionResult> RoleDelete(string roleId)
+    {
+      if (roleId != null)
+      {
         var role = await _roleManager.FindByIdAsync(roleId);
-        if(role!=null){
-        var result = await _roleManager.DeleteAsync(role);
+        if (role != null)
+        {
+          var result = await _roleManager.DeleteAsync(role);
         }
       }
       return RedirectToAction("RoleList");
     }
 
     [HttpGet]
-    public async Task<IActionResult> RoleEdit(string id){
-      System.Console.WriteLine(id+"----***********---------*******-----");
-        var role = await _roleManager.FindByIdAsync(id);
-        
-            var members = new List<User>();
-            var nonmembers = new List<User>();
+    public async Task<IActionResult> RoleEdit(string id)
+    {
+      System.Console.WriteLine(id + "----***********---------*******-----");
+      var role = await _roleManager.FindByIdAsync(id);
 
-            foreach (var user in _userManager.Users.ToList())
-            {
-                var list = await _userManager.IsInRoleAsync(user,role.Name)
-                                ?members:nonmembers;
-                              
-                list.Add(user);
-            }
-            var model = new RoleDetails()
-            {
-                Role = role,
-                Members = members,
-                NonMembers = nonmembers
-            };
-            return View(model);
+      var members = new List<User>();
+      var nonmembers = new List<User>();
+
+      foreach (var user in _userManager.Users.ToList())
+      {
+        var list = await _userManager.IsInRoleAsync(user, role.Name)
+                        ? members : nonmembers;
+
+        list.Add(user);
+      }
+      var model = new RoleDetails()
+      {
+        Role = role,
+        Members = members,
+        NonMembers = nonmembers
+      };
+      return View(model);
     }
     [HttpPost]
-    public async Task<IActionResult> RoleEdit(RoleEditModel model){
-      
-        foreach (var id in model.IdsToAdd ?? new string[]{})
+    public async Task<IActionResult> RoleEdit(RoleEditModel model)
+    {
+
+      foreach (var id in model.IdsToAdd ?? new string[] { })
+      {
+        var auser = await _userManager.FindByIdAsync(id);
+        if (auser != null)
         {
-          var auser = await _userManager.FindByIdAsync(id);
-          if(auser!=null){
-          var result = await _userManager.AddToRoleAsync(auser,model.RoleName);
-          if(!result.Succeeded){
-              foreach (var item in result.Errors)
-              {
-                ModelState.AddModelError("",item.Description);
-              }
-          }
+          var result = await _userManager.AddToRoleAsync(auser, model.RoleName);
+          if (!result.Succeeded)
+          {
+            foreach (var item in result.Errors)
+            {
+              ModelState.AddModelError("", item.Description);
+            }
           }
         }
-         foreach (var userId in model.IdsToDelete ?? new string[]{})
+      }
+      foreach (var userId in model.IdsToDelete ?? new string[] { })
+      {
+        var user = await _userManager.FindByIdAsync(userId);
+        if (user != null)
         {
-          var user = await _userManager.FindByIdAsync(userId);
-          if(user!=null){
-          var result = await _userManager.RemoveFromRoleAsync(user,model.RoleName);
-          if(!result.Succeeded){
-              foreach (var item in result.Errors)
-              {
-                ModelState.AddModelError("",item.Description);
-              }
-          }
+          var result = await _userManager.RemoveFromRoleAsync(user, model.RoleName);
+          if (!result.Succeeded)
+          {
+            foreach (var item in result.Errors)
+            {
+              ModelState.AddModelError("", item.Description);
+            }
           }
         }
-      
-      return Redirect("/admin/role/"+model.RoleId);
+      }
+
+      return Redirect("/admin/role/" + model.RoleId);
     }
-    public IActionResult RoleList(){
+    public IActionResult RoleList()
+    {
       return View(_roleManager.Roles);
     }
     [HttpGet]
-    public IActionResult RoleCreate(){
+    public IActionResult RoleCreate()
+    {
       return View();
     }
     [HttpPost]
-    public async Task<IActionResult> RoleCreate(RoleModel model){
-      if(ModelState.IsValid){
+    public async Task<IActionResult> RoleCreate(RoleModel model)
+    {
+      if (ModelState.IsValid)
+      {
         var result = await _roleManager.CreateAsync(new IdentityRole(model.Name));
-        if(result.Succeeded){
+        if (result.Succeeded)
+        {
           return RedirectToAction("RoleList");
-        }else{
+        }
+        else
+        {
           foreach (var error in result.Errors)
           {
-            ModelState.AddModelError("",error.Description);
+            ModelState.AddModelError("", error.Description);
           }
         }
       }
@@ -217,6 +242,7 @@ namespace ecommerce.webui.Controllers
     [HttpGet]
     public IActionResult ProductCreate()
     {
+      
       var c = _categoryRepository.GetAll();
       ViewBag.categories = c;
       return View();
@@ -225,7 +251,7 @@ namespace ecommerce.webui.Controllers
     [HttpPost]
     public async Task<IActionResult> ProductCreate(ProductModel model, IFormFile file1, IFormFile file2, IFormFile file3, int[] categoryIds)
     {
-
+      
       var product = new Product();
       System.Console.WriteLine(model.IsPopular);
       if (model.IsPopular == 1)
@@ -288,6 +314,8 @@ namespace ecommerce.webui.Controllers
       }
       _productRepository.ProductCreate(product, categoryIds, sizeTypes);
       return RedirectToAction("ProductList");
+      
+      
     }
 
     public IActionResult ProductDelete(int id)
@@ -419,45 +447,65 @@ namespace ecommerce.webui.Controllers
       return View();
     }
     [HttpPost]
-    public IActionResult CategoryCreate(CategoryModel model,int[] genderIds){
+    public IActionResult CategoryCreate(CategoryModel model, int[] genderIds)
+    {
       var category = new Category();
-      category.Name=model.Name;
-      category.ParentCategoryId=model.parentCategoryId;
+      category.Name = model.Name;
+      category.ParentCategoryId = model.parentCategoryId;
       category.Url = model.Name.Replace(" ", "-").ToLower();
       foreach (var item in genderIds)
       {
         System.Console.WriteLine(item);
       }
-      _categoryRepository.CategoryCreate(category,genderIds);
+      _categoryRepository.CategoryCreate(category, genderIds);
       return RedirectToAction("CategoryList");
     }
-    public IActionResult CategoryList(){
+    public IActionResult CategoryList()
+    {
       var model = new List<CategoryViewModel>();
       var categories = _categoryRepository.GetAllCategories();
+      // var subCategoryList = _categoryRepository.GetAllSubCategories();
+      // var scList = new List<SubCategoryViewModel>();
+      // foreach (var item in subCategoryList)
+      // {
+      //   var subCatModel = new SubCategoryViewModel(){
+      //   Id=item.Id,
+      //   Name=item.subCategoryName,
+      //   ParentCategoryName=item.Category.Name,
+      //   GenderCategories=item.Category.GenderCategories
+      // };
+      // scList.Add(subCatModel);
+      // }
       foreach (var item in categories)
       {
-        model.Add(new CategoryViewModel(){
-          Name=item.Name,
-          CategoryId=item.Id,
-          genderCategories=item.GenderCategories,
-          parentCategories=item.ParentCategory
+        model.Add(new CategoryViewModel()
+        {
+          Name = item.Name,
+          CategoryId = item.Id,
+          genderCategories = item.GenderCategories,
+          parentCategories = item.ParentCategory,
+
         });
       }
       return View(model);
     }
-    public IActionResult CategoryDelete(int id){
-      var category = _categoryRepository.GetById(id); 
-      if(category!=null){
-      _categoryRepository.Delete(category);
+    public IActionResult CategoryDelete(int id)
+    {
+      var category = _categoryRepository.GetById(id);
+      if (category != null)
+      {
+        _categoryRepository.Delete(category);
       }
       return RedirectToAction("CategoryList");
     }
     [HttpGet]
-    public IActionResult CategoryEdit(int id){
+    public IActionResult CategoryEdit(int id)
+    {
       //parentCategoryId'yi burada kontrol ederek istersek 
       var category = _categoryRepository.GetCategoryById(id);
-      var model = new CategoryEditModel(){
-        CategoryId=category.Id,
+      var model = new CategoryEditModel()
+      {
+        CategoryId = category.Id,
         Name = category.Name,
         ParentCategoryId = category.ParentCategoryId
       };
@@ -469,15 +517,18 @@ namespace ecommerce.webui.Controllers
       return View(model);
     }
     [HttpPost]
-    public IActionResult CategoryEdit(CategoryEditModel model){
-      var category = new Category(){
-        Name=model.Name,
-        Id=model.CategoryId,
-        ParentCategoryId=model.ParentCategoryId,
+    public IActionResult CategoryEdit(CategoryEditModel model)
+    {
+      var category = new Category()
+      {
+        Name = model.Name,
+        Id = model.CategoryId,
+        ParentCategoryId = model.ParentCategoryId,
       };
-      if(model.genderIds == null){
-          TempData["alert"] = "En az bir adet cinsiyet giriniz";
-          return View("_alert-message");
+      if (model.genderIds == null)
+      {
+        TempData["alert"] = "En az bir adet cinsiyet giriniz";
+        return View("_alert-message");
       }
 
       category.GenderCategories = new List<GenderCategory>();
@@ -485,14 +536,44 @@ namespace ecommerce.webui.Controllers
       foreach (var item in model.genderIds)
       {
 
-        category.GenderCategories.Add(new GenderCategory(){
-          GenderId=(int)item,
-          CategoryId=model.CategoryId
+        category.GenderCategories.Add(new GenderCategory()
+        {
+          GenderId = (int)item,
+          CategoryId = model.CategoryId
         });
       }
       _categoryRepository.UpdateCategory(category);
-     
-        return RedirectToAction("CategoryList");
+
+      return RedirectToAction("CategoryList");
+    }
+    [HttpGet]
+    public IActionResult SubCategoryCreate(){
+      var categories = _categoryRepository.GetAllCategories();
+      var modelList = new List<Category>();
+      // foreach(var item in categories){
+      //     var cat = new Category(){
+      //       Name=item.Name,
+      //       Id=item.Id,
+      //     };
+      // }
+      
+      var model = new SubCategoryModel(){
+        Categories=categories
+      };
+      return View(model);
+    }
+  [HttpPost]
+  public IActionResult SubCategoryCreate(string Name, int categoryId){
+    var category = _categoryRepository.GetCategoryById(categoryId);
+    var entity = new SubCategory(){
+      subCategoryName=Name,
+      CategoryId=category.Id
+    };
+    _categoryRepository.CreateSubCategory(entity);
+    return RedirectToAction("CategoryList");
+  }
+    public IActionResult OrderList(){
+      return View();
     }
   }
 }
