@@ -10,6 +10,8 @@ namespace ecommerce.data.Abstract
     {
         void AddOrder(Order entity);
         List<Order> GetOrdersByUserId(string userId);
+        List<Order>GetAllOrders();
+        Order GetOrderItemsByOrderId(int id);
 
     }
 }

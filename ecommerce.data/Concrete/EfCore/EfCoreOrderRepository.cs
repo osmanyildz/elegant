@@ -19,13 +19,8 @@ namespace ecommerce.data.Concrete.EfCore
                 }
             }
         }
-
-        
-
         public List<Order> GetOrdersByUserId(string userId)
-        {
-            
-               
+        {   
              using(var context = new ECommerceContext())
             {
 
@@ -41,6 +36,21 @@ namespace ecommerce.data.Concrete.EfCore
                 }
 
                 return orders.ToList();
+            }
+        }
+        public List<Order> GetAllOrders(){
+            using (var context = new ECommerceContext())
+            {
+                var orders = context.Orders.ToList();
+                return orders;
+            }
+        }
+
+        public Order GetOrderItemsByOrderId(int id)
+        {
+            using(var context =new  ECommerceContext()){
+                var order = context.Orders.Where(p=>p.Id==id).Include(i=>i.OrderItems).ThenInclude(k=>k.Product).ThenInclude(o=>o.ImageUrls).FirstOrDefault();
+                return order;
             }
         }
     }

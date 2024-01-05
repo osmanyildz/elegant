@@ -18,6 +18,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using ecommerce.webui.Identity;
 using Microsoft.AspNetCore.SignalR.Protocol;
+using Microsoft.EntityFrameworkCore.Metadata;
 
 
 namespace ecommerce.webui.Controllers
@@ -30,13 +31,15 @@ namespace ecommerce.webui.Controllers
     private ISizeTypeRepository _sizeTypeRepository;
     private RoleManager<IdentityRole> _roleManager;
     private UserManager<User> _userManager;
-    public AdminController(IProductRepository productRepository, ICategoryRepository categoryRepository, ISizeTypeRepository sizeTypeRepository, RoleManager<IdentityRole> roleManager, UserManager<User> userManager)
+    private IOrderRepository _orderRepository;
+    public AdminController(IProductRepository productRepository, ICategoryRepository categoryRepository, ISizeTypeRepository sizeTypeRepository, RoleManager<IdentityRole> roleManager, UserManager<User> userManager,IOrderRepository orderRepository)
     {
       _productRepository = productRepository;
       _categoryRepository = categoryRepository;
       _sizeTypeRepository = sizeTypeRepository;
       _roleManager = roleManager;
       _userManager = userManager;
+      _orderRepository=orderRepository;
     }
 
     public async Task<IActionResult> UserDelete(string id)
@@ -573,6 +576,24 @@ namespace ecommerce.webui.Controllers
     return RedirectToAction("CategoryList");
   }
     public IActionResult OrderList(){
+      var orders = _orderRepository.GetAllOrders();
+      var modelList = new List<OrderListModel>(); 
+      foreach (var item in orders)
+      {
+        var model = new OrderListModel(){
+          Id=item.Id,
+          OrderDate=item.OrderDate.ToString(),
+          orderState=item.OrderState,
+          CustomerId=item.UserId,
+          CustomerNameSurname=item.FirstName+" "+item.LastName,
+          OrderNumber=item.OrderNumber
+        };
+        modelList.Add(model);
+      }
+      return View(modelList);
+    }
+    public IActionResult OrderDetails(int id){
+      // var order = _orderRepository.GetOrderById(id);
       return View();
     }
   }

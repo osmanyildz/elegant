@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/+oKjC+gZuZ4amJ2offw7GiXqRL7Fz9JsnhoKiUCfbw=",
+  "Hash": "Xs7SvYPUSmY9lVXIJcGLSFp3vZbFJOOq/i0A7QtAb3c=",
   "Source": "ecommerce.webui",
   "BasePath": "_content/ecommerce.webui",
   "Mode": "Default",
@@ -2225,6 +2225,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/fa5aaa32-fc69-451e-ad83-7aa8bf44fa9b.webp"
+    },
+    {
+      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/fast-delivery.png",
+      "SourceId": "ecommerce.webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "BasePath": "_content/ecommerce.webui",
+      "RelativePath": "img/fast-delivery.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/fast-delivery.png"
     },
     {
       "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/loginvideo2.mp4",

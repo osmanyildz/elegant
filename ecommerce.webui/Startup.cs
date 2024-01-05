@@ -230,6 +230,11 @@ namespace shopapp.webui
                     pattern: "/admin/productedit/{id}",
                     defaults: new { controller = "Admin", action = "ProductEdit" }
                 );
+                 endpoints.MapControllerRoute(
+                    name: "OrderDetails",
+                    pattern: "/admin/OrderDetails/{id}",
+                    defaults: new { controller = "Admin", action = "OrderDetails" }
+                );
                 endpoints.MapControllerRoute(
                 name: "productDelete",
                 pattern: "/Admin/ProductDelete/{id}",

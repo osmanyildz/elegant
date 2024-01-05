@@ -1,99 +1,57 @@
-
+@model List<OrderListModel>
 <div class="container my-5 p-0">
-
-  <table id="ordersTable" class="table table-hover align-middle" cellspacing="0" width="100%">
-    <thead>
-      <tr>
-        <th class="th-sm">Fotoğraflar
+    <table id="ordersTable" class="table table-hover align-middle" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+        <th class="th-sm">Tarih
         </th>
-        <th class="th-sm">Ürün Adı
+            <th class="th-sm">Sipariş Numarası
         </th>
-        <th class="th-sm">Fiyat
+        <th class="th-sm">Müşteri Numarası
         </th>
-        <th class="th-sm">Açıklama
+         <th class="th-sm">Müşteri Ad-Soyad
         </th>
-        <th class="th-sm">Kategoriler
+        <th class="th-sm">Sipariş Detayı
         </th>
-        <th class="th-sm">Cinsiyet
-        </th>
-        <th class="th-sm">Popülerlik
-        </th>
-        <th class="th-sm">Bedenler
-        </th>
-        <th class="th-sm">Düzenle
-        </th>
-        <th class="th-sm">Sil
-        </th>
-
-      </tr>
-    </thead>
+            </tr>
+        </thead>
 
     <tbody>
-      @* @foreach (var item in Model)
-      {
+        @foreach(var item in Model){
+
         <tr>
-         
-          <td class="d-flex justify-content-center align-items-center gap-1">
+            <td>@item.OrderDate</td>
+            <td>@item.OrderNumber</td>
+            <td>@item.CustomerId</td>
+            <td>@item.CustomerNameSurname</td>
+        
+            <td>
+                @if(item.orderState.ToString().Contains("received")){
+                <span class="me-2">Hazırlanıyor</span>
+                <a href="/admin/OrderDetails/@item.Id" class="btn btn-primary btn-sm"><i
+                class="fa-solid fa-pen-to-square"></i></a>    
+                }else if(item.orderState.ToString().Contains("cancelled")){
 
-            @foreach (var im in item.ImageUrls)
-            {
-              if (im.ImageUrl.Count() != 0)
-              {
-                <div class="rounded flex-1" style="height:50px;width:100px;background-image: url(/img/@im.ImageUrl);background-position:center;background-size:cover;background-repeat:no-repeat"> *@
-                  @* <img src="~/img/@im.ImageUrl" style="" class="img-fluid w-100 rounded"> *@
-                @* </div>
-              }
-              else
-              {
-                <p>resim yok</p>
-              }
-            }
-          </td>
-          
-          <td>@item.Name.Substring(0,25) <span>..</span></td> *@
-          @* <td>@item.Name</td> *@
-          @* <td>@item.Price</td>
-          
-          <td>@item.Description.Substring(0,25) ..</td> *@
-          @* <td>@item.Description</td> *@
-          @* <td>
-            @foreach (var m in item.Categories)
-            {
-              <span>@(m.Category.Name)</span>
-            }
-          </td>
-          @if (item.GenderId.Equals(1))
-          {
-            <td>Erkek</td>
-          }
-          else
-          {
-            <td>Kadın</td>
-          }
-          @if (@item.IsPopular)
-          {
-            <td>Popüler</td>
-          }
-          else
-          {
-            <td>Popüler Değil</td>
-          }
-          <td>
-            @foreach (var i in item.ProductSizeTypes)
-            {
-              <span>@i.SizeType.Name</span>
-            }
-          </td>
+                <span class="me-2">İptal Edildi</span>
+                <a href="/admin/OrderDetails/@item.Id" class="btn btn-primary btn-sm"><i
+                class="fa-solid fa-pen-to-square"></i></a>
+                }else if(item.orderState.ToString().Contains("inCargo")){
 
-          <td><a href="/admin/productedit/@item.Id" class="btn btn-sm btn-primary d-flex">Düzenle<i
-                class="fa-solid fa-pen-to-square p-1"></i></a></td>
-          <td><a href="/admin/productdelete/@item.Id" class="btn btn-sm btn-danger d-flex">Sil<i
-                class="fa-solid fa-trash p-1 "></i></a></td>
+                <span class="me-2">Kargoya Verildi</span>
+                <a href="/admin/OrderDetails/@item.Id" class="btn btn-primary btn-sm"><i
+                class="fa-solid fa-pen-to-square"></i></a>
+                }else if(item.orderState.ToString().Contains("completed")){
+
+                <span class="me-2">Tamamlandı</span>
+                <a href="/admin/OrderDetails/@item.Id" class="btn btn-primary btn-sm"><i
+                class="fa-solid fa-pen-to-square"></i></a>
+                }
+            </td>
         </tr>
-      } *@
+        }
+    </tbody>
+    </table>
+
+</div>
 
 
-    @* </tbody>
-
-  </table>
-</div> *@
