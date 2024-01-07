@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xs7SvYPUSmY9lVXIJcGLSFp3vZbFJOOq/i0A7QtAb3c=",
+  "Hash": "Chvf9zvR7e6MTAFPRzkQQDQNcGCMY2OGUS24SCtqnlQ=",
   "Source": "ecommerce.webui",
   "BasePath": "_content/ecommerce.webui",
   "Mode": "Default",
@@ -525,6 +525,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/3b5ae4d5-d17a-4207-bab9-cc17ac63f778.jpg"
+    },
+    {
+      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/3b5cfc2b-282d-4264-9da7-85096056f627.jpg",
+      "SourceId": "ecommerce.webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "BasePath": "_content/ecommerce.webui",
+      "RelativePath": "img/3b5cfc2b-282d-4264-9da7-85096056f627.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/3b5cfc2b-282d-4264-9da7-85096056f627.jpg"
     },
     {
       "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/3f40255d-77ac-48f4-b55d-ce70123dd53a.webp",
@@ -2006,6 +2023,23 @@
       "OriginalItemSpec": "wwwroot/img/de827639-8faa-4fb5-928a-d6d039f32720.jpg"
     },
     {
+      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/e1df2a14-63b3-410e-acbc-f98e79b240ce.jpg",
+      "SourceId": "ecommerce.webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "BasePath": "_content/ecommerce.webui",
+      "RelativePath": "img/e1df2a14-63b3-410e-acbc-f98e79b240ce.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/e1df2a14-63b3-410e-acbc-f98e79b240ce.jpg"
+    },
+    {
       "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/e60c33cd-f7b2-46bb-839f-3d96530ab30b.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
@@ -2123,6 +2157,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/ec4879c6-d888-4ce3-bc1c-40e87da56e80.jpg"
+    },
+    {
+      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/ef54cfe8-bdfd-43d5-aa22-274e6d8c7f23.jpg",
+      "SourceId": "ecommerce.webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "BasePath": "_content/ecommerce.webui",
+      "RelativePath": "img/ef54cfe8-bdfd-43d5-aa22-274e6d8c7f23.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/ef54cfe8-bdfd-43d5-aa22-274e6d8c7f23.jpg"
     },
     {
       "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/efa3308b-742e-4f7d-a8c1-d780b1b6cff9.jpg",
@@ -2293,6 +2344,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logo.webp"
+    },
+    {
+      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/multiply.png",
+      "SourceId": "ecommerce.webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "BasePath": "_content/ecommerce.webui",
+      "RelativePath": "img/multiply.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/multiply.png"
     },
     {
       "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/plus.png",

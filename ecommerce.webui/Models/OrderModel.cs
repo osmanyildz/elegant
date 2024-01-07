@@ -23,6 +23,5 @@ namespace ecommerce.webui.Models
         public int? orderState { get; set; }
         public CartModel CartModel { get; set; }
      
-
     }
 }

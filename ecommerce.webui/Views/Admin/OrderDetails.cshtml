@@ -1,44 +1,81 @@
-@model OrderViewModel
-@* 
- <div class="row border border-b pb-3 pt-4 mb-3">
-                <div class="col-lg-3 col-md-12 mb-lg-0">
-                   <img src="~/img/@Model.ImageUrl"
-                      class="w-100 d-block rounded" style="width: 100px; height:180px" /> 
-                </div>
+@model OrderAdminViewModel
 
-                <div class="col-lg-5 col-md-6 mb-lg-0">
-                  <div class="d-flex flex-column">
-                  <p> <span class="text-muted">Ürün Adı: </span><strong>@Model.Name.ToString().ToUpper()</strong></p>
-                  <p><span class="text-muted">Birim Fiyatı:</span> <strong>@Model.Price</strong> </p>
-            <p> <span class="text-muted">Adet: </span><strong>@Model.Quantity</strong></p>
-            <p> <span class="text-muted">Sipariş Durumu: </span><strong>@ViewBag.OrderStates[Model.orderState]</strong></p>
-                  </div>
-                  
-                </div>
-   
-                <div class="col-lg-4 col-md-12 ">
-                
-                  <p class=" text-md-center me-0">
-                    @if(Model.Price*Model.Quantity >750){
-                      <div class="d-flex flex-column ms-5 gap-3">
 
-                      <span>
-                    <span class="text-muted ms-1">Sipariş Tutarı:</span> <strong>@(Model.Price * Model.Quantity)</strong> <i class="fa-solid fa-turkish-lira-sign"></i>
-                      </span>
+@* @Model.OrderId
+@Model.Address
+@Model.Phone
+@Model.Note
+@foreach (var item in Model.orderItemDetailModels)
+{
+  @item.Price
+  @item.Quantity
+  @(item.Price * item.Quantity)
+} *@
 
-                       <p> <span class="text-muted ms-0">Sipariş Tarihi: @Model.OrderDate</span></p>
-                      </div>
-                    
-                    }else{
-                      <div class="d-flex flex-column ms-5 gap-3">
-                        <span>
-                        <span class="text-muted">Sipariş Tutarı:</span> <strong> @((Model.Price * Model.Quantity)+29.99)</strong><i class="fa-solid fa-turkish-lira-sign"></i>
-                        </span>
-                           <p> <span class="text-muted ">Sipariş Tarihi: @Model.OrderDate</span></p>
-                      </div>
-                    }
-                  </p>
+<section class="h-100 gradient-custom">
+  <div class="container py-4">
+    <div class="row d-flex justify-content-between my-4">
+      <div class="col-md-8">
+        <div class="card mb-4">
+          <div class="card-header py-3">
+            <h5 class="mb-0">Sipariş İçeriği</h5>
+          </div>
+          <div class="card-body">
+            @foreach(var item in Model.orderItemDetailModels){
+           
+                @await Html.PartialAsync("_orderItemDetailAdmin",item)
+            }
 
-                </div>
+          </div>
+        </div>
 
-              </div> *@
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <div class="card-header py-3">
+            <h5 class="mb-0">Kargolama Bilgileri</h5>
+          </div>
+          <div class="card-body">
+            <div><span class="text-muted">Ad-Soyad: </span>@Model.FirstName @Model.LastName</div>
+            <div><span class="text-muted">Telefon: </span>@Model.Phone</div>
+            <div><span class="text-muted">Ad-Soyad: </span>@Model.FirstName @Model.LastName</div>
+            <div><span class="text-muted">Email: </span>@Model.Email</div>
+            <div><span class="text-muted">Not: </span>@Model.Note</div>
+            <div><span class="text-muted">Adres: </span>@Model.Address</div>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  
+</section>
+
+
+@* <section class="h-100 gradient-custom">
+<div class="container py-5">
+<div class="row d-flex justify-content-between my-4">
+<div class="col-md-8">
+<div class="card mb-4">
+<div class="card-header py-3">
+<h5 class="mb-0">Siparişlerim</h5>
+</div>
+<div class="card-body">
+
+
+@foreach (var item in Model)
+{
+@await Html.PartialAsync("_orderItem", item)
+}
+
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</section>
+*@

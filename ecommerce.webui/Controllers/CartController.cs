@@ -174,7 +174,8 @@ namespace ecommerce.webui.Controllers
                     {
                         ProductId = i.ProductId,
                         Price = (double)i.Product.Price,
-                        Quantity = i.Quantity
+                        Quantity = i.Quantity,
+                        SizeType=i.SizeType
                     }).ToList()
                 });
 

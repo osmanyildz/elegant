@@ -19,7 +19,7 @@ using Microsoft.AspNetCore.Identity;
 using ecommerce.webui.Identity;
 using Microsoft.AspNetCore.SignalR.Protocol;
 using Microsoft.EntityFrameworkCore.Metadata;
-
+//
 
 namespace ecommerce.webui.Controllers
 {
@@ -592,8 +592,77 @@ namespace ecommerce.webui.Controllers
       }
       return View(modelList);
     }
+    // [HttpGet]
     public IActionResult OrderDetails(int id){
-      // var order = _orderRepository.GetOrderById(id);
+       var order = _orderRepository.GetOrderItemsByOrderId(id);
+      // System.Console.WriteLine(order.Id);
+
+       var model = new OrderAdminViewModel(){
+          OrderId=order.Id,
+          FirstName=order.FirstName,
+          LastName=order.LastName,
+          Address=order.Address,
+          Phone=order.Phone,
+          Note=order.Note,
+          OrderState=(int)order.OrderState,
+          Date=order.OrderDate,
+          Email=order.Email
+       };
+
+      // System.Console.WriteLine(order.Id);          
+      // System.Console.WriteLine(order.FirstName);          
+      // System.Console.WriteLine(order.LastName);          
+      // System.Console.WriteLine(order.Address);          
+      // System.Console.WriteLine(order.Phone);             
+      // System.Console.WriteLine(order.Note);          
+      // System.Console.WriteLine(order.OrderState);   
+      // System.Console.WriteLine(order.OrderDate);          
+      //  foreach (var item in order.OrderItems)
+      //  {
+      //   // System.Console.WriteLine(item.Id);
+      //   // System.Console.WriteLine(item.Price);
+      //   // System.Console.WriteLine(item.Quantity);
+      //   // System.Console.WriteLine(item.Product.ImageUrls.ElementAt(0).ImageUrl);
+      //   var m = new OrderItemDetailModel(){
+      //     Id=item.Id,
+      //     Price=item.Price,
+      //     Quantity=item.Quantity,
+      //     ImageUrl=item.Product.ImageUrls.ElementAt(0).ImageUrl.ToString(),
+      //     CancelledState=0
+      //   };
+      //     System.Console.WriteLine(m.Id);
+      //     System.Console.WriteLine(m.Price);
+      //     System.Console.WriteLine(m.Quantity);
+      //     System.Console.WriteLine(m.ImageUrl);
+      //     System.Console.WriteLine(m.CancelledState);
+
+      //   model.orderItemDetailModels.Add(m);
+        
+      //  }
+  var m = new List<OrderItemDetailModel>();
+      foreach (var item in order.OrderItems)
+      {
+        // System.Console.WriteLine(item.Id);
+        // System.Console.WriteLine(item.OrderId);
+        // System.Console.WriteLine(item.Quantity);
+        // System.Console.WriteLine(item.ProductId);
+        // System.Console.WriteLine(item.Price);
+        // System.Console.WriteLine(item.Product.ImageUrls.ElementAt(0).ImageUrl);
+        m.Add(new OrderItemDetailModel(){
+          Id=item.Id,
+          Name=item.Product.Name,
+          Quantity=item.Quantity,
+          Price=item.Price,
+          ImageUrl=item.Product.ImageUrls.ElementAt(0).ImageUrl,
+          CancelledState=0,
+          SizeType=item.SizeType
+        });
+      }
+      model.orderItemDetailModels=m;
+      return View(model);
+    }
+    [HttpPost]
+    public IActionResult OrderStateChange(){
       return View();
     }
   }
