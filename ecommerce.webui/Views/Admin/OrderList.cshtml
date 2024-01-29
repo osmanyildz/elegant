@@ -28,8 +28,7 @@
             <td>
                 @if(item.orderState.ToString().Contains("received")){
                 <span class="me-2">Hazırlanıyor</span>
-                <a href="/admin/OrderDetails/@item.Id" class="btn btn-primary btn-sm"><i
-                class="fa-solid fa-pen-to-square"></i></a>    
+                <a href="/admin/OrderDetails/@item.Id" class="btn btn-primary btn-sm"><i class="fa-solid fa-circle-info"></i></a>    
                 }else if(item.orderState.ToString().Contains("cancelled")){
 
                 <span class="me-2">İptal Edildi</span>

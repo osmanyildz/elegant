@@ -42,10 +42,16 @@
                     <input type="hidden" name="productId" value="@Model.Id">
                     <input type="number" id="numberInput" name="quantity" value="1" min="1" onkeydown="return false" style="width: 50px;">
                      <div onclick="increment()" class="btn btn-dark btn-sm">+</div>
-                    
+                    @if(User.IsInRole("User")){
+
                     <div class="d-grid gap-2 w-100">
                         <button type="submit" class="btn btn-dark d-block w-100">Sepete Ekle</button>
                     </div>
+                    }else{
+                         <div class="d-grid gap-2 w-100">
+                        <button type="submit" class="btn btn-dark d-block w-100 silik-dugme">Sepete Ekle</button>
+                    </div>
+                    }
                 </div>
 
                 <div class="container mt-3">

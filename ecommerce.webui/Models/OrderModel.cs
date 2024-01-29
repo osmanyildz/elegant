@@ -22,6 +22,7 @@ namespace ecommerce.webui.Models
         public string Cvc { get; set; }
         public int? orderState { get; set; }
         public CartModel CartModel { get; set; }
+
      
     }
 }

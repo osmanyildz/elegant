@@ -460,6 +460,11 @@ namespace ecommerce.webui.Controllers
       {
         System.Console.WriteLine(item);
       }
+       if (genderIds.Length == 0)
+      {
+        TempData["alert"] = "En az bir adet cinsiyet giriniz";
+        return View("_alert-message");
+      }
       _categoryRepository.CategoryCreate(category, genderIds);
       return RedirectToAction("CategoryList");
     }
@@ -572,6 +577,7 @@ namespace ecommerce.webui.Controllers
       subCategoryName=Name,
       CategoryId=category.Id
     };
+   
     _categoryRepository.CreateSubCategory(entity);
     return RedirectToAction("CategoryList");
   }
@@ -658,6 +664,7 @@ namespace ecommerce.webui.Controllers
           SizeType=item.SizeType
         });
       }
+      ViewBag.Date=order.OrderDate;
       model.orderItemDetailModels=m;
       return View(model);
     }

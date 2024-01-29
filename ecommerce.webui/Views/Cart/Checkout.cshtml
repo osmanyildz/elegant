@@ -104,32 +104,33 @@
             <div class="row mb-3">
                 <div class="col-md-6">
                     <label asp-for="@Model.FirstName">Ad</label>
-                    <input asp-for="@Model.FirstName" class="form-control">
+                    <input asp-for="@Model.FirstName" class="form-control" required>
                 </div>
                  <div class="col-md-6">
                     <label asp-for="@Model.LastName">Soyad</label>
-                    <input asp-for="@Model.LastName" class="form-control">
+                    <input asp-for="@Model.LastName" class="form-control" required>
                 </div>
             </div>
              <div class="row mb-3">
                  <div class="col-md-4">
                     <label asp-for="@Model.Phone">Telefon</label>
-                    <input asp-for="@Model.Phone" class="form-control">
+                    <input asp-for="@Model.Phone" class="form-control" required>
                 </div>
                  <div class="col-md-4">
                     <label asp-for="@Model.Email">Email</label>
-                    <input asp-for="@Model.Email" class="form-control">
+                    <input asp-for="@Model.Email" class="form-control" required>
                 </div>
                  <div class="col-md-4">
                     <label asp-for="@Model.City">Şehir</label>
-                    <input asp-for="@Model.City" class="form-control">
+                    <input asp-for="@Model.City" class="form-control" required>
                 </div>
             </div>
             <div class="row">
             <div class="mb-3 col-md-6">
                 <label  asp-for="@Model.Address">Adres</label>
-                <textarea  asp-for="@Model.Address" class="form-control"></textarea>
+                <textarea  asp-for="@Model.Address" class="form-control" required></textarea>
             </div>
+            
             </div>
 
              <h4 class="mb-3 my-4">Kart Bilgileri</h4>
@@ -137,25 +138,25 @@
             <div class="row mb-3">
                 <div class="col-md-6">
                     <label asp-for="@Model.CardName">Ad Soyad</label>
-                    <input asp-for="@Model.CardName" class="form-control">
+                    <input asp-for="@Model.CardName" class="form-control" required>
                 </div>
                     <div class="col-md-6">
                     <label asp-for="@Model.CardNumber">Kart Numarası</label>
-                    <input asp-for="@Model.CardNumber" class="form-control">
+                    <input asp-for="@Model.CardNumber" class="form-control" required> 
                 </div>
             </div>
              <div class="row mb-3">
                 <div class="col-md-4">
                     <label asp-for="@Model.ExpirationMonth">Ay</label>
-                    <input asp-for="@Model.ExpirationMonth" class="form-control">
+                    <input asp-for="@Model.ExpirationMonth" class="form-control" required>
                 </div>
                     <div class="col-md-4">
                     <label asp-for="@Model.ExpirationYear">Yıl</label>
-                    <input asp-for="@Model.ExpirationYear" class="form-control">
+                    <input asp-for="@Model.ExpirationYear" class="form-control" required>
                 </div>
                   <div class="col-md-4">
                     <label asp-for="@Model.Cvc">CVC</label>
-                    <input asp-for="@Model.Cvc" class="form-control">
+                    <input asp-for="@Model.Cvc" class="form-control" required>
                 </div>
             </div>
             <button type="submit" class="btn btn-dark btn-lg">Satın Al</button>

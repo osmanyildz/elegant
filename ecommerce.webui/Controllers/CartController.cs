@@ -202,7 +202,7 @@ namespace ecommerce.webui.Controllers
             if (orders.Count() == 0)
             {
                 System.Console.WriteLine("orderslar null geldi");
-                return View();
+                return View(orderItemList);
             }
             else
             {

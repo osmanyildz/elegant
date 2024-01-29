@@ -101,7 +101,7 @@ namespace ecommerce.webui.Controllers
             {
                 //generate token bilgisi oluşturacağız kullanıcı hesabı onaylanması için
                 //email ile oluşturulan token gönderilir.
-                // await _userManager.AddToRoleAsync(user,"customer"); //kullanıcı kayıt olurken burada rol atamasını direkt olarak yapabiliriz.
+                  await _userManager.AddToRoleAsync(user,"User"); //kullanıcı kayıt olurken burada rol atamasını direkt olarak yapabiliriz.
                 var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                 var url = Url.Action("ConfirmEmail", "Account", new
                 {
@@ -168,6 +168,7 @@ namespace ecommerce.webui.Controllers
                 //email gönderme
                 await _emailSender.SendEmailAsync(Email, "Parolayı sıfırla", $"Lütfen parolanızı yenilemek için <a href='http://localhost:5220{url}'>tıklayınız</a>");
             return View();
+            
         }
         [HttpGet]
         public IActionResult ResetPassword(string userId, string token){ //QueryString'ten bunları aldık

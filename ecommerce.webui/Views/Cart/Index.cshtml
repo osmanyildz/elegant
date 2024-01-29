@@ -85,8 +85,13 @@
               </li>
             </ul>
 
+            @if(Model.CartItems.Count==0){
+               <a type="button" class="btn btn-dark btn-block silik-dugme" href="/cart/checkout">Ödemeye Git</a>
+            }else{
 
              <a type="button" class="btn btn-dark btn-block" href="/cart/checkout">Ödemeye Git</a>
+
+            }
 
           </div>
         </div>

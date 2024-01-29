@@ -35,13 +35,14 @@
           <div class="card-header py-3">
             <h5 class="mb-0">Kargolama Bilgileri</h5>
           </div>
-          <div class="card-body">
-            <div><span class="text-muted">Ad-Soyad: </span>@Model.FirstName @Model.LastName</div>
-            <div><span class="text-muted">Telefon: </span>@Model.Phone</div>
-            <div><span class="text-muted">Ad-Soyad: </span>@Model.FirstName @Model.LastName</div>
-            <div><span class="text-muted">Email: </span>@Model.Email</div>
-            <div><span class="text-muted">Not: </span>@Model.Note</div>
-            <div><span class="text-muted">Adres: </span>@Model.Address</div>
+          <div class="card-body"> 
+            <div><span class="text-muted">Ad-Soyad: </span><strong>@Model.FirstName @Model.LastName</strong></div>
+            <div><span class="text-muted">Telefon: </span><strong>@Model.Phone</strong></div>
+            <div><span class="text-muted">Ad-Soyad: </span><strong>@Model.FirstName @Model.LastName</strong></div>
+            <div><span class="text-muted">Email: </span><strong>@Model.Email</strong></div>
+            @* <div><span class="text-muted">Not: </span><strong>@Model.Note</strong></div> *@
+            <div><span class="text-muted">Adres: </span><strong>@Model.Address</strong></div>
+            @* <div><span class="text-muted">Sipariş Tarihi: </span>@Model.Date</div> *@
             
           </div>
         </div>

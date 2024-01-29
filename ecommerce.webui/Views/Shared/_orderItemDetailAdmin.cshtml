@@ -6,15 +6,12 @@
                       class="w-100 d-block rounded" style="width: 100px; height:180px" /> 
                 </div>
                 <div class="col-lg-5">
-                  <div><span class="text-muted">Ürün Adı: </span>@Model.Name</div>
-                   <div><span class="text-muted">Beden: </span>@Model.SizeType</div>
-                   <div><span class="text-muted">Adet: </span>@Model.Quantity</div>
-                   <div><span class="text-muted">Birim Fiyat: </span>@Model.Price</div>
-                   @if(@Model.CancelledState==1){
-                    <div class="text-danger mt-2">Sipariş İptal Edildi</div>
-                   }else{
-                    <div class="mt-2"><a href="#" class="btn btn-sm btn-danger">İptal Et</a></div>
-                   }
+                  <div><span class="text-muted">Ürün Adı: </span> <strong class="font-weight-bold">@Model.Name</strong> </div>
+                   <div><span class="text-muted">Beden: </span><strong>@Model.SizeType</strong> </div>
+                   <div><span class="text-muted">Adet: </span><strong>@Model.Quantity</strong> </div>
+                   <div><span class="text-muted">Birim Fiyat: </span><strong>@Model.Price</strong></div>
+                   <div><span class="text-muted">Sipariş Tarihi: </span> <strong>@ViewBag.Date</strong></div>
+                  
                 </div>
                
 </div>

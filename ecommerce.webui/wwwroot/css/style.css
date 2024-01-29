@@ -180,3 +180,9 @@ video {
     flex: 1 1 0%;
     align-items: center;
   }
+
+  .silik-dugme {
+    opacity: 0.5; /* Opaklık ayarı */
+    pointer-events: none; /* Duyarlılık olaylarını devre dışı bırakma */
+    cursor: not-allowed; /* İşaretçi türü ayarı */
+  }
