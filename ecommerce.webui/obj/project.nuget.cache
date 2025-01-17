@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GLEVRFInZxHcWhRNxTYBBCSCL+u17aUalsGmUC27Tr2NNmwJOtPgpXrrN07Af4bsQAot7MaV+1zZzECyKfxfEA==",
+  "dgSpecHash": "gpRDdYRiQXE1eqvKWfIAkk4y7A5gHWquNvAPI1UamHJ1wwDDzGGy4xCUlKt043BstKr1P9J+depPU82BORFPXw==",
   "success": true,
-  "projectFilePath": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/ecommerce.webui.csproj",
+  "projectFilePath": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/ecommerce.webui.csproj",
   "expectedPackageFiles": [
     "/Users/osmanyildiz/.nuget/packages/datatables.net/1.12.1/datatables.net.1.12.1.nupkg.sha512",
     "/Users/osmanyildiz/.nuget/packages/datatables.net-dt/1.13.6/datatables.net-dt.1.13.6.nupkg.sha512",

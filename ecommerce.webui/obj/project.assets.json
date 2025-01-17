@@ -1654,11 +1654,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/ecommerce.webui.csproj",
+      "projectUniqueName": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/ecommerce.webui.csproj",
       "projectName": "ecommerce.webui",
-      "projectPath": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/ecommerce.webui.csproj",
+      "projectPath": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/ecommerce.webui.csproj",
       "packagesPath": "/Users/osmanyildiz/.nuget/packages/",
-      "outputPath": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/obj/",
+      "outputPath": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/osmanyildiz/.nuget/NuGet/NuGet.Config"
@@ -1674,8 +1674,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.data/ecommerce.data.csproj": {
-              "projectPath": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.data/ecommerce.data.csproj"
+            "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.data/ecommerce.data.csproj": {
+              "projectPath": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.data/ecommerce.data.csproj"
             }
           }
         }

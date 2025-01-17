@@ -235,8 +235,8 @@ namespace ecommerce.webui.Controllers
         private Payment PaymentProcess(OrderModel orderModel)
         {
             Options options = new Options();
-            options.ApiKey = "sandbox-CAcVWk93tJaAvrGgBYHiDpJoTC5S9qyM";
-            options.SecretKey = "sandbox-uhWadoWXJR09rSRXufBLr7AMOzJmQqZI";
+            options.ApiKey = "<ApiKey>";
+            options.SecretKey = "<SecretKey>";
             options.BaseUrl = "https://sandbox-api.iyzipay.com";
 
             System.Console.WriteLine(orderModel.CartModel.TotalPrice().ToString());
@@ -329,8 +329,8 @@ namespace ecommerce.webui.Controllers
         private Payment ShippingPayment(OrderModel orderModel)
         {
             Options options = new Options();
-            options.ApiKey = "sandbox-CAcVWk93tJaAvrGgBYHiDpJoTC5S9qyM";
-            options.SecretKey = "sandbox-uhWadoWXJR09rSRXufBLr7AMOzJmQqZI";
+            options.ApiKey = "";
+            options.SecretKey = "";
             options.BaseUrl = "https://sandbox-api.iyzipay.com";
 
             CreatePaymentRequest request = new CreatePaymentRequest();
@@ -363,7 +363,7 @@ namespace ecommerce.webui.Controllers
             buyer.LastLoginDate = "2015-10-05 12:43:35";
             buyer.RegistrationDate = "2013-04-21 15:12:09";
             buyer.RegistrationAddress = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1";
-            buyer.Ip = "85.34.78.112";
+            buyer.Ip = "";
             buyer.City = orderModel.City;
             buyer.Country = "Turkey";
             buyer.ZipCode = "34732";

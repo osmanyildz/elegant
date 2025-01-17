@@ -10,8 +10,15 @@ using Microsoft.VisualBasic;
 
 namespace ecommerce.data.Concrete.EfCore
 {
-    public class EfCoreCartRepository : EfCoreRepository<Cart, ECommerceContext>, ICartRepository
+    public class EfCoreCartRepository : EfCoreRepository<Cart>, ICartRepository
     {
+        public EfCoreCartRepository(ECommerceContext context):base(context)
+        {
+            
+        }
+        private ECommerceContext commerceContext{
+            get{return context as ECommerceContext;}
+        }
         public void AddToCart(string userId, int productId, int quantity,string sizeType)
         {
             var cart = GetCartByUserId(userId);
@@ -36,58 +43,52 @@ namespace ecommerce.data.Concrete.EfCore
         public void CreateFirstCart(string userId)
         {
             var entity = new Cart(){UserId=userId};
-            using (var context = new ECommerceContext())
-            {
-                context.Carts.Add(entity);
-                context.SaveChanges();
-            }
+            
+                commerceContext.Carts.Add(entity);
+                commerceContext.SaveChanges();
+            
         }
         public void DeleteCartItem(CartItem cartItem)
         {
-            using (var context = new ECommerceContext())
-            {
-                context.CartItems.Remove(cartItem);
-                context.SaveChanges();
-            }
+           
+                commerceContext.CartItems.Remove(cartItem);
+                commerceContext.SaveChanges();
+            
         }
 
         public CartItem GetCartItemById(int cartItemId)
         {
-            using (var context = new ECommerceContext())
-            {
-                var cartItem = context.CartItems.Where(i=>i.Id==cartItemId).FirstOrDefault();
+            
+                var cartItem = commerceContext.CartItems.Where(i=>i.Id==cartItemId).FirstOrDefault();
                 if(cartItem==null){
                     System.Console.WriteLine("cartItem null geldi 1");
                 }
                 return cartItem;
-            }
+            
         }
 
         public Cart GetCartByUserId(string id){
-            using (var context = new ECommerceContext())
-            {
-                var cart = context.Carts
+          
+                var cart = commerceContext.Carts
                 .Include(i=>i.CartItems)
                 .ThenInclude(p=>p.Product)
                 .ThenInclude(o=>o.ImageUrls)
                 
                 .FirstOrDefault(i=>i.UserId==id);
                 return cart;
-            }
+            
         }
         public void UpdateCart(Cart entity){
-            using (var context = new ECommerceContext())
-            {
-                context.Carts.Update(entity);
-                context.SaveChanges();
-            }
+           
+                commerceContext.Carts.Update(entity);
+                commerceContext.SaveChanges();
+            
         }
         public void UpdateCartItem(CartItem entity){
-            using (var context = new ECommerceContext())
-            {
-                context.CartItems.Update(entity);
-                context.SaveChanges();
-            }
+          
+                commerceContext.CartItems.Update(entity);
+                commerceContext.SaveChanges();
+            
         }
         public void RemoveOne(int cartItemId){
             var cartItem = GetCartItemById(cartItemId);
@@ -103,24 +104,22 @@ namespace ecommerce.data.Concrete.EfCore
 
         public Cart GetByUserId(string id)
         {
-            using (var context = new ECommerceContext())
-            {
-                return context.Carts
+            
+                return commerceContext.Carts
                 .Include(i=>i.CartItems)
                 .ThenInclude(p=>p.Product)
                 .FirstOrDefault(k=>k.UserId==id);
                 
-            }
+            
         }
 
         public void ClearCart(int cartId)
         {
-            using (var context = new ECommerceContext())
-            {
-               var cartItems = context.CartItems.Where(p=>p.CartId==cartId).ToList();
-                context.CartItems.RemoveRange(cartItems);
-                context.SaveChanges();
-            }
+            
+               var cartItems = commerceContext.CartItems.Where(p=>p.CartId==cartId).ToList();
+                commerceContext.CartItems.RemoveRange(cartItems);
+                commerceContext.SaveChanges();
+            
         }
     }
 }

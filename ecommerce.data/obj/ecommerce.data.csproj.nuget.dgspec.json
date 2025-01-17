@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.data/ecommerce.data.csproj": {}
+    "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.data/ecommerce.data.csproj": {}
   },
   "projects": {
-    "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.data/ecommerce.data.csproj": {
+    "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.data/ecommerce.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.data/ecommerce.data.csproj",
+        "projectUniqueName": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.data/ecommerce.data.csproj",
         "projectName": "ecommerce.data",
-        "projectPath": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.data/ecommerce.data.csproj",
+        "projectPath": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.data/ecommerce.data.csproj",
         "packagesPath": "/Users/osmanyildiz/.nuget/packages/",
-        "outputPath": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.data/obj/",
+        "outputPath": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/osmanyildiz/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/ecommerce.entity.csproj": {
-                "projectPath": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/ecommerce.entity.csproj"
+              "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.entity/ecommerce.entity.csproj": {
+                "projectPath": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.entity/ecommerce.entity.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/ecommerce.entity.csproj": {
+    "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.entity/ecommerce.entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/ecommerce.entity.csproj",
+        "projectUniqueName": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.entity/ecommerce.entity.csproj",
         "projectName": "ecommerce.entity",
-        "projectPath": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/ecommerce.entity.csproj",
+        "projectPath": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.entity/ecommerce.entity.csproj",
         "packagesPath": "/Users/osmanyildiz/.nuget/packages/",
-        "outputPath": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.entity/obj/",
+        "outputPath": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.entity/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/osmanyildiz/.nuget/NuGet/NuGet.Config"

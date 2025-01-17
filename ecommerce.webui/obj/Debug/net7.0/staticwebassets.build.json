@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AHpLaKNbgYEiRQEB6XXWK7qsuTj8iusk8IaCNC2kOvk=",
+  "Hash": "niSyHV15u+c9HJpnRW3weRZsYCRKxCe4tTIE/p4UdTQ=",
   "Source": "ecommerce.webui",
   "BasePath": "_content/ecommerce.webui",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "ecommerce.webui/wwwroot",
       "Source": "ecommerce.webui",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "Pattern": "**"
     }
@@ -20,7 +20,7 @@
       "Identity": "/Users/osmanyildiz/.nuget/packages/datatables.net-dt/1.13.6/contentFiles/any/any/wwwroot/css/jquery.dataTables.css",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "css/jquery.dataTables.css",
       "AssetKind": "All",
@@ -37,7 +37,7 @@
       "Identity": "/Users/osmanyildiz/.nuget/packages/datatables.net-dt/1.13.6/contentFiles/any/any/wwwroot/css/jquery.dataTables.min.css",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "css/jquery.dataTables.min.css",
       "AssetKind": "All",
@@ -54,7 +54,7 @@
       "Identity": "/Users/osmanyildiz/.nuget/packages/datatables.net-dt/1.13.6/contentFiles/any/any/wwwroot/js/dataTables.dataTables.js",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "js/dataTables.dataTables.js",
       "AssetKind": "All",
@@ -71,7 +71,7 @@
       "Identity": "/Users/osmanyildiz/.nuget/packages/datatables.net-dt/1.13.6/contentFiles/any/any/wwwroot/js/dataTables.dataTables.min.js",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "js/dataTables.dataTables.min.js",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "/Users/osmanyildiz/.nuget/packages/datatables.net-dt/1.13.6/contentFiles/any/any/wwwroot/js/dataTables.dataTables.min.js"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/.DS_Store",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/.DS_Store",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/css/style.css",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/css/style.css",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -119,10 +119,27 @@
       "OriginalItemSpec": "wwwroot/css/style.css"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/000253e1-8382-40bc-b79a-58e13716cefd.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/.DS_Store",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
+      "BasePath": "_content/ecommerce.webui",
+      "RelativePath": "img/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/.DS_Store"
+    },
+    {
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/000253e1-8382-40bc-b79a-58e13716cefd.jpg",
+      "SourceId": "ecommerce.webui",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/000253e1-8382-40bc-b79a-58e13716cefd.jpg",
       "AssetKind": "All",
@@ -136,10 +153,10 @@
       "OriginalItemSpec": "wwwroot/img/000253e1-8382-40bc-b79a-58e13716cefd.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/067e0280-c7d4-4171-8761-35142d1f4341.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/067e0280-c7d4-4171-8761-35142d1f4341.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/067e0280-c7d4-4171-8761-35142d1f4341.jpg",
       "AssetKind": "All",
@@ -153,10 +170,10 @@
       "OriginalItemSpec": "wwwroot/img/067e0280-c7d4-4171-8761-35142d1f4341.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/06ea642d-d12d-4efb-816a-78f0f37ea605.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/06ea642d-d12d-4efb-816a-78f0f37ea605.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/06ea642d-d12d-4efb-816a-78f0f37ea605.jpg",
       "AssetKind": "All",
@@ -170,10 +187,10 @@
       "OriginalItemSpec": "wwwroot/img/06ea642d-d12d-4efb-816a-78f0f37ea605.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/0b961a01-f7b6-407b-b458-ce788f43a1de.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/0b961a01-f7b6-407b-b458-ce788f43a1de.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/0b961a01-f7b6-407b-b458-ce788f43a1de.jpg",
       "AssetKind": "All",
@@ -187,10 +204,10 @@
       "OriginalItemSpec": "wwwroot/img/0b961a01-f7b6-407b-b458-ce788f43a1de.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/0ca0b381-14b1-41de-b210-6985561e0cd4.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/0ca0b381-14b1-41de-b210-6985561e0cd4.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/0ca0b381-14b1-41de-b210-6985561e0cd4.jpg",
       "AssetKind": "All",
@@ -204,10 +221,10 @@
       "OriginalItemSpec": "wwwroot/img/0ca0b381-14b1-41de-b210-6985561e0cd4.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/0cc3d3cc-9268-497c-ab73-d4b91d2221ab.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/0cc3d3cc-9268-497c-ab73-d4b91d2221ab.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/0cc3d3cc-9268-497c-ab73-d4b91d2221ab.jpg",
       "AssetKind": "All",
@@ -221,10 +238,10 @@
       "OriginalItemSpec": "wwwroot/img/0cc3d3cc-9268-497c-ab73-d4b91d2221ab.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/0e880c58-a29c-49cc-b972-786a4291953c.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/0e880c58-a29c-49cc-b972-786a4291953c.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/0e880c58-a29c-49cc-b972-786a4291953c.jpg",
       "AssetKind": "All",
@@ -238,10 +255,10 @@
       "OriginalItemSpec": "wwwroot/img/0e880c58-a29c-49cc-b972-786a4291953c.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/127411f2-f2ef-45ed-a531-b82540b1fc32.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/127411f2-f2ef-45ed-a531-b82540b1fc32.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/127411f2-f2ef-45ed-a531-b82540b1fc32.jpg",
       "AssetKind": "All",
@@ -255,10 +272,10 @@
       "OriginalItemSpec": "wwwroot/img/127411f2-f2ef-45ed-a531-b82540b1fc32.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/1467f4f3-7700-4d6c-aa2c-b4608bb1c2b0.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/1467f4f3-7700-4d6c-aa2c-b4608bb1c2b0.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/1467f4f3-7700-4d6c-aa2c-b4608bb1c2b0.webp",
       "AssetKind": "All",
@@ -272,10 +289,10 @@
       "OriginalItemSpec": "wwwroot/img/1467f4f3-7700-4d6c-aa2c-b4608bb1c2b0.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/1653e1ef-00a7-449d-be6c-671d3078b652.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/1653e1ef-00a7-449d-be6c-671d3078b652.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/1653e1ef-00a7-449d-be6c-671d3078b652.jpg",
       "AssetKind": "All",
@@ -289,10 +306,10 @@
       "OriginalItemSpec": "wwwroot/img/1653e1ef-00a7-449d-be6c-671d3078b652.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/18478cb7-52d5-4b36-9d27-71a3b9e101b6.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/18478cb7-52d5-4b36-9d27-71a3b9e101b6.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/18478cb7-52d5-4b36-9d27-71a3b9e101b6.jpg",
       "AssetKind": "All",
@@ -306,10 +323,10 @@
       "OriginalItemSpec": "wwwroot/img/18478cb7-52d5-4b36-9d27-71a3b9e101b6.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/1bc4ecd6-f43f-4ed1-a503-4860d9f675fe.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/1bc4ecd6-f43f-4ed1-a503-4860d9f675fe.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/1bc4ecd6-f43f-4ed1-a503-4860d9f675fe.webp",
       "AssetKind": "All",
@@ -323,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/img/1bc4ecd6-f43f-4ed1-a503-4860d9f675fe.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/1d8f4a77-2133-4e2f-a71f-5a49e695dcc4.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/1d8f4a77-2133-4e2f-a71f-5a49e695dcc4.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/1d8f4a77-2133-4e2f-a71f-5a49e695dcc4.jpg",
       "AssetKind": "All",
@@ -340,10 +357,10 @@
       "OriginalItemSpec": "wwwroot/img/1d8f4a77-2133-4e2f-a71f-5a49e695dcc4.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/1e67f1bb-fc48-4fc1-be20-48feea616781.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/1e67f1bb-fc48-4fc1-be20-48feea616781.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/1e67f1bb-fc48-4fc1-be20-48feea616781.jpg",
       "AssetKind": "All",
@@ -357,10 +374,10 @@
       "OriginalItemSpec": "wwwroot/img/1e67f1bb-fc48-4fc1-be20-48feea616781.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/21f220e6-e145-4c8e-9f2e-46f74704b32e.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/21f220e6-e145-4c8e-9f2e-46f74704b32e.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/21f220e6-e145-4c8e-9f2e-46f74704b32e.jpg",
       "AssetKind": "All",
@@ -374,10 +391,10 @@
       "OriginalItemSpec": "wwwroot/img/21f220e6-e145-4c8e-9f2e-46f74704b32e.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/22af9049-cf9f-4425-aa86-6f85b63201ee.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/22af9049-cf9f-4425-aa86-6f85b63201ee.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/22af9049-cf9f-4425-aa86-6f85b63201ee.webp",
       "AssetKind": "All",
@@ -391,10 +408,10 @@
       "OriginalItemSpec": "wwwroot/img/22af9049-cf9f-4425-aa86-6f85b63201ee.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/241bd074-3093-4ffe-b91f-a15e6ce1ffd4.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/241bd074-3093-4ffe-b91f-a15e6ce1ffd4.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/241bd074-3093-4ffe-b91f-a15e6ce1ffd4.jpg",
       "AssetKind": "All",
@@ -408,10 +425,10 @@
       "OriginalItemSpec": "wwwroot/img/241bd074-3093-4ffe-b91f-a15e6ce1ffd4.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/25c20501-19e7-437f-8c9f-e34c9834fe7e.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/25c20501-19e7-437f-8c9f-e34c9834fe7e.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/25c20501-19e7-437f-8c9f-e34c9834fe7e.jpg",
       "AssetKind": "All",
@@ -425,10 +442,10 @@
       "OriginalItemSpec": "wwwroot/img/25c20501-19e7-437f-8c9f-e34c9834fe7e.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/263931f3-849f-4451-b966-6fb567fa3d8e.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/263931f3-849f-4451-b966-6fb567fa3d8e.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/263931f3-849f-4451-b966-6fb567fa3d8e.jpg",
       "AssetKind": "All",
@@ -442,10 +459,10 @@
       "OriginalItemSpec": "wwwroot/img/263931f3-849f-4451-b966-6fb567fa3d8e.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/275e2ca0-60b8-457b-9954-cb0ef33db1b1.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/275e2ca0-60b8-457b-9954-cb0ef33db1b1.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/275e2ca0-60b8-457b-9954-cb0ef33db1b1.jpg",
       "AssetKind": "All",
@@ -459,10 +476,10 @@
       "OriginalItemSpec": "wwwroot/img/275e2ca0-60b8-457b-9954-cb0ef33db1b1.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/27bf4aa2-7318-445c-8061-ab4c8b3fe86d.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/27bf4aa2-7318-445c-8061-ab4c8b3fe86d.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/27bf4aa2-7318-445c-8061-ab4c8b3fe86d.jpeg",
       "AssetKind": "All",
@@ -476,10 +493,10 @@
       "OriginalItemSpec": "wwwroot/img/27bf4aa2-7318-445c-8061-ab4c8b3fe86d.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/28dd096e-e0a1-44ef-a9d5-edd3b5dbdc77.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/28dd096e-e0a1-44ef-a9d5-edd3b5dbdc77.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/28dd096e-e0a1-44ef-a9d5-edd3b5dbdc77.jpeg",
       "AssetKind": "All",
@@ -493,10 +510,10 @@
       "OriginalItemSpec": "wwwroot/img/28dd096e-e0a1-44ef-a9d5-edd3b5dbdc77.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/291426e5-5749-4f61-bed4-8f1ac0fd314f.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/291426e5-5749-4f61-bed4-8f1ac0fd314f.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/291426e5-5749-4f61-bed4-8f1ac0fd314f.jpeg",
       "AssetKind": "All",
@@ -510,10 +527,10 @@
       "OriginalItemSpec": "wwwroot/img/291426e5-5749-4f61-bed4-8f1ac0fd314f.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/292c88b2-1dfa-4038-b1bd-08bd3215e28a.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/292c88b2-1dfa-4038-b1bd-08bd3215e28a.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/292c88b2-1dfa-4038-b1bd-08bd3215e28a.webp",
       "AssetKind": "All",
@@ -527,10 +544,10 @@
       "OriginalItemSpec": "wwwroot/img/292c88b2-1dfa-4038-b1bd-08bd3215e28a.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/2e62849d-1b0b-4881-8c3e-28dae830a974.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/2e62849d-1b0b-4881-8c3e-28dae830a974.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/2e62849d-1b0b-4881-8c3e-28dae830a974.webp",
       "AssetKind": "All",
@@ -544,10 +561,10 @@
       "OriginalItemSpec": "wwwroot/img/2e62849d-1b0b-4881-8c3e-28dae830a974.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/2fdfa372-0a5f-4ee0-80b5-d32578457dc2.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/2fdfa372-0a5f-4ee0-80b5-d32578457dc2.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/2fdfa372-0a5f-4ee0-80b5-d32578457dc2.jpeg",
       "AssetKind": "All",
@@ -561,10 +578,10 @@
       "OriginalItemSpec": "wwwroot/img/2fdfa372-0a5f-4ee0-80b5-d32578457dc2.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/33dd42c2-91ed-4f07-b078-46c3dd2b37a3.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/33dd42c2-91ed-4f07-b078-46c3dd2b37a3.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/33dd42c2-91ed-4f07-b078-46c3dd2b37a3.jpg",
       "AssetKind": "All",
@@ -578,10 +595,10 @@
       "OriginalItemSpec": "wwwroot/img/33dd42c2-91ed-4f07-b078-46c3dd2b37a3.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/37d387f4-1c44-44bd-8e08-c58d3e969483.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/37d387f4-1c44-44bd-8e08-c58d3e969483.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/37d387f4-1c44-44bd-8e08-c58d3e969483.jpg",
       "AssetKind": "All",
@@ -595,10 +612,10 @@
       "OriginalItemSpec": "wwwroot/img/37d387f4-1c44-44bd-8e08-c58d3e969483.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/387a1b68-572d-4480-a5a9-60f0393beb74.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/387a1b68-572d-4480-a5a9-60f0393beb74.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/387a1b68-572d-4480-a5a9-60f0393beb74.jpeg",
       "AssetKind": "All",
@@ -612,10 +629,10 @@
       "OriginalItemSpec": "wwwroot/img/387a1b68-572d-4480-a5a9-60f0393beb74.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/3a296301-3e95-4d69-bff6-58e7352ebd14.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/3a296301-3e95-4d69-bff6-58e7352ebd14.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/3a296301-3e95-4d69-bff6-58e7352ebd14.jpeg",
       "AssetKind": "All",
@@ -629,10 +646,10 @@
       "OriginalItemSpec": "wwwroot/img/3a296301-3e95-4d69-bff6-58e7352ebd14.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/3b5ae4d5-d17a-4207-bab9-cc17ac63f778.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/3b5ae4d5-d17a-4207-bab9-cc17ac63f778.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/3b5ae4d5-d17a-4207-bab9-cc17ac63f778.jpg",
       "AssetKind": "All",
@@ -646,10 +663,10 @@
       "OriginalItemSpec": "wwwroot/img/3b5ae4d5-d17a-4207-bab9-cc17ac63f778.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/3b5cfc2b-282d-4264-9da7-85096056f627.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/3b5cfc2b-282d-4264-9da7-85096056f627.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/3b5cfc2b-282d-4264-9da7-85096056f627.jpg",
       "AssetKind": "All",
@@ -663,10 +680,10 @@
       "OriginalItemSpec": "wwwroot/img/3b5cfc2b-282d-4264-9da7-85096056f627.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/3be535aa-ba09-41b1-9799-676434ff5b75.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/3be535aa-ba09-41b1-9799-676434ff5b75.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/3be535aa-ba09-41b1-9799-676434ff5b75.jpeg",
       "AssetKind": "All",
@@ -680,10 +697,10 @@
       "OriginalItemSpec": "wwwroot/img/3be535aa-ba09-41b1-9799-676434ff5b75.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/3f40255d-77ac-48f4-b55d-ce70123dd53a.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/3f40255d-77ac-48f4-b55d-ce70123dd53a.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/3f40255d-77ac-48f4-b55d-ce70123dd53a.webp",
       "AssetKind": "All",
@@ -697,10 +714,10 @@
       "OriginalItemSpec": "wwwroot/img/3f40255d-77ac-48f4-b55d-ce70123dd53a.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/40f6dbb1-e898-416e-99f1-b8bec9124a85.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/40f6dbb1-e898-416e-99f1-b8bec9124a85.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/40f6dbb1-e898-416e-99f1-b8bec9124a85.jpg",
       "AssetKind": "All",
@@ -714,10 +731,10 @@
       "OriginalItemSpec": "wwwroot/img/40f6dbb1-e898-416e-99f1-b8bec9124a85.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/410108fd-5cf3-4f0f-a788-297afadf9bcc.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/410108fd-5cf3-4f0f-a788-297afadf9bcc.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/410108fd-5cf3-4f0f-a788-297afadf9bcc.jpg",
       "AssetKind": "All",
@@ -731,10 +748,10 @@
       "OriginalItemSpec": "wwwroot/img/410108fd-5cf3-4f0f-a788-297afadf9bcc.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/41a333b5-7848-48d5-9396-15bb9838fc70.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/41a333b5-7848-48d5-9396-15bb9838fc70.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/41a333b5-7848-48d5-9396-15bb9838fc70.jpeg",
       "AssetKind": "All",
@@ -748,10 +765,10 @@
       "OriginalItemSpec": "wwwroot/img/41a333b5-7848-48d5-9396-15bb9838fc70.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/446907bf-07bc-4005-a329-29d036a31c78.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/446907bf-07bc-4005-a329-29d036a31c78.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/446907bf-07bc-4005-a329-29d036a31c78.jpg",
       "AssetKind": "All",
@@ -765,10 +782,10 @@
       "OriginalItemSpec": "wwwroot/img/446907bf-07bc-4005-a329-29d036a31c78.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/45da99b2-cc86-457b-83de-de903e167835.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/45da99b2-cc86-457b-83de-de903e167835.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/45da99b2-cc86-457b-83de-de903e167835.jpg",
       "AssetKind": "All",
@@ -782,10 +799,10 @@
       "OriginalItemSpec": "wwwroot/img/45da99b2-cc86-457b-83de-de903e167835.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/466ddd2b-9cf3-419c-bbb8-fd8c3994af41.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/466ddd2b-9cf3-419c-bbb8-fd8c3994af41.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/466ddd2b-9cf3-419c-bbb8-fd8c3994af41.jpg",
       "AssetKind": "All",
@@ -799,10 +816,10 @@
       "OriginalItemSpec": "wwwroot/img/466ddd2b-9cf3-419c-bbb8-fd8c3994af41.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/4783e472-6893-4fa6-81db-7554e7a2c779.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/4783e472-6893-4fa6-81db-7554e7a2c779.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/4783e472-6893-4fa6-81db-7554e7a2c779.jpg",
       "AssetKind": "All",
@@ -816,10 +833,10 @@
       "OriginalItemSpec": "wwwroot/img/4783e472-6893-4fa6-81db-7554e7a2c779.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/479be0e6-3ae1-48f0-8049-abb601eefadb.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/479be0e6-3ae1-48f0-8049-abb601eefadb.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/479be0e6-3ae1-48f0-8049-abb601eefadb.webp",
       "AssetKind": "All",
@@ -833,10 +850,10 @@
       "OriginalItemSpec": "wwwroot/img/479be0e6-3ae1-48f0-8049-abb601eefadb.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/4832b068-0794-491a-99da-c4b5098d993b.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/4832b068-0794-491a-99da-c4b5098d993b.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/4832b068-0794-491a-99da-c4b5098d993b.webp",
       "AssetKind": "All",
@@ -850,10 +867,10 @@
       "OriginalItemSpec": "wwwroot/img/4832b068-0794-491a-99da-c4b5098d993b.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/49feb8d2-3229-4532-9620-39a9787549df.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/49feb8d2-3229-4532-9620-39a9787549df.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/49feb8d2-3229-4532-9620-39a9787549df.jpg",
       "AssetKind": "All",
@@ -867,10 +884,10 @@
       "OriginalItemSpec": "wwwroot/img/49feb8d2-3229-4532-9620-39a9787549df.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/4a15b0ca-1c0c-4f02-86e1-7d2e745a47af.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/4a15b0ca-1c0c-4f02-86e1-7d2e745a47af.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/4a15b0ca-1c0c-4f02-86e1-7d2e745a47af.jpg",
       "AssetKind": "All",
@@ -884,10 +901,10 @@
       "OriginalItemSpec": "wwwroot/img/4a15b0ca-1c0c-4f02-86e1-7d2e745a47af.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/4a4a6265-b031-4fda-a70a-70f3e9890d13.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/4a4a6265-b031-4fda-a70a-70f3e9890d13.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/4a4a6265-b031-4fda-a70a-70f3e9890d13.jpg",
       "AssetKind": "All",
@@ -901,10 +918,10 @@
       "OriginalItemSpec": "wwwroot/img/4a4a6265-b031-4fda-a70a-70f3e9890d13.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/4a74d207-d8c8-428f-b098-8dd7837774c4.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/4a74d207-d8c8-428f-b098-8dd7837774c4.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/4a74d207-d8c8-428f-b098-8dd7837774c4.jpg",
       "AssetKind": "All",
@@ -918,10 +935,10 @@
       "OriginalItemSpec": "wwwroot/img/4a74d207-d8c8-428f-b098-8dd7837774c4.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/4c9e4d58-f936-4132-ad75-f7769ff14e7e.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/4c9e4d58-f936-4132-ad75-f7769ff14e7e.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/4c9e4d58-f936-4132-ad75-f7769ff14e7e.jpg",
       "AssetKind": "All",
@@ -935,10 +952,10 @@
       "OriginalItemSpec": "wwwroot/img/4c9e4d58-f936-4132-ad75-f7769ff14e7e.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/50a7f5e5-47d8-4990-a182-7dfb9d036ec1.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/50a7f5e5-47d8-4990-a182-7dfb9d036ec1.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/50a7f5e5-47d8-4990-a182-7dfb9d036ec1.webp",
       "AssetKind": "All",
@@ -952,10 +969,10 @@
       "OriginalItemSpec": "wwwroot/img/50a7f5e5-47d8-4990-a182-7dfb9d036ec1.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/51a6d38f-3c1e-401d-856a-eb8b67f16a65.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/51a6d38f-3c1e-401d-856a-eb8b67f16a65.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/51a6d38f-3c1e-401d-856a-eb8b67f16a65.jpg",
       "AssetKind": "All",
@@ -969,10 +986,10 @@
       "OriginalItemSpec": "wwwroot/img/51a6d38f-3c1e-401d-856a-eb8b67f16a65.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/52d17f32-ab50-4580-89c8-533060b0e898.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/52d17f32-ab50-4580-89c8-533060b0e898.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/52d17f32-ab50-4580-89c8-533060b0e898.jpg",
       "AssetKind": "All",
@@ -986,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot/img/52d17f32-ab50-4580-89c8-533060b0e898.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/534cb8d4-1c2c-42b3-bc06-6cede91e5b30.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/534cb8d4-1c2c-42b3-bc06-6cede91e5b30.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/534cb8d4-1c2c-42b3-bc06-6cede91e5b30.webp",
       "AssetKind": "All",
@@ -1003,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot/img/534cb8d4-1c2c-42b3-bc06-6cede91e5b30.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/5462b752-9980-4734-b2d3-252de51331e7.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/5462b752-9980-4734-b2d3-252de51331e7.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/5462b752-9980-4734-b2d3-252de51331e7.jpg",
       "AssetKind": "All",
@@ -1020,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot/img/5462b752-9980-4734-b2d3-252de51331e7.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/5ad6aaee-12ca-4add-a923-047bb57bf592.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/5ad6aaee-12ca-4add-a923-047bb57bf592.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/5ad6aaee-12ca-4add-a923-047bb57bf592.jpg",
       "AssetKind": "All",
@@ -1037,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot/img/5ad6aaee-12ca-4add-a923-047bb57bf592.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/5f87ca6b-0ea9-47ea-9257-98f7e932e8b2.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/5f87ca6b-0ea9-47ea-9257-98f7e932e8b2.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/5f87ca6b-0ea9-47ea-9257-98f7e932e8b2.jpg",
       "AssetKind": "All",
@@ -1054,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot/img/5f87ca6b-0ea9-47ea-9257-98f7e932e8b2.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/5f8c8eb5-2319-467e-90fb-eb2d40f49286.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/5f8c8eb5-2319-467e-90fb-eb2d40f49286.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/5f8c8eb5-2319-467e-90fb-eb2d40f49286.jpeg",
       "AssetKind": "All",
@@ -1071,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot/img/5f8c8eb5-2319-467e-90fb-eb2d40f49286.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/6008fa22-9390-4077-b3d1-0cf6bc75e502.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/6008fa22-9390-4077-b3d1-0cf6bc75e502.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/6008fa22-9390-4077-b3d1-0cf6bc75e502.webp",
       "AssetKind": "All",
@@ -1088,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot/img/6008fa22-9390-4077-b3d1-0cf6bc75e502.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/62c1e9ac-9c0e-46d3-bb5d-cd94479f878d.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/62c1e9ac-9c0e-46d3-bb5d-cd94479f878d.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/62c1e9ac-9c0e-46d3-bb5d-cd94479f878d.jpg",
       "AssetKind": "All",
@@ -1105,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot/img/62c1e9ac-9c0e-46d3-bb5d-cd94479f878d.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/651866a8-6203-4a18-b5c9-a69edd073ae0.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/651866a8-6203-4a18-b5c9-a69edd073ae0.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/651866a8-6203-4a18-b5c9-a69edd073ae0.jpg",
       "AssetKind": "All",
@@ -1122,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot/img/651866a8-6203-4a18-b5c9-a69edd073ae0.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/65731366-f074-4288-be66-96edffa50cee.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/65731366-f074-4288-be66-96edffa50cee.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/65731366-f074-4288-be66-96edffa50cee.jpg",
       "AssetKind": "All",
@@ -1139,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot/img/65731366-f074-4288-be66-96edffa50cee.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/678bcc48-b273-41fa-b566-ade6db96ad42.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/678bcc48-b273-41fa-b566-ade6db96ad42.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/678bcc48-b273-41fa-b566-ade6db96ad42.jpeg",
       "AssetKind": "All",
@@ -1156,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot/img/678bcc48-b273-41fa-b566-ade6db96ad42.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/686ea0f3-f4ca-4396-8bbb-165f363d0c80.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/686ea0f3-f4ca-4396-8bbb-165f363d0c80.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/686ea0f3-f4ca-4396-8bbb-165f363d0c80.webp",
       "AssetKind": "All",
@@ -1173,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot/img/686ea0f3-f4ca-4396-8bbb-165f363d0c80.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/6b3c25fe-c491-4b39-ac9c-0898a75267eb.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/6b3c25fe-c491-4b39-ac9c-0898a75267eb.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/6b3c25fe-c491-4b39-ac9c-0898a75267eb.webp",
       "AssetKind": "All",
@@ -1190,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot/img/6b3c25fe-c491-4b39-ac9c-0898a75267eb.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/6c936585-d7d2-47ad-8911-69d93c5d3caa.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/6c936585-d7d2-47ad-8911-69d93c5d3caa.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/6c936585-d7d2-47ad-8911-69d93c5d3caa.jpg",
       "AssetKind": "All",
@@ -1207,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot/img/6c936585-d7d2-47ad-8911-69d93c5d3caa.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/6cb2966a-22ea-4ddc-8107-43f46bac439e.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/6cb2966a-22ea-4ddc-8107-43f46bac439e.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/6cb2966a-22ea-4ddc-8107-43f46bac439e.webp",
       "AssetKind": "All",
@@ -1224,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot/img/6cb2966a-22ea-4ddc-8107-43f46bac439e.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/6f15cc36-7688-4132-8d2d-14c48deec272.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/6f15cc36-7688-4132-8d2d-14c48deec272.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/6f15cc36-7688-4132-8d2d-14c48deec272.webp",
       "AssetKind": "All",
@@ -1241,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot/img/6f15cc36-7688-4132-8d2d-14c48deec272.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/6fad4bbf-ba46-4379-8ad5-1c0075dc4505.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/6fad4bbf-ba46-4379-8ad5-1c0075dc4505.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/6fad4bbf-ba46-4379-8ad5-1c0075dc4505.webp",
       "AssetKind": "All",
@@ -1258,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot/img/6fad4bbf-ba46-4379-8ad5-1c0075dc4505.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/71034bec-adde-4ea2-a65b-fc3f9ba7887b.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/71034bec-adde-4ea2-a65b-fc3f9ba7887b.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/71034bec-adde-4ea2-a65b-fc3f9ba7887b.webp",
       "AssetKind": "All",
@@ -1275,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot/img/71034bec-adde-4ea2-a65b-fc3f9ba7887b.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/723f49b3-f5ab-42fd-8645-47e27976d355.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/723f49b3-f5ab-42fd-8645-47e27976d355.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/723f49b3-f5ab-42fd-8645-47e27976d355.webp",
       "AssetKind": "All",
@@ -1292,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot/img/723f49b3-f5ab-42fd-8645-47e27976d355.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/7487f02b-1880-4ebd-bc15-217172c051ce.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/7487f02b-1880-4ebd-bc15-217172c051ce.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/7487f02b-1880-4ebd-bc15-217172c051ce.webp",
       "AssetKind": "All",
@@ -1309,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot/img/7487f02b-1880-4ebd-bc15-217172c051ce.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/74cff502-c555-42f5-9074-dd28d7177513.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/74cff502-c555-42f5-9074-dd28d7177513.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/74cff502-c555-42f5-9074-dd28d7177513.jpg",
       "AssetKind": "All",
@@ -1326,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot/img/74cff502-c555-42f5-9074-dd28d7177513.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/77f3cfd1-0eb4-416c-9e00-815f20fba5e5.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/77f3cfd1-0eb4-416c-9e00-815f20fba5e5.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/77f3cfd1-0eb4-416c-9e00-815f20fba5e5.webp",
       "AssetKind": "All",
@@ -1343,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot/img/77f3cfd1-0eb4-416c-9e00-815f20fba5e5.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/7db2acc9-1ac3-46e1-8ccc-3459b9ab9d99.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/7db2acc9-1ac3-46e1-8ccc-3459b9ab9d99.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/7db2acc9-1ac3-46e1-8ccc-3459b9ab9d99.jpg",
       "AssetKind": "All",
@@ -1360,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot/img/7db2acc9-1ac3-46e1-8ccc-3459b9ab9d99.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/7f7aa3d7-cd69-4922-9f87-c1aaa070da30.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/7f7aa3d7-cd69-4922-9f87-c1aaa070da30.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/7f7aa3d7-cd69-4922-9f87-c1aaa070da30.jpg",
       "AssetKind": "All",
@@ -1377,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot/img/7f7aa3d7-cd69-4922-9f87-c1aaa070da30.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/80cb4eea-16ac-4082-8862-ec0b686e330d.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/80cb4eea-16ac-4082-8862-ec0b686e330d.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/80cb4eea-16ac-4082-8862-ec0b686e330d.jpg",
       "AssetKind": "All",
@@ -1394,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot/img/80cb4eea-16ac-4082-8862-ec0b686e330d.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/83936c9f-bd50-44f1-89c2-2f8f48c90bab.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/83936c9f-bd50-44f1-89c2-2f8f48c90bab.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/83936c9f-bd50-44f1-89c2-2f8f48c90bab.jpg",
       "AssetKind": "All",
@@ -1411,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot/img/83936c9f-bd50-44f1-89c2-2f8f48c90bab.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/8518a35c-a789-4d49-a9bc-69a2a5be7f0b.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/8518a35c-a789-4d49-a9bc-69a2a5be7f0b.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/8518a35c-a789-4d49-a9bc-69a2a5be7f0b.jpg",
       "AssetKind": "All",
@@ -1428,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot/img/8518a35c-a789-4d49-a9bc-69a2a5be7f0b.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/87f7c150-37a3-4b32-a499-591632848740.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/87f7c150-37a3-4b32-a499-591632848740.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/87f7c150-37a3-4b32-a499-591632848740.jpg",
       "AssetKind": "All",
@@ -1445,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot/img/87f7c150-37a3-4b32-a499-591632848740.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/89c296c9-93b5-43d5-8528-4c93bdc6a66c.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/89c296c9-93b5-43d5-8528-4c93bdc6a66c.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/89c296c9-93b5-43d5-8528-4c93bdc6a66c.jpeg",
       "AssetKind": "All",
@@ -1462,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot/img/89c296c9-93b5-43d5-8528-4c93bdc6a66c.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/8bfe289e-8a70-47c8-8af7-2fef507abef6.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/8bfe289e-8a70-47c8-8af7-2fef507abef6.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/8bfe289e-8a70-47c8-8af7-2fef507abef6.jpg",
       "AssetKind": "All",
@@ -1479,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot/img/8bfe289e-8a70-47c8-8af7-2fef507abef6.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/9165a9cb-cbc7-4b5d-b380-1485c3782430.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/9165a9cb-cbc7-4b5d-b380-1485c3782430.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/9165a9cb-cbc7-4b5d-b380-1485c3782430.jpg",
       "AssetKind": "All",
@@ -1496,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot/img/9165a9cb-cbc7-4b5d-b380-1485c3782430.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/92bb9185-835c-49a5-bda6-59a22205fad3.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/92bb9185-835c-49a5-bda6-59a22205fad3.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/92bb9185-835c-49a5-bda6-59a22205fad3.jpg",
       "AssetKind": "All",
@@ -1513,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot/img/92bb9185-835c-49a5-bda6-59a22205fad3.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/94b3bb67-f5d8-469c-adf2-13bf4648a090.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/94b3bb67-f5d8-469c-adf2-13bf4648a090.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/94b3bb67-f5d8-469c-adf2-13bf4648a090.jpg",
       "AssetKind": "All",
@@ -1530,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot/img/94b3bb67-f5d8-469c-adf2-13bf4648a090.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/94b96ac2-7be4-4eba-893c-eac412763fa8.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/94b96ac2-7be4-4eba-893c-eac412763fa8.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/94b96ac2-7be4-4eba-893c-eac412763fa8.jpeg",
       "AssetKind": "All",
@@ -1547,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot/img/94b96ac2-7be4-4eba-893c-eac412763fa8.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/94ed63d1-5509-40f4-9141-3cdca788c6a1.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/94ed63d1-5509-40f4-9141-3cdca788c6a1.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/94ed63d1-5509-40f4-9141-3cdca788c6a1.webp",
       "AssetKind": "All",
@@ -1564,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot/img/94ed63d1-5509-40f4-9141-3cdca788c6a1.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/99805d41-6295-4c5e-a93d-cd3643728311.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/99805d41-6295-4c5e-a93d-cd3643728311.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/99805d41-6295-4c5e-a93d-cd3643728311.jpeg",
       "AssetKind": "All",
@@ -1581,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot/img/99805d41-6295-4c5e-a93d-cd3643728311.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/99ffb877-efe9-424e-961a-39e6a3555e24.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/99ffb877-efe9-424e-961a-39e6a3555e24.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/99ffb877-efe9-424e-961a-39e6a3555e24.jpg",
       "AssetKind": "All",
@@ -1598,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot/img/99ffb877-efe9-424e-961a-39e6a3555e24.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/9da26317-501c-492a-bdd4-25c1a6ef6ac0.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/9da26317-501c-492a-bdd4-25c1a6ef6ac0.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/9da26317-501c-492a-bdd4-25c1a6ef6ac0.jpg",
       "AssetKind": "All",
@@ -1615,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot/img/9da26317-501c-492a-bdd4-25c1a6ef6ac0.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a1.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a1.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a1.webp",
       "AssetKind": "All",
@@ -1632,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot/img/a1.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a157d56a-587d-47a6-9f03-6a754bcfb46e.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a157d56a-587d-47a6-9f03-6a754bcfb46e.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a157d56a-587d-47a6-9f03-6a754bcfb46e.jpeg",
       "AssetKind": "All",
@@ -1649,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot/img/a157d56a-587d-47a6-9f03-6a754bcfb46e.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a2.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a2.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a2.webp",
       "AssetKind": "All",
@@ -1666,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot/img/a2.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a274aec4-6261-4082-9dbf-07d34b48a6d2.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a274aec4-6261-4082-9dbf-07d34b48a6d2.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a274aec4-6261-4082-9dbf-07d34b48a6d2.jpg",
       "AssetKind": "All",
@@ -1683,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot/img/a274aec4-6261-4082-9dbf-07d34b48a6d2.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a3.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a3.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a3.webp",
       "AssetKind": "All",
@@ -1700,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot/img/a3.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a3b05517-7564-4bc7-9ce1-c327f175ebd3.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a3b05517-7564-4bc7-9ce1-c327f175ebd3.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a3b05517-7564-4bc7-9ce1-c327f175ebd3.jpg",
       "AssetKind": "All",
@@ -1717,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot/img/a3b05517-7564-4bc7-9ce1-c327f175ebd3.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a3cc658c-d97e-4c20-9d92-139907642012.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a3cc658c-d97e-4c20-9d92-139907642012.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a3cc658c-d97e-4c20-9d92-139907642012.jpg",
       "AssetKind": "All",
@@ -1734,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot/img/a3cc658c-d97e-4c20-9d92-139907642012.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a3cc833b-8bfe-40c5-97b6-1736b52ff14e.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a3cc833b-8bfe-40c5-97b6-1736b52ff14e.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a3cc833b-8bfe-40c5-97b6-1736b52ff14e.webp",
       "AssetKind": "All",
@@ -1751,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot/img/a3cc833b-8bfe-40c5-97b6-1736b52ff14e.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a4.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a4.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a4.webp",
       "AssetKind": "All",
@@ -1768,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot/img/a4.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a5.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a5.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a5.webp",
       "AssetKind": "All",
@@ -1785,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot/img/a5.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a50dbbfc-2b69-4756-b71b-5456276f1d33.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a50dbbfc-2b69-4756-b71b-5456276f1d33.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a50dbbfc-2b69-4756-b71b-5456276f1d33.jpg",
       "AssetKind": "All",
@@ -1802,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot/img/a50dbbfc-2b69-4756-b71b-5456276f1d33.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a6.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a6.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a6.webp",
       "AssetKind": "All",
@@ -1819,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot/img/a6.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a613f38e-7a8f-49b5-b750-bbb0bb09b209.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a613f38e-7a8f-49b5-b750-bbb0bb09b209.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a613f38e-7a8f-49b5-b750-bbb0bb09b209.jpg",
       "AssetKind": "All",
@@ -1836,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot/img/a613f38e-7a8f-49b5-b750-bbb0bb09b209.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a7.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a7.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a7.webp",
       "AssetKind": "All",
@@ -1853,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot/img/a7.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/a91a106f-d756-4764-a2c0-712a3a12dae5.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/a91a106f-d756-4764-a2c0-712a3a12dae5.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/a91a106f-d756-4764-a2c0-712a3a12dae5.jpg",
       "AssetKind": "All",
@@ -1870,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot/img/a91a106f-d756-4764-a2c0-712a3a12dae5.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/abd9900e-7aff-4166-9988-f7cea71661d7.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/abd9900e-7aff-4166-9988-f7cea71661d7.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/abd9900e-7aff-4166-9988-f7cea71661d7.webp",
       "AssetKind": "All",
@@ -1887,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot/img/abd9900e-7aff-4166-9988-f7cea71661d7.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/acd539bb-4079-4b8c-bde9-fd1fe966751a.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/acd539bb-4079-4b8c-bde9-fd1fe966751a.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/acd539bb-4079-4b8c-bde9-fd1fe966751a.jpg",
       "AssetKind": "All",
@@ -1904,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot/img/acd539bb-4079-4b8c-bde9-fd1fe966751a.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/add.png",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/add.png",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/add.png",
       "AssetKind": "All",
@@ -1921,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot/img/add.png"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/aff27e68-88e0-4a9d-88ab-3ba383730d2a.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/aff27e68-88e0-4a9d-88ab-3ba383730d2a.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/aff27e68-88e0-4a9d-88ab-3ba383730d2a.jpg",
       "AssetKind": "All",
@@ -1938,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot/img/aff27e68-88e0-4a9d-88ab-3ba383730d2a.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/b0daee78-cf0f-4a87-98a5-dc34d34076c2.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/b0daee78-cf0f-4a87-98a5-dc34d34076c2.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/b0daee78-cf0f-4a87-98a5-dc34d34076c2.webp",
       "AssetKind": "All",
@@ -1955,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot/img/b0daee78-cf0f-4a87-98a5-dc34d34076c2.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/b546be96-354e-413f-af48-040b5b184a3e.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/b546be96-354e-413f-af48-040b5b184a3e.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/b546be96-354e-413f-af48-040b5b184a3e.webp",
       "AssetKind": "All",
@@ -1972,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot/img/b546be96-354e-413f-af48-040b5b184a3e.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/b776cfa4-98a2-42eb-a0ed-14e1385aae3f.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/b776cfa4-98a2-42eb-a0ed-14e1385aae3f.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/b776cfa4-98a2-42eb-a0ed-14e1385aae3f.webp",
       "AssetKind": "All",
@@ -1989,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot/img/b776cfa4-98a2-42eb-a0ed-14e1385aae3f.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/b792a3ca-5497-46d4-b6c5-5be3822519bb.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/b792a3ca-5497-46d4-b6c5-5be3822519bb.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/b792a3ca-5497-46d4-b6c5-5be3822519bb.webp",
       "AssetKind": "All",
@@ -2006,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot/img/b792a3ca-5497-46d4-b6c5-5be3822519bb.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/bd214526-a9de-49d3-915a-aff72c47a5bb.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/bd214526-a9de-49d3-915a-aff72c47a5bb.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/bd214526-a9de-49d3-915a-aff72c47a5bb.webp",
       "AssetKind": "All",
@@ -2023,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot/img/bd214526-a9de-49d3-915a-aff72c47a5bb.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/bd8be0b6-4e26-4ad8-9490-4beb90d6a9c8.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/bd8be0b6-4e26-4ad8-9490-4beb90d6a9c8.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/bd8be0b6-4e26-4ad8-9490-4beb90d6a9c8.webp",
       "AssetKind": "All",
@@ -2040,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot/img/bd8be0b6-4e26-4ad8-9490-4beb90d6a9c8.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/be3d8156-3922-4e8c-9a0c-f47fa2512e7d.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/be3d8156-3922-4e8c-9a0c-f47fa2512e7d.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/be3d8156-3922-4e8c-9a0c-f47fa2512e7d.jpeg",
       "AssetKind": "All",
@@ -2057,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot/img/be3d8156-3922-4e8c-9a0c-f47fa2512e7d.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c09cffc5-d44f-45c6-a581-32727d84d9b8.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/c09cffc5-d44f-45c6-a581-32727d84d9b8.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/c09cffc5-d44f-45c6-a581-32727d84d9b8.jpg",
       "AssetKind": "All",
@@ -2074,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot/img/c09cffc5-d44f-45c6-a581-32727d84d9b8.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c10eef52-70f6-44b1-aa9d-6894c5893a29.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/c10eef52-70f6-44b1-aa9d-6894c5893a29.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/c10eef52-70f6-44b1-aa9d-6894c5893a29.jpg",
       "AssetKind": "All",
@@ -2091,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot/img/c10eef52-70f6-44b1-aa9d-6894c5893a29.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c1442f4a-a976-49cb-98b2-e1ce15cbd3bf.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/c1442f4a-a976-49cb-98b2-e1ce15cbd3bf.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/c1442f4a-a976-49cb-98b2-e1ce15cbd3bf.webp",
       "AssetKind": "All",
@@ -2108,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot/img/c1442f4a-a976-49cb-98b2-e1ce15cbd3bf.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c1c2730e-bc22-462f-877f-be96dc422c9c.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/c1c2730e-bc22-462f-877f-be96dc422c9c.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/c1c2730e-bc22-462f-877f-be96dc422c9c.jpg",
       "AssetKind": "All",
@@ -2125,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot/img/c1c2730e-bc22-462f-877f-be96dc422c9c.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c25cf8bf-6228-453a-8b84-6e99e251c6a4.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/c25cf8bf-6228-453a-8b84-6e99e251c6a4.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/c25cf8bf-6228-453a-8b84-6e99e251c6a4.webp",
       "AssetKind": "All",
@@ -2142,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot/img/c25cf8bf-6228-453a-8b84-6e99e251c6a4.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c3fe2399-c770-4673-aee3-fe9a86215bbe.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/c3fe2399-c770-4673-aee3-fe9a86215bbe.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/c3fe2399-c770-4673-aee3-fe9a86215bbe.jpg",
       "AssetKind": "All",
@@ -2159,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot/img/c3fe2399-c770-4673-aee3-fe9a86215bbe.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c50c1aab-860e-4c9c-a9cb-1752c039eaed.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/c50c1aab-860e-4c9c-a9cb-1752c039eaed.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/c50c1aab-860e-4c9c-a9cb-1752c039eaed.webp",
       "AssetKind": "All",
@@ -2176,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot/img/c50c1aab-860e-4c9c-a9cb-1752c039eaed.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c605b40e-5106-47c9-84c6-3f7f2d2cbeb3.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/c605b40e-5106-47c9-84c6-3f7f2d2cbeb3.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/c605b40e-5106-47c9-84c6-3f7f2d2cbeb3.jpeg",
       "AssetKind": "All",
@@ -2193,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot/img/c605b40e-5106-47c9-84c6-3f7f2d2cbeb3.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c7a647aa-7609-4e9f-8764-367022e64222.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/c7a647aa-7609-4e9f-8764-367022e64222.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/c7a647aa-7609-4e9f-8764-367022e64222.jpeg",
       "AssetKind": "All",
@@ -2210,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot/img/c7a647aa-7609-4e9f-8764-367022e64222.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/c7f041f4-3fbe-4dfa-912a-d7256dda5325.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/c7f041f4-3fbe-4dfa-912a-d7256dda5325.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/c7f041f4-3fbe-4dfa-912a-d7256dda5325.jpeg",
       "AssetKind": "All",
@@ -2227,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot/img/c7f041f4-3fbe-4dfa-912a-d7256dda5325.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/cb8f96a9-2aa6-4c7e-b10b-af2ce331bcea.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/cb8f96a9-2aa6-4c7e-b10b-af2ce331bcea.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/cb8f96a9-2aa6-4c7e-b10b-af2ce331bcea.jpeg",
       "AssetKind": "All",
@@ -2244,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot/img/cb8f96a9-2aa6-4c7e-b10b-af2ce331bcea.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/cd41d938-b192-408c-90c9-15812dc07428.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/cd41d938-b192-408c-90c9-15812dc07428.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/cd41d938-b192-408c-90c9-15812dc07428.webp",
       "AssetKind": "All",
@@ -2261,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot/img/cd41d938-b192-408c-90c9-15812dc07428.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/cf9749e5-8b59-4234-88e0-5b2d45570060.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/cf9749e5-8b59-4234-88e0-5b2d45570060.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/cf9749e5-8b59-4234-88e0-5b2d45570060.jpg",
       "AssetKind": "All",
@@ -2278,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot/img/cf9749e5-8b59-4234-88e0-5b2d45570060.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/d2e492d7-f879-4287-a3f7-288895a0bf6f.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/d2e492d7-f879-4287-a3f7-288895a0bf6f.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/d2e492d7-f879-4287-a3f7-288895a0bf6f.jpg",
       "AssetKind": "All",
@@ -2295,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot/img/d2e492d7-f879-4287-a3f7-288895a0bf6f.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/d5cc5fc7-84d3-4553-aea5-3297587041bf.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/d5cc5fc7-84d3-4553-aea5-3297587041bf.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/d5cc5fc7-84d3-4553-aea5-3297587041bf.webp",
       "AssetKind": "All",
@@ -2312,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot/img/d5cc5fc7-84d3-4553-aea5-3297587041bf.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/d84874c0-c670-4696-bac3-3420726865db.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/d84874c0-c670-4696-bac3-3420726865db.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/d84874c0-c670-4696-bac3-3420726865db.webp",
       "AssetKind": "All",
@@ -2329,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot/img/d84874c0-c670-4696-bac3-3420726865db.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/d874a5ba-e3fd-490f-b49f-921524c545d5.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/d874a5ba-e3fd-490f-b49f-921524c545d5.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/d874a5ba-e3fd-490f-b49f-921524c545d5.webp",
       "AssetKind": "All",
@@ -2346,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot/img/d874a5ba-e3fd-490f-b49f-921524c545d5.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/dc9e9be7-eab4-4939-8214-3eedd293ea3d.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/dc9e9be7-eab4-4939-8214-3eedd293ea3d.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/dc9e9be7-eab4-4939-8214-3eedd293ea3d.jpg",
       "AssetKind": "All",
@@ -2363,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot/img/dc9e9be7-eab4-4939-8214-3eedd293ea3d.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/dcabb21c-dec5-4f81-911d-5a69ba838a44.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/dcabb21c-dec5-4f81-911d-5a69ba838a44.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/dcabb21c-dec5-4f81-911d-5a69ba838a44.jpg",
       "AssetKind": "All",
@@ -2380,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot/img/dcabb21c-dec5-4f81-911d-5a69ba838a44.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/de827639-8faa-4fb5-928a-d6d039f32720.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/de827639-8faa-4fb5-928a-d6d039f32720.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/de827639-8faa-4fb5-928a-d6d039f32720.jpg",
       "AssetKind": "All",
@@ -2397,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot/img/de827639-8faa-4fb5-928a-d6d039f32720.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/e1df2a14-63b3-410e-acbc-f98e79b240ce.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/e1df2a14-63b3-410e-acbc-f98e79b240ce.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/e1df2a14-63b3-410e-acbc-f98e79b240ce.jpg",
       "AssetKind": "All",
@@ -2414,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot/img/e1df2a14-63b3-410e-acbc-f98e79b240ce.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/e60c33cd-f7b2-46bb-839f-3d96530ab30b.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/e60c33cd-f7b2-46bb-839f-3d96530ab30b.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/e60c33cd-f7b2-46bb-839f-3d96530ab30b.webp",
       "AssetKind": "All",
@@ -2431,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot/img/e60c33cd-f7b2-46bb-839f-3d96530ab30b.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/e66213cb-1c6b-4618-8126-4412f5a9cf20.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/e66213cb-1c6b-4618-8126-4412f5a9cf20.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/e66213cb-1c6b-4618-8126-4412f5a9cf20.jpg",
       "AssetKind": "All",
@@ -2448,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot/img/e66213cb-1c6b-4618-8126-4412f5a9cf20.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/e6971a3a-ef45-4dc5-9be0-e1acb5372cff.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/e6971a3a-ef45-4dc5-9be0-e1acb5372cff.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/e6971a3a-ef45-4dc5-9be0-e1acb5372cff.webp",
       "AssetKind": "All",
@@ -2465,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot/img/e6971a3a-ef45-4dc5-9be0-e1acb5372cff.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/e7f43cae-002f-4667-9416-18dd1f0f2be8.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/e7f43cae-002f-4667-9416-18dd1f0f2be8.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/e7f43cae-002f-4667-9416-18dd1f0f2be8.jpg",
       "AssetKind": "All",
@@ -2482,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot/img/e7f43cae-002f-4667-9416-18dd1f0f2be8.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/e92280ac-b484-4f8d-8ed9-802ee92b4e16.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/e92280ac-b484-4f8d-8ed9-802ee92b4e16.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/e92280ac-b484-4f8d-8ed9-802ee92b4e16.jpg",
       "AssetKind": "All",
@@ -2499,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot/img/e92280ac-b484-4f8d-8ed9-802ee92b4e16.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/e9d49447-20a2-4cbf-87b4-23cb8c48af77.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/e9d49447-20a2-4cbf-87b4-23cb8c48af77.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/e9d49447-20a2-4cbf-87b4-23cb8c48af77.jpg",
       "AssetKind": "All",
@@ -2516,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot/img/e9d49447-20a2-4cbf-87b4-23cb8c48af77.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/eb5c1eba-d0fe-4748-b389-34e1f0874867.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/eb5c1eba-d0fe-4748-b389-34e1f0874867.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/eb5c1eba-d0fe-4748-b389-34e1f0874867.jpg",
       "AssetKind": "All",
@@ -2533,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot/img/eb5c1eba-d0fe-4748-b389-34e1f0874867.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/ec4879c6-d888-4ce3-bc1c-40e87da56e80.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/ec4879c6-d888-4ce3-bc1c-40e87da56e80.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/ec4879c6-d888-4ce3-bc1c-40e87da56e80.jpg",
       "AssetKind": "All",
@@ -2550,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot/img/ec4879c6-d888-4ce3-bc1c-40e87da56e80.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/ef54cfe8-bdfd-43d5-aa22-274e6d8c7f23.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/ef54cfe8-bdfd-43d5-aa22-274e6d8c7f23.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/ef54cfe8-bdfd-43d5-aa22-274e6d8c7f23.jpg",
       "AssetKind": "All",
@@ -2567,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot/img/ef54cfe8-bdfd-43d5-aa22-274e6d8c7f23.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/efa3308b-742e-4f7d-a8c1-d780b1b6cff9.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/efa3308b-742e-4f7d-a8c1-d780b1b6cff9.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/efa3308b-742e-4f7d-a8c1-d780b1b6cff9.jpg",
       "AssetKind": "All",
@@ -2584,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot/img/efa3308b-742e-4f7d-a8c1-d780b1b6cff9.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/empty-cart.png",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/empty-cart.png",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/empty-cart.png",
       "AssetKind": "All",
@@ -2601,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot/img/empty-cart.png"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/f34d46b1-b41c-42ba-85bf-5b2477f9fbb8.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/f34d46b1-b41c-42ba-85bf-5b2477f9fbb8.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/f34d46b1-b41c-42ba-85bf-5b2477f9fbb8.jpg",
       "AssetKind": "All",
@@ -2618,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot/img/f34d46b1-b41c-42ba-85bf-5b2477f9fbb8.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/f398b9db-5bf9-423e-b7c7-a90f1f0b5e9b.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/f398b9db-5bf9-423e-b7c7-a90f1f0b5e9b.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/f398b9db-5bf9-423e-b7c7-a90f1f0b5e9b.jpg",
       "AssetKind": "All",
@@ -2635,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot/img/f398b9db-5bf9-423e-b7c7-a90f1f0b5e9b.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/f69c9155-b6d9-4760-a331-7d6e9bcc2fdd.jpeg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/f69c9155-b6d9-4760-a331-7d6e9bcc2fdd.jpeg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/f69c9155-b6d9-4760-a331-7d6e9bcc2fdd.jpeg",
       "AssetKind": "All",
@@ -2652,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot/img/f69c9155-b6d9-4760-a331-7d6e9bcc2fdd.jpeg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/f803c7e8-6182-4b2d-8ec0-2abb2a70907d.jpg",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/f803c7e8-6182-4b2d-8ec0-2abb2a70907d.jpg",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/f803c7e8-6182-4b2d-8ec0-2abb2a70907d.jpg",
       "AssetKind": "All",
@@ -2669,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot/img/f803c7e8-6182-4b2d-8ec0-2abb2a70907d.jpg"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/fa5aaa32-fc69-451e-ad83-7aa8bf44fa9b.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/fa5aaa32-fc69-451e-ad83-7aa8bf44fa9b.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/fa5aaa32-fc69-451e-ad83-7aa8bf44fa9b.webp",
       "AssetKind": "All",
@@ -2686,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot/img/fa5aaa32-fc69-451e-ad83-7aa8bf44fa9b.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/fast-delivery.png",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/fast-delivery.png",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/fast-delivery.png",
       "AssetKind": "All",
@@ -2703,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot/img/fast-delivery.png"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/loginvideo2.mp4",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/loginvideo2.mp4",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/loginvideo2.mp4",
       "AssetKind": "All",
@@ -2720,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot/img/loginvideo2.mp4"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/logo.png",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/logo.png",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/logo.png",
       "AssetKind": "All",
@@ -2737,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot/img/logo.png"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/logo.webp",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/logo.webp",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/logo.webp",
       "AssetKind": "All",
@@ -2754,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot/img/logo.webp"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/multiply.png",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/multiply.png",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/multiply.png",
       "AssetKind": "All",
@@ -2771,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot/img/multiply.png"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/img/plus.png",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/img/plus.png",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "img/plus.png",
       "AssetKind": "All",
@@ -2788,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot/img/plus.png"
     },
     {
-      "Identity": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/js/script.js",
+      "Identity": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/js/script.js",
       "SourceId": "ecommerce.webui",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.webui/wwwroot/",
+      "ContentRoot": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.webui/wwwroot/",
       "BasePath": "_content/ecommerce.webui",
       "RelativePath": "js/script.js",
       "AssetKind": "All",

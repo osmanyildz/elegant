@@ -7,8 +7,11 @@ using ecommerce.entity;
 
 namespace ecommerce.data.Concrete.EfCore
 {
-    public class EfCoreGenderRepository:EfCoreRepository<Gender,ECommerceContext>,IGenderRepository
+    public class EfCoreGenderRepository:EfCoreRepository<Gender>,IGenderRepository
     {
-        
+        public EfCoreGenderRepository(ECommerceContext eCommerceContext):base(eCommerceContext)
+        {
+            
+        }
     }
 }

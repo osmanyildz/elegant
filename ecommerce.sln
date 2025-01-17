@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce.entity", "ecommer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce.data", "ecommerce.data\ecommerce.data.csproj", "{0F9AE0F0-DF7B-42ED-B16C-ECDFFF3560DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommerce.webapi", "ecommerce.webapi\ecommerce.webapi.csproj", "{B6F19494-D88C-4B85-948B-B951FAC7EBB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0F9AE0F0-DF7B-42ED-B16C-ECDFFF3560DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F9AE0F0-DF7B-42ED-B16C-ECDFFF3560DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F9AE0F0-DF7B-42ED-B16C-ECDFFF3560DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F19494-D88C-4B85-948B-B951FAC7EBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F19494-D88C-4B85-948B-B951FAC7EBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F19494-D88C-4B85-948B-B951FAC7EBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F19494-D88C-4B85-948B-B951FAC7EBB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

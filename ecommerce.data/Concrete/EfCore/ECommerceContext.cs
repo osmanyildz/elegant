@@ -9,6 +9,10 @@ namespace ecommerce.data.Concrete.EfCore
 {
     public class ECommerceContext:DbContext
     {
+        public ECommerceContext(DbContextOptions dbContextOptions): base(dbContextOptions)
+        {
+            
+        }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Cart> Carts { get; set; }
@@ -23,11 +27,11 @@ namespace ecommerce.data.Concrete.EfCore
         public DbSet<ProductCategory> ProductCategories { get; set; }
         public DbSet<ProductSizeType> ProductSizeTypes { get; set; }
         public DbSet<GenderCategory> GenderCategories { get; set; }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlite("Data Source = ecommerceDb");
-        }
+        // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        // {
+        //     base.OnConfiguring(optionsBuilder);
+        //     optionsBuilder.UseSqlite("Data Source = ecommerceDb");
+        // }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

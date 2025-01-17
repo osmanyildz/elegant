@@ -33,7 +33,9 @@ namespace shopapp.webui
         public void ConfigureServices(IServiceCollection services)
         {
             // services.AddControllers();
-            services.AddDbContext<ApplicationContext>(options=> options.UseSqlite("Data Source = ecommerceDb"));
+            services.AddDbContext<ApplicationContext>(options=> options.UseSqlite(_configuration.GetConnectionString("SqliteConnection")));
+            services.AddDbContext<ECommerceContext>(options=>options.UseSqlite(_configuration.GetConnectionString("SqliteConnection")));
+
             services.AddIdentity<User,IdentityRole>().AddEntityFrameworkStores<ApplicationContext>().AddDefaultTokenProviders(); //IdentityRole hazır sınıfını kullanan bir User sınıfı ekledik. Hazır User'a firstname ve lastname alanı ekleyebilelim diye. 
             services.AddControllersWithViews();
             services.AddScoped<IProductRepository, EfCoreProductRepository>();

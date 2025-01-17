@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TkF8nfce0KQFhIXCJqibZZixaAo0M/InENXhH/VlOcduwG29bdRKLmCbOt3oDaVZrJxU8APc7FEbMqe76TocHA==",
+  "dgSpecHash": "eAoF62S1Cggax6f16X+AZrGB4j9EEZ6fOD17XkNxjqYLcKUMKjb0LkZHxDPZ0auIswhbCXRIUdzhnpLWOrwHnA==",
   "success": true,
-  "projectFilePath": "/Users/osmanyildiz/Desktop/ecommerce/ecommerce.data/ecommerce.data.csproj",
+  "projectFilePath": "/Users/osmanyildiz/Desktop/Dosyalar/ecommerce/ecommerce.data/ecommerce.data.csproj",
   "expectedPackageFiles": [
     "/Users/osmanyildiz/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/osmanyildiz/.nuget/packages/microsoft.data.sqlite.core/7.0.12/microsoft.data.sqlite.core.7.0.12.nupkg.sha512",

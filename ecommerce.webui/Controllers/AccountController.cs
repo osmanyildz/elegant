@@ -27,6 +27,7 @@ namespace ecommerce.webui.Controllers
             _emailSender = emailSender;
         }
         public IActionResult AccessDenied(){
+            
             return View();
         }
         [HttpGet]
@@ -84,7 +85,7 @@ namespace ecommerce.webui.Controllers
             {
                 System.Console.WriteLine("term 1 değil");
                 ModelState.AddModelError("", "Koşulları Kabul Etmeniz Gerekmektedir.");
-                View(model);
+                View(model); 
             }
             var user = new User()
             {

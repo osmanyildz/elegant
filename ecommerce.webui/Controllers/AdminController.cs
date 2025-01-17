@@ -554,6 +554,7 @@ namespace ecommerce.webui.Controllers
 
       return RedirectToAction("CategoryList");
     }
+    
     [HttpGet]
     public IActionResult SubCategoryCreate(){
       var categories = _categoryRepository.GetAllCategories();

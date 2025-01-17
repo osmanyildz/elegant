@@ -8,23 +8,29 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ecommerce.data.Concrete.EfCore
 {
-    public class EfCoreOrderRepository : EfCoreRepository<Order, ECommerceContext>, IOrderRepository
+    public class EfCoreOrderRepository : EfCoreRepository<Order>, IOrderRepository
     {
+        public EfCoreOrderRepository(ECommerceContext context):base(context)
+        {
+            
+        }
+        private ECommerceContext ECommerceContext{
+            get{return context as ECommerceContext;}
+        }
         public void AddOrder(Order entity)
         {
             if(entity!=null){
-                using(var context = new ECommerceContext()){
-                    context.Orders.Add(entity);
-                    context.SaveChanges();
-                }
+
+                    ECommerceContext.Orders.Add(entity);
+                    ECommerceContext.SaveChanges();
+                
             }
         }
         public List<Order> GetOrdersByUserId(string userId)
         {   
-             using(var context = new ECommerceContext())
-            {
+            
 
-                var orders = context.Orders
+                var orders = ECommerceContext.Orders
                                     .Include(i=>i.OrderItems)
                                     .ThenInclude(i=>i.Product)
                                     .ThenInclude(p=>p.ImageUrls)
@@ -36,22 +42,21 @@ namespace ecommerce.data.Concrete.EfCore
                 }
 
                 return orders.ToList();
-            }
+            
         }
         public List<Order> GetAllOrders(){
-            using (var context = new ECommerceContext())
-            {
-                var orders = context.Orders.ToList();
+          
+                var orders = ECommerceContext.Orders.ToList();
                 return orders;
-            }
+            
         }
 
         public Order GetOrderItemsByOrderId(int id)
         {
-            using(var context =new  ECommerceContext()){
-                var order = context.Orders.Where(p=>p.Id==id).Include(i=>i.OrderItems).ThenInclude(k=>k.Product).ThenInclude(o=>o.ImageUrls).FirstOrDefault();
+
+                var order = ECommerceContext.Orders.Where(p=>p.Id==id).Include(i=>i.OrderItems).ThenInclude(k=>k.Product).ThenInclude(o=>o.ImageUrls).FirstOrDefault();
                 return order;
-            }
+            
         }
     }
 }
