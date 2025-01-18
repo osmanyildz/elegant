@@ -256,34 +256,34 @@ namespace ecommerce.webui.Controllers
 
             PaymentCard paymentCard = new PaymentCard();
             paymentCard.CardHolderName = orderModel.CardName;
-            paymentCard.CardNumber = orderModel.CardNumber; // 5528790000000008
-            paymentCard.ExpireMonth = orderModel.ExpirationMonth; // 12
-            paymentCard.ExpireYear = orderModel.ExpirationYear; // 2030
-            paymentCard.Cvc = orderModel.Cvc; // 123
+            paymentCard.CardNumber = orderModel.CardNumber; 
+            paymentCard.ExpireMonth = orderModel.ExpirationMonth; 
+            paymentCard.ExpireYear = orderModel.ExpirationYear; 
+            paymentCard.Cvc = orderModel.Cvc; 
             paymentCard.RegisterCard = 0;
             request.PaymentCard = paymentCard;
 
             Buyer buyer = new Buyer();
-            buyer.Id = "BY789";
+            buyer.Id = "89";
             buyer.Name = orderModel.FirstName;
             buyer.Surname = orderModel.LastName;
             buyer.GsmNumber = orderModel.Phone;
             buyer.Email = orderModel.Email;
-            buyer.IdentityNumber = "74300864791";
+            buyer.IdentityNumber = "";
             buyer.LastLoginDate = "2015-10-05 12:43:35";
             buyer.RegistrationDate = "2013-04-21 15:12:09";
-            buyer.RegistrationAddress = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1";
-            buyer.Ip = "85.34.78.112";
+            buyer.RegistrationAddress = "";
+            buyer.Ip = "";
             buyer.City = orderModel.City;
             buyer.Country = "Turkey";
-            buyer.ZipCode = "34732";
+            buyer.ZipCode = "";
             request.Buyer = buyer;
 
             Address shippingAddress = new Address();
             shippingAddress.ContactName = "Jane Doe";
             shippingAddress.City = "Istanbul";
             shippingAddress.Country = "Turkey";
-            shippingAddress.Description = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1";
+            shippingAddress.Description = "Nidakule . No:1";
             shippingAddress.ZipCode = "34742";
             request.ShippingAddress = shippingAddress;
 
@@ -292,8 +292,8 @@ namespace ecommerce.webui.Controllers
             billingAddress.City = "Istanbul";
             billingAddress.Country = "Turkey";
 
-            billingAddress.Description = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1";
-            billingAddress.ZipCode = "34742";
+            billingAddress.Description = "";
+            billingAddress.ZipCode = "";
             request.BillingAddress = billingAddress;
 
 
@@ -359,21 +359,21 @@ namespace ecommerce.webui.Controllers
             buyer.Surname = orderModel.LastName;
             buyer.GsmNumber = orderModel.Phone;
             buyer.Email = orderModel.Email;
-            buyer.IdentityNumber = "74300864791";
+            buyer.IdentityNumber = "";
             buyer.LastLoginDate = "2015-10-05 12:43:35";
             buyer.RegistrationDate = "2013-04-21 15:12:09";
-            buyer.RegistrationAddress = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1";
+            buyer.RegistrationAddress = "";
             buyer.Ip = "";
             buyer.City = orderModel.City;
             buyer.Country = "Turkey";
-            buyer.ZipCode = "34732";
+            buyer.ZipCode = "";
             request.Buyer = buyer;
 
             Address shippingAddress = new Address();
             shippingAddress.ContactName = "Jane Doe";
             shippingAddress.City = "Istanbul";
             shippingAddress.Country = "Turkey";
-            shippingAddress.Description = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1";
+            shippingAddress.Description = "Nid";
             shippingAddress.ZipCode = "34742";
             request.ShippingAddress = shippingAddress;
 
@@ -381,7 +381,7 @@ namespace ecommerce.webui.Controllers
             billingAddress.ContactName = "Jane Doe";
             billingAddress.City = "Istanbul";
             billingAddress.Country = "Turkey";
-            billingAddress.Description = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1";
+            billingAddress.Description = "Nid1";
             billingAddress.ZipCode = "34742";
             request.BillingAddress = billingAddress;
 
